@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "civ6": {
+      "command": "C:/path/to/civ6-mcp-cn/.venv/Scripts/python.exe",
+      "args": ["-m", "civ_mcp"],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
