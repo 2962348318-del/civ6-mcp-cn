@@ -1,0 +1,19 @@
+Civ6 MCP CN
+
+This distribution is derived from civ6-mcp by Liam Wilkinson:
+https://github.com/lmwilki/civ6-mcp
+
+The upstream MIT copyright and license are preserved verbatim in LICENSE.
+Local modifications and release preparation are also distributed under MIT,
+subject to the retained upstream notices. The original author's name in the
+package metadata identifies the upstream author; it does not imply endorsement
+of this fork or authorship of every local modification.
+
+The source snapshot retains substantial local development work made after the
+recorded upstream base. See docs/provenance.md for scope and exact commit IDs.
+This export starts a new history; it does not reproduce private development logs
+or imply that upstream commit history belongs to the fork maintainer.
+
+Game names, trademarks, and game-derived rule data remain subject to their
+respective rights. This distribution contains no game executables, game art,
+personal save files, or model-provider credentials.

@@ -1,0 +1,102 @@
+[project]
+name = "civ6-mcp-cn"
+version = "0.1.0"
+description = "Chinese-focused Civ VI MCP fork with turn discipline, strategy assistance, and shared HTTP transport"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Liam Wilkinson", email = "liam.m.wilkinson@gmail.com" }
+]
+requires-python = ">=3.12"
+keywords = ["civ6", "civilization", "mcp", "llm", "agent", "game-ai", "benchmark"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment :: Turn Based Strategy",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "mcp>=1.20,<2",
+    "fastapi[standard]>=0.128",
+    "anthropic>=0.84.0,<1",
+]
+
+[project.optional-dependencies]
+evals = [
+    "inspect-ai>=0.3.203",
+    "openai>=1.0",
+    "google-cloud-aiplatform>=1.38",
+    "google-genai>=1.69",
+]
+scout = [
+    "inspect-scout>=0.4",
+    "inspect-ai>=0.3.203",
+]
+cloud = [
+    "fsspec>=2024.6",
+    "adlfs>=2024.7",
+]
+launcher-macos = [
+    "pyobjc-framework-Quartz>=11.0",
+    "pyobjc-framework-Vision>=11.0",
+]
+launcher-windows = [
+    "pywin32>=306; sys_platform == 'win32'",
+    "Pillow>=10.0",
+    "winrt-Windows.Media.Ocr>=2.1",
+    "winrt-Windows.Graphics.Imaging>=2.1",
+    "winrt-Windows.Storage.Streams>=2.1",
+    "winrt-Windows.Foundation>=2.1",
+    "winrt-Windows.Foundation.Collections>=2.1",
+]
+launcher-linux = [
+    "mss>=9.0",
+    "pytesseract>=0.3.10",
+    "Pillow>=10.0",
+]
+launcher = ["civ6-mcp-cn[launcher-macos]"]  # backward compat alias
+analysis = [
+    "matplotlib>=3.10.8",
+    "pandas>=2.3.3",
+]
+publish = [
+    "fsspec>=2024.6",
+    "adlfs>=2024.7",
+    "pyarrow>=18.0",
+    "huggingface-hub>=1.13",
+    "mlcroissant>=1.1",
+    "httpx>=0.28",
+]
+
+[project.urls]
+Upstream = "https://github.com/lmwilki/civ6-mcp"
+
+[project.scripts]
+civ-mcp = "civ_mcp.server:main"
+
+[tool.pytest.ini_options]
+# scripts/test_*.py 是需要真实游戏连接的手动脚本,不是单元测试。
+# 不限定 testpaths 的话,裸跑 pytest 会去收集它们并报 ConnectionError,
+# 看起来像测试挂了。
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/civ_mcp"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"docs/gamedata" = "civ_mcp/resources/gamedata"
+"data/strategy" = "civ_mcp/resources/strategy"
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/tests", "/tools", "/scripts", "/docs", "/data/strategy", "/examples", "/README.md", "/README.en.md", "/LICENSE", "/NOTICE", "/CHANGELOG.md", "/CONTRIBUTING.md", "/SECURITY.md", "/pyproject.toml", "/uv.lock", "/AGENTS.md", "/.python-version"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "matplotlib>=3.10.8",
+    "pytest>=8.0",
+]
