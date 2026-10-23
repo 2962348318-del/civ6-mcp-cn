@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     env:
       PYTHONIOENCODING: utf-8
-      CIV_MCP_WORKSPACE: ${{ runner.temp }}/civ6-test-state
+      CIV_MCP_WORKSPACE: ${{ github.workspace }}/../civ6-test-state
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
