@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "civ": "CIVILIZATION_ROME",
+  "leader": "LEADER_TRAJAN",
+  "leader_cn": "图拉真",
+  "civ_cn": "罗马",
+  "identity": "古典军事窗口 + 基建折扣文明:军团是同期最强近战,且铺城自带路网与贸易站——答案永远偏向宽铺,分歧只在打不打。",
+  "verified_facts": [
+    {"claim": "军团战力 40,替换剑士(35),成本 110 锤,解锁于炼铁术",
+     "source": "Units:UNIT_ROMAN_LEGION:Combat=40", "attribution": "direct"},
+    {"claim": "军团替换剑士",
+     "source": "UnitReplaces:UNIT_ROMAN_LEGION:ReplacesUnitType=UNIT_SWORDSMAN", "attribution": "direct"},
+    {"claim": "导出表中军团的战略资源列为空——剑士需要铁,军团不需要",
+     "source": "Units:UNIT_ROMAN_LEGION:StrategicResource=", "attribution": "direct"},
+    {"claim": "剑士需要铁资源",
+     "source": "Units:UNIT_SWORDSMAN:StrategicResource=RESOURCE_IRON", "attribution": "direct"},
+    {"claim": "浴场 18 锤,是水渠(36 锤)的半价,同为工程学解锁",
+     "source": "Districts:DISTRICT_BATH:Cost=18", "attribution": "direct"},
+    {"claim": "水渠 36 锤",
+     "source": "Districts:DISTRICT_AQUEDUCT:Cost=36", "attribution": "direct"},
+    {"claim": "存在『建城自动获得通往首都的道路』修正器(条条大路通罗马)",
+     "source": "Modifiers:TRAIT_FREE_ROADS_TO_CAPITAL", "attribution": "inferred"},
+    {"claim": "存在『城市自动获得贸易站』修正器",
+     "source": "Modifiers:TRAIT_FREE_TRADING_POSTS", "attribution": "inferred"},
+    {"claim": "存在『非首都城市免费获得最便宜建筑』修正器(疑似图拉真柱的实现)",
+     "source": "Modifiers:TRAIT_ADJUST_NON_CAPITAL_FREE_CHEAPEST_BUILDING", "attribution": "inferred"},
+    {"claim": "寡头政体给近战 +4 战力(通用规则,非罗马专属)——军团在寡头下 44",
+     "source": "Modifiers:OLIGARCHY_MELEE_BUFF:Amount=4", "attribution": "direct"},
+    {"claim": "图拉真议程为『最优元首』",
+     "source": "HistoricalAgendas:LEADER_TRAJAN:AgendaType=AGENDA_OPTIMUS_PRINCEPS", "attribution": "direct"}
+  ],
+  "principles": [
+    {"fact": "军团 40(寡头下 44)对同期一切标准近战(≤35)是代差",
+     "derivation": "代差意味着不需要数量优势——3-4 个军团就能推平一个古典时代邻居。所以罗马的科技答案是炼铁术优先,市政答案是政治哲学(寡头)优先,两条线在 T40-55 交汇成一个战争窗口。窗口是会关的:对手进入中世纪(骑士 50)后军团变废铁。",
+     "confidence": "推荐"},
+    {"fact": "导出表显示军团不需要铁资源(剑士需要)",
+     "derivation": "若实机证实,则『铁在不在我这边』对罗马根本不是问题,唯一门槛是炼铁术科技本身——计划书『没铁则军团 rush 被卡』的前提不成立。若实机推翻(界面显示需要铁),则启用 fallback #1。开工前用一个勇士升级试一次即可验证。",
+     "confidence": "可选"},
+    {"fact": "铺城自带道路与贸易站(归属推断)",
+     "derivation": "别的文明宽铺要付基建成本(修路的商人回合/移动力损耗),罗马不用——宽铺的边际成本全游戏最低。城市数量是所有产出的乘数,所以罗马的默认答案是:能铺就铺,铺到和邻居贴脸为止。",
+     "confidence": "推荐"},
+    {"fact": "浴场半价(18 vs 36)且效果为住房类(具体数值未导出)",
+     "derivation": "无淡水惩罚被半价浴场抹平——选址自由度高于其他文明,可以为了卡位/资源/战略要道铺『地块质量差』的城。",
+     "confidence": "可选"}
+  ],
+  "map_plans": {
+    "PANGAEA": {
+      "victory": "DOMINATION",
+      "confidence": "推荐",
+      "reasoning": "所有邻居都在同一块陆地上,军团窗口能兑现成城市。打下的首都群转科技/文化收尾都行。",
+      "opening": [
+        "确认首都是否自带免费建筑(图拉真柱,归属推断)——有则直接出侦察/投石,无则首件补纪念碑",
+        "科技:采矿→青铜加工(尤里卡:杀 3 个蛮族)→炼铁术;市政:直奔政治哲学换寡头",
+        "T55 前拉起 3-4 个军团(寡头下 44 战力),目标 = 最近的、议程冲突最大的邻居首都",
+        "同步宽铺 3-4 城:条条大路让新城自动并入路网,战时即补给线",
+        "军团窗口关闭(对手出骑士)前停手消化,转浴场+区域建设"
+      ]
+    },
+    "CONTINENTS": {
+      "victory": "DOMINATION",
+      "confidence": "推荐",
+      "reasoning": "先用军团清空本大陆(通常 2-4 个文明),跨洋战争成本高——本大陆吃完后转科技胜利比继续统治更稳。",
+      "opening": [
+        "同盘古开局,但明确『只打本大陆』——跨洋目标留给后期或不打",
+        "本大陆清空后:已占首都群人口高、区域多,直接转学院+工业区跑科技"
+      ]
+    },
+    "ARCHIPELAGO": {
+      "victory": "SCIENCE",
+      "confidence": "可选",
+      "reasoning": "军团过不了海,窗口废了一半;罗马没有任何海军加成。剩下的优势只有基建折扣——靠宽铺岛屿+路网(岛内)+浴场(小岛缺淡水)堆城市数,走科技或文化。变数大:没有海图前无法确认铺城空间。",
+      "opening": [
+        "首发侦察+尽早造船探海,先确认本岛有几个铺城位",
+        "军事只保底(防蛮族登陆),省下的产能全部投开拓者",
+        "帆船科技优先级提到炼铁术之前——这局的炼铁术只是过路科技"
+      ]
+    },
+    "DEFAULT": {
+      "victory": "DOMINATION",
+      "confidence": "可选",
+      "reasoning": "地图未知时按『陆地为主』准备:军团线照走,但在探明地形前不宣战——窗口期打错方向比晚开窗更糟。",
+      "opening": ["标准开局,探明最近两个邻居后再锁定战争目标"]
+    }
+  },
+  "neighbor_plays": [
+    {"archetype": "军事扩张型",
+     "matches_agendas": ["AGENDA_TLATOANI", "AGENDA_WITH_YOUR_SHIELD_OR_ON_IT", "AGENDA_LAST_VIKING_KING"],
+     "play": "先发制人,他就是军团窗口的第一目标。在他议程触发宣你之前(军力差拉大时)你的军团要已经在路上——罗马打军事狂的容错比防守他高得多。"},
+    {"archetype": "奇观狂",
+     "matches_agendas": ["AGENDA_WONDER_OBSESSED"],
+     "play": "不和他抢奇观(被抢走只退金币,回合白扔)——让他建,然后军团把奇观连城一起收走。他堆奇观的产能没有进军队,正是软目标。"},
+    {"archetype": "宗教狂",
+     "matches_agendas": ["AGENDA_COUNTER_REFORMER", "AGENDA_AYYUBID_DYNASTY", "AGENDA_ENTHUSIASTIC_DISCIPLE"],
+     "play": "罗马不走宗教,他的万神殿/大预言家竞速与你无冲突——卖奢侈换金,保持中立到军团成型。他的圣地产能同样不是军队。"},
+    {"archetype": "和平/反背刺型",
+     "matches_agendas": ["AGENDA_PEACEKEEPER", "AGENDA_BACKSTAB_AVERSE"],
+     "play": "留到最后打或不打。先和他做生意稳后方,军团窗口用在更危险的邻居身上。注意托米丽司:宣过一次战她全局仇恨你。"}
+  ],
+  "difficulty_rules": [
+    {"min_difficulty": "DIFFICULTY_EMPEROR",
+     "rule": "AI 产出加成明显(本机难度表未导出,量级引自计划书):远古奇观别抢;首发单位从侦察改成投石,蛮族+AI 双压力下探图靠军团顺路。",
+     "confidence": "可选"},
+    {"min_difficulty": "DIFFICULTY_DEITY",
+     "rule": "计划书称神级 AI 开局多 3 定居者/+80% 产能/+32% 科技(未导出,需实战校准)。军团窗口依然成立——AI 的加成在产出不在战力,44 战力照样碾 35。但窗口前的生存更难:首都造 3 投石+城墙再谈其他。伟人全靠金币/信仰买断。",
+     "confidence": "可选"}
+  ],
+  "fallbacks": [
+    {"trigger": "军团被证实需要铁且境内+可购范围都没有(2026-08-02 实机已证伪:零铁库存可生产、可升级军团,此预案几乎不会触发)",
+     "plan": "转文化:免费建筑(推断为纪念碑)给的文化底子是全图最厚的,宽铺+剧院广场走文化胜利;军事只保防御(弓箭手+城墙)。"},
+    {"trigger": "军团窗口错过(T80+ 对手已有骑士/弩手)",
+     "plan": "不硬打。浴场宽铺转科技:城市数就是科技数,条条大路的内贸路线喂产能,学院铺满走太空。"},
+    {"trigger": "被抢先宣战(军团未成型)",
+     "plan": "寡头+城墙+弓箭手防守反击——守住等炼铁术,军团成型后反推的战损比主动进攻还好看(他的部队在你城下磨损)。"}
+  ],
+  "needs_ingame_check": [
+    "军团不需要铁 —— 已实机证实(2026-08-02 校准局 T46/T64):零铁库存下城市可排产军团、勇士可升级为军团。导出表 StrategicResource 为空是准确的",
+    "图拉真柱的免费建筑是否覆盖首都(修正器名带 NON_CAPITAL)",
+    "军团的『修建道路/堡垒』能力(UnitAbilityModifiers 未查到对应行)",
+    "浴场的住房/宜居度具体数值(Districts 表无产出列)"
+  ]
+}

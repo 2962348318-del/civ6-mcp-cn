@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "civ": "CIVILIZATION_RUSSIA",
+  "leader": "LEADER_PETER_GREAT",
+  "leader_cn": "彼得",
+  "civ_cn": "俄罗斯",
+  "identity": "半价圣地 + 冻土增益文明:别人要花 54 锤买的信仰引擎你只要 27,别人嫌弃的冻土是你的粮仓——宗教先手权几乎是白送的,且这套优势不挑地图。",
+  "verified_facts": [
+    {"claim": "拉夫拉修道院 27 锤,是圣地(54 锤)的半价,同为占星术解锁",
+     "source": "Districts:DISTRICT_LAVRA:Cost=27", "attribution": "direct"},
+    {"claim": "圣地 54 锤",
+     "source": "Districts:DISTRICT_HOLY_SITE:Cost=54", "attribution": "direct"},
+    {"claim": "拉夫拉相邻加成:每座山 +1 信仰(五种山地地形各一条规则)",
+     "source": "District_Adjacencies:DISTRICT_LAVRA:YieldChangeId=Mountain_Faith1", "attribution": "direct"},
+    {"claim": "拉夫拉相邻加成:每 2 格森林 +1 信仰",
+     "source": "District_Adjacencies:DISTRICT_LAVRA:YieldChangeId=Forest_Faith", "attribution": "direct"},
+    {"claim": "拉夫拉相邻加成:自然奇观 +2 信仰",
+     "source": "District_Adjacencies:DISTRICT_LAVRA:YieldChangeId=NaturalWonder_Faith", "attribution": "direct"},
+    {"claim": "存在『冻土地块 +1 信仰』修正器(Mother Russia 的冻土增益)",
+     "source": "Modifiers:TRAIT_INCREASED_TUNDRA_FAITH:Amount=1", "attribution": "inferred"},
+    {"claim": "存在『冻土地块 +1 产能』修正器",
+     "source": "Modifiers:TRAIT_INCREASED_TUNDRA_PRODUCTION:Amount=1", "attribution": "inferred"},
+    {"claim": "存在『建城额外获得 5 格领土』修正器(社区流传为 8 格——以导出值 5 为准)",
+     "source": "Modifiers:TRAIT_INCREASED_TILES:Amount=5", "attribution": "inferred"},
+    {"claim": "存在『贸易路线通往更先进文明时,每领先 3 科技/市政获得额外产出』修正器(彼得的大使馆)",
+     "source": "Modifiers:TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS:TechCivicsPerYield=3", "attribution": "inferred"},
+    {"claim": "哥萨克战力 67,替换骑兵(62),军事科学解锁",
+     "source": "Units:UNIT_RUSSIAN_COSSACK:Combat=67", "attribution": "direct"},
+    {"claim": "骑兵战力 62,需要马;哥萨克战略资源列为空(不需要马)",
+     "source": "Units:UNIT_RUSSIAN_COSSACK:StrategicResource=", "attribution": "direct"},
+    {"claim": "哥萨克在己方领土内(或邻近)作战 +5 战力",
+     "source": "Modifiers:COSSACK_LOCAL_COMBAT:Amount=5", "attribution": "direct"},
+    {"claim": "哥萨克移动后仍可攻击/攻击后可移动",
+     "source": "Modifiers:COSSACK_MOVE_AND_ATTACK", "attribution": "direct"},
+    {"claim": "彼得议程为『西化改革』(喜欢科技/文化领先者,鄙视落后者)",
+     "source": "HistoricalAgendas:LEADER_PETER_GREAT:AgendaType=AGENDA_WESTERNIZER", "attribution": "direct"}
+  ],
+  "principles": [
+    {"fact": "拉夫拉 27 锤 = 全图最便宜的专业区域,且不依赖任何地形",
+     "derivation": "宗教竞速的本质是『大预言家点数的时间赛跑』,而点数来自圣地。你的圣地半价 ⇒ 同样产能下你的第一/第二座圣地比任何对手早 10-15 回合 ⇒ 大预言家先手权默认属于你。这个优势在每种地图上都成立——俄罗斯是三个样例里唯一『地图不敏感』的文明。",
+     "confidence": "推荐"},
+    {"fact": "冻土 +1 信仰 +1 产能(归属推断)",
+     "derivation": "别人视为惩罚的冻土对你是正常地块 ⇒ 冻土带没有铺城竞争 ⇒ 你可以往北宽铺,不用和任何人抢地。配合建城 +5 格领土,圈地速度全图第一。万神殿若能拿『极光之舞』(圣地冻土相邻+1信,信条表未导出需游戏内确认)则信仰产出再上一档。",
+     "confidence": "可选"},
+    {"fact": "大使馆:落后越多,贸易路线补的科技/文化越多(归属推断)",
+     "derivation": "俄罗斯的科技落后是自带缓冲的——落后 3 科技,每条通往先进文明的路线就 +1 科技。所以前中期科技可以战略性放弃(全力宗教),后期靠贸易路线+信仰买伟人收敛。落后不致命,这是敢梭哈宗教的底气。",
+     "confidence": "可选"},
+    {"fact": "哥萨克 67(+5 本土=72)不吃马,且能打完就跑",
+     "derivation": "军事科学时点,72 战力在自家门口没有对手(同期骑兵 62)。这不是 rush 窗口,是『防御反击』窗口——谁在工业时代前后打你,谁的部队死在你境内。宗教文明最怕的中期入侵被哥萨克封死。",
+     "confidence": "推荐"}
+  ],
+  "map_plans": {
+    "PANGAEA": {
+      "victory": "RELIGION",
+      "confidence": "推荐",
+      "reasoning": "陆路传教成本低,邻居多=目标多。拉夫拉先手拿教,使徒沿路网铺开;哥萨克守窗口。",
+      "opening": [
+        "占星术最优先(拉夫拉 27 锤,首城 T30 前落地),第二城继续拉夫拉",
+        "万神殿信仰够就立刻选(冻土相关信条优先,具体以游戏内列表为准)",
+        "大预言家到手创教,信条偏传教/使徒强化——盘古传播距离长",
+        "军事保底:弓箭手+城墙;军事科学后哥萨克 2-3 个即可封住任何中期入侵",
+        "科技不焦虑:大使馆的贸易路线会自动补,重点市政(神权政体)"
+      ]
+    },
+    "CONTINENTS": {
+      "victory": "RELIGION",
+      "confidence": "推荐",
+      "reasoning": "本大陆先传满,跨洋用贸易路线带宗教压力(路线自带压力机制)+使徒渡海。比盘古慢但路线不变。",
+      "opening": ["同盘古;多留意港口城——跨洋传教和大使馆路线都需要海路"]
+    },
+    "ARCHIPELAGO": {
+      "victory": "RELIGION",
+      "confidence": "推荐",
+      "reasoning": "拉夫拉不依赖地形,半价优势在群岛照样成立;哥萨克废了但群岛本来就少陆战。传教靠船慢一拍,信仰产出优势足以覆盖。这是俄罗斯和罗马的根本差别:罗马换图要换胜利路线,俄罗斯不用。",
+      "opening": ["同盘古,但造船科技提前;传教士出海前确认目标岛的城邦/文明分布"]
+    },
+    "DEFAULT": {
+      "victory": "RELIGION",
+      "confidence": "推荐",
+      "reasoning": "拉夫拉半价与地图无关,默认走宗教;探明地形只影响传教路径,不影响路线选择。",
+      "opening": ["占星术→拉夫拉→万神殿→创教,标准序列"]
+    }
+  },
+  "neighbor_plays": [
+    {"archetype": "宗教狂",
+     "matches_agendas": ["AGENDA_COUNTER_REFORMER", "AGENDA_AYYUBID_DYNASTY", "AGENDA_ENTHUSIASTIC_DISCIPLE"],
+     "play": "他是你唯一的真对手——大预言家竞速直接决定谁的路线报废。拉夫拉提前到极限(必要时砍树赶工),抢到教后优先传他的城(他的圣地会反向施压你)。菲利普(反改革者)会因你传教愤怒→备好使徒辩论晋升打神学战。"},
+    {"archetype": "军事扩张型",
+     "matches_agendas": ["AGENDA_TLATOANI", "AGENDA_WITH_YOUR_SHIELD_OR_ON_IT", "AGENDA_LAST_VIKING_KING"],
+     "play": "冻土纵深就是防线:他要走很远才能到你的核心城,补给线全程挨打。城墙+弓箭手拖到军事科学,哥萨克(+5 本土)在自家门口收割。不要主动打他——你的产能在圣地里,不在军营里。"},
+    {"archetype": "伟人收集型",
+     "matches_agendas": ["AGENDA_GREAT_PERSON_OBSESSED"],
+     "play": "佩德罗会抢大预言家点数。竞速压力+一档:信仰/金币买断预言家的预案要提前留钱,宁可多花 30% 也不能让教被抢——被抢则整条路线报废(fallback #1)。"},
+    {"archetype": "科技领先型(议程层面)",
+     "matches_agendas": ["AGENDA_WESTERNIZER"],
+     "play": "同行是冤家也是财源:科技领先者是大使馆路线的最佳目的地——落后越多补越多。保持外交友好,贸易路线全派给他。"}
+  ],
+  "difficulty_rules": [
+    {"min_difficulty": "DIFFICULTY_EMPEROR",
+     "rule": "AI 信仰产出加成使万神殿/大预言家竞速变紧(量级未导出):拉夫拉必须 T35 前落地,圣地祷告项目(25 锤,Projects 表可查)用来冲刺点数。",
+     "confidence": "可选"},
+    {"min_difficulty": "DIFFICULTY_DEITY",
+     "rule": "神级下即便半价拉夫拉,大预言家也可能被抢——开局就把『被抢教』当作五五开,fallback #1 不是备胎是并行预案:信仰照攒,买断类信条/自然学家的用途提前想好。",
+     "confidence": "可选"}
+  ],
+  "fallbacks": [
+    {"trigger": "大预言家被抢,没创上教",
+     "plan": "拉夫拉不退款,但信仰引擎还在:走文化——信仰买自然学家(国家公园)/摇滚乐队收尾;或神权政体下信仰买军队转统治。信仰是三种可兑换货币里最灵活的。"},
+    {"trigger": "科技被甩开 2 个时代",
+     "plan": "这在计划内(大使馆会补)。真失控时:贸易路线全部指向科技最强者,间谍全员偷科技,信仰买大科学家。"},
+    {"trigger": "宗教狂邻居神学战压制(使徒打不过)",
+     "plan": "收缩:只保本国城市信自己的教(宗教胜利判据是『其他文明过半城市』,守不住就不追求),转文化胜利,已建的圣地建筑继续产信仰喂文化引擎。"}
+  ],
+  "needs_ingame_check": [
+    "Mother Russia 领土加成的实际格数(导出修正器 Amount=5,社区流传 8)",
+    "大使馆的产出类型(科技还是文化,或两者——ModifierArguments 只给了兑换率 3:1)",
+    "极光之舞万神殿是否对拉夫拉生效(信条表未导出;机制上独有区域继承被替换区域的加成)",
+    "哥萨克 +5 的精确触发范围(『邻近己方领土』的邻近定义)"
+  ]
+}

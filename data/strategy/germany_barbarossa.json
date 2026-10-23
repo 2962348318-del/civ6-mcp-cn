@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "civ": "CIVILIZATION_GERMANY",
+  "leader": "LEADER_BARBAROSSA",
+  "leader_cn": "弗雷德里克·巴巴罗萨",
+  "civ_cn": "德国",
+  "identity": "区域槽 + 半价汉萨文明:每座城比别人多建一个区域,而且核心区域(汉萨)半价高相邻——德国的科技胜利是用锤子砸出来的,结构优势不随难度衰减。",
+  "verified_facts": [
+    {"claim": "汉萨(商业同业工会)27 锤,是工业区(54 锤)的半价,同为学徒制解锁",
+     "source": "Districts:DISTRICT_HANSA:Cost=27", "attribution": "direct"},
+    {"claim": "工业区 54 锤",
+     "source": "Districts:DISTRICT_INDUSTRIAL_ZONE:Cost=54", "attribution": "direct"},
+    {"claim": "汉萨相邻加成:每座相邻商业中心 +2 产能",
+     "source": "Adjacency_YieldChanges:Commerical_Hub_Production:YieldChange=2", "attribution": "direct"},
+    {"claim": "汉萨相邻加成:每个相邻资源 +1 产能",
+     "source": "Adjacency_YieldChanges:Resource_Production:YieldChange=1", "attribution": "direct"},
+    {"claim": "汉萨挂载了商业中心/资源/区域三类相邻规则(标准工业区只有矿山/采石场/区域)",
+     "source": "District_Adjacencies:DISTRICT_HANSA:YieldChangeId=Commerical_Hub_Production", "attribution": "direct"},
+    {"claim": "存在『每城 +1 区域槽』修正器(自由帝国城市)",
+     "source": "Modifiers:TRAIT_EXTRA_DISTRICT_EACH_CITY:Amount=1", "attribution": "inferred"},
+    {"claim": "存在『+1 军事政策槽』修正器(疑似巴巴罗萨的神圣罗马皇帝)",
+     "source": "Modifiers:TRAIT_MILITARY_GOVERNMENT_SLOT", "attribution": "inferred"},
+    {"claim": "巴巴罗萨单位对城邦 +7 战力",
+     "source": "Modifiers:BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES:Amount=7", "attribution": "direct"},
+    {"claim": "U 型潜艇 430 锤,比标准潜艇(480)便宜 50,同为电力解锁,战力相同(65/75)",
+     "source": "Units:UNIT_GERMAN_UBOAT:Cost=430", "attribution": "direct"},
+    {"claim": "标准潜艇 480 锤",
+     "source": "Units:UNIT_SUBMARINE:Cost=480", "attribution": "direct"},
+    {"claim": "巴巴罗萨议程为『铁王冠』(与城邦交好者会触怒他;他自己攻打城邦)",
+     "source": "HistoricalAgendas:LEADER_BARBAROSSA:AgendaType=AGENDA_IRON_CROWN", "attribution": "direct"}
+  ],
+  "principles": [
+    {"fact": "每城 +1 区域槽(归属推断)",
+     "derivation": "区域数受人口门槛限制,这条对小城最狠:4 人口的城别人 2 个区域,你 3 个。乘到 6-8 座城上等于凭空多出 6-8 个区域——相当于白拿两座满配城市。推论:德国的城不需要长得大,需要长得多;宽铺的收益曲线比任何文明陡。",
+     "confidence": "推荐"},
+    {"fact": "汉萨半价(27)+ 商业中心相邻 +2/座 + 资源相邻 +1/个",
+     "derivation": "标准菱形:汉萨与商业中心互贴,再围 2-3 个资源,单汉萨轻松 +5~+8 产能,成本只有 27 锤。产能是万物之母——造区域快、造实验室快、跑太空项目快。德国走科技胜利不是靠科技加成,是靠『什么都造得比别人快』。",
+     "confidence": "推荐"},
+    {"fact": "对城邦 +7 战力,且议程本身鄙视城邦盟友",
+     "derivation": "吃掉 1-2 个近身城邦是巴巴罗萨的合法开局:+7 等于免费的时代代差,城邦地段通常优质,而且吞城邦的外交代价远低于打文明(不触发『战争贩子』的谴责烈度,以游戏内提示为准)。注意机会成本:被吞的城邦宗主加成永久消失,挑类型价值低的吃。",
+     "confidence": "可选"},
+    {"fact": "U 艇便宜 50 锤(430 vs 480),数值同标准潜艇",
+     "derivation": "后期海图上的廉价海权补丁——不改变德国的主线,只是让『需要海军时』的账单打 9 折。锦上添花级,不构成路线理由。",
+     "confidence": "确定"}
+  ],
+  "map_plans": {
+    "PANGAEA": {
+      "victory": "SCIENCE",
+      "confidence": "推荐",
+      "reasoning": "大陆腹地资源簇多,汉萨走廊(汉萨-商业中心-资源交错)吃满;近身城邦通常 2-3 个,开局军力有明确用途。产能滚起来后科技胜利是时间问题。",
+      "opening": [
+        "侦察兵探明近身城邦与资源簇分布——铺城位置以『汉萨菱形可成型』为第一标准",
+        "开局军力(3-4 近战远程混编)的第一目标:最近的低价值城邦(+7 战力窗口,议程免罚)",
+        "学徒制直奔:首批汉萨落在商业中心+资源簇旁,+1 区域槽让每城『学院+汉萨』双修",
+        "宽铺 5-6 城,城城有汉萨;工业化后工厂辐射叠加(工厂给 6 格内城市产能,叠加细节以游戏内为准)",
+        "科技线:学徒制→工业化→电力→火箭研究,产能优势会把每段回合数压到对手的 2/3"
+      ]
+    },
+    "CONTINENTS": {
+      "victory": "SCIENCE",
+      "confidence": "推荐",
+      "reasoning": "同盘古,略慢(城邦和资源分布散一些)。跨洋不必远征——德国的答案永远是回家造汉萨。",
+      "opening": ["同盘古;沿海城市补 1-2 个港口保贸易线即可,海军 U 艇后期再说"]
+    },
+    "ARCHIPELAGO": {
+      "victory": "SCIENCE",
+      "confidence": "可选",
+      "reasoning": "小岛资源簇小,汉萨相邻降档(资源+1 凑不满);但 +1 区域槽在小城地图上反而更值——别人的 3 人口岛城只能建 1 个区域,你能建 2。产能引擎从汉萨菱形改成『港口+商业中心+汉萨』沿海三角。U 艇让后期制海权便宜。变数:岛屿铺城空间未知。",
+      "opening": [
+        "造船探图优先,确认岛屿容量再定铺城数",
+        "沿海三角:港口(补粮金)+商业中心+汉萨互贴,凑区域相邻(每 2 区域 +1 锤)补资源不足",
+        "对城邦 +7 在群岛难兑现(登陆战贵)——放弃吃城邦,使者正常投"
+      ]
+    },
+    "DEFAULT": {
+      "victory": "SCIENCE",
+      "confidence": "推荐",
+      "reasoning": "区域槽与半价汉萨都不挑地图,默认科技;地图只改变汉萨的相邻来源(资源簇 or 沿海三角)。",
+      "opening": ["标准开局,铺城前先看汉萨菱形能不能成型"]
+    }
+  },
+  "neighbor_plays": [
+    {"archetype": "军事扩张型",
+     "matches_agendas": ["AGENDA_TLATOANI", "AGENDA_WITH_YOUR_SHIELD_OR_ON_IT", "AGENDA_LAST_VIKING_KING"],
+     "play": "军事槽(+1,归属推断)插满生产/维护卡,汉萨的产能本身就是威慑——被宣战时切军队,产能优势让你的暴兵速度反超。别主动打:你每一锤花在军队上,科技就慢一锤。"},
+    {"archetype": "城邦保护者",
+     "matches_agendas": ["AGENDA_DELIAN_LEAGUE", "AGENDA_BIG_STICK_POLICY", "AGENDA_ALLY_OF_ENKIDU"],
+     "play": "你吃城邦他会翻脸(伯里克利/罗斯福议程直接冲突)。评估顺序变成:先看这类邻居离目标城邦多远——远则照吃,近则放弃吃城邦改用使者,别为一座城邦拉满一个大国仇恨。"},
+    {"archetype": "奇观狂",
+     "matches_agendas": ["AGENDA_WONDER_OBSESSED"],
+     "play": "让他抢。德国的产能优势不该花在奇观赌局上(被抢只退金币)——你的每 27 锤汉萨都是确定收益,他的每 400 锤奇观都是五五开。"},
+    {"archetype": "科技竞速对手(局面判断,非议程)",
+     "matches_agendas": [],
+     "play": "科技胜利是单名额竞速。若某邻居科技持续领先:中世纪用产能优势暴一波兵打断他(不求灭国,拆学院/掠夺即可),然后回家继续种田——德国是少数『打断别人比加速自己便宜』的科技文明。"}
+  ],
+  "difficulty_rules": [
+    {"min_difficulty": "DIFFICULTY_EMPEROR",
+     "rule": "AI 产出加成下奇观全放弃,开局吃城邦的窗口也变窄(AI 抢城邦快)——目标城邦锁定为 T30 前能拿下的那一个,拿不下就转使者路线。",
+     "confidence": "可选"},
+    {"min_difficulty": "DIFFICULTY_DEITY",
+     "rule": "神级 AI 的加成在产出侧,而德国的优势在结构侧(区域槽/半价区域)——结构优势不被难度稀释,这是德国神级强势的根本原因。前 30 回合纯生存(投石+城墙),之后按盘古开局照走,只是每步慢 10-15 回合。",
+     "confidence": "可选"}
+  ],
+  "fallbacks": [
+    {"trigger": "被早期 rush 打断(丢城或损失开局军力)",
+     "plan": "德国恢复力全图最强:半价汉萨让残局重建快一倍。收缩到 3-4 城,军事槽插满防御卡,汉萨照建——产能回来一切都回来。"},
+    {"trigger": "科技被反超且打断失败",
+     "plan": "转统治:产能=军队,汉萨引擎直接改产坦克。德国中后期军事转型的成本比任何科技文明都低。"},
+    {"trigger": "吃城邦引发多国谴责/联合宣战",
+     "plan": "立刻停手赔款求和(金币换和平),转纯种田。已吃的城邦不吐——时间会稀释外交仇恨,产能不会。"}
+  ],
+  "needs_ingame_check": [
+    "+1 区域槽修正器的归属确认(效果特征唯一,但连接表未导出)",
+    "+1 军事槽是否巴巴罗萨领袖特性(TRAIT_MILITARY_GOVERNMENT_SLOT 也可能属于其他来源)",
+    "吞并城邦的战争贩子惩罚烈度(外交数值未导出)",
+    "工厂/发电厂的 6 格辐射与多城叠加规则(Buildings 表无辐射列)"
+  ]
+}
