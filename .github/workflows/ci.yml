@@ -1,0 +1,39 @@
+name: Offline tests and packaging
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.12"]
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONIOENCODING: utf-8
+      CIV_MCP_WORKSPACE: ${{ runner.temp }}/civ6-test-state
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e . pytest build
+      - run: python -m compileall -q src scripts tools
+      - run: python scripts/doctor.py
+      - run: python -m pytest -q
+      - run: python -m build
+      - name: Install and verify the built wheel outside the checkout
+        shell: bash
+        run: |
+          python -m pip uninstall -y civ6-mcp-cn
+          python -m pip install --no-deps dist/*.whl
+          cd "$RUNNER_TEMP"
+          python -c "import json; from civ_mcp.resources import gamedata_path, strategy_path; from civ_mcp.server import mcp; assert json.loads((gamedata_path()/'Units.json').read_text(encoding='utf-8'))['rows']; assert list(strategy_path().glob('*.json')); assert len(mcp._tool_manager._tools) > 0; print('Installed wheel resources and tool registration OK')"
+          python -m pytest "$GITHUB_WORKSPACE/tests" -q
