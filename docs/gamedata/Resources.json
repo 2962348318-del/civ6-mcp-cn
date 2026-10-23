@@ -1,0 +1,356 @@
+{
+ "table": "Resources",
+ "desc": "资源",
+ "columns": [
+  "ResourceType",
+  "Name",
+  "ResourceClassType",
+  "PrereqTech",
+  "Happiness"
+ ],
+ "rows": [
+  {
+   "ResourceType": "RESOURCE_BANANAS",
+   "Name": "香蕉",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_CATTLE",
+   "Name": "牛",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_COPPER",
+   "Name": "铜",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_CRABS",
+   "Name": "螃蟹",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_DEER",
+   "Name": "鹿",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_FISH",
+   "Name": "鱼",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_RICE",
+   "Name": "大米",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_SHEEP",
+   "Name": "羊",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_STONE",
+   "Name": "石头",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_WHEAT",
+   "Name": "小麦",
+   "ResourceClassType": "RESOURCECLASS_BONUS",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_CITRUS",
+   "Name": "柑橘",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_COCOA",
+   "Name": "可可豆",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_COFFEE",
+   "Name": "咖啡",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_COTTON",
+   "Name": "棉花",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_DIAMONDS",
+   "Name": "钻石",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_DYES",
+   "Name": "染料",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_FURS",
+   "Name": "皮草",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_GYPSUM",
+   "Name": "石膏",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_INCENSE",
+   "Name": "熏香",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_IVORY",
+   "Name": "象牙",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_JADE",
+   "Name": "玉",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_MARBLE",
+   "Name": "大理石",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_MERCURY",
+   "Name": "水银",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_PEARLS",
+   "Name": "珍珠",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_SALT",
+   "Name": "盐",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_SILK",
+   "Name": "丝绸",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_SILVER",
+   "Name": "银",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_SPICES",
+   "Name": "香料",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_SUGAR",
+   "Name": "糖",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_TEA",
+   "Name": "茶叶",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_TOBACCO",
+   "Name": "烟草",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_TRUFFLES",
+   "Name": "松露",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_WHALES",
+   "Name": "鲸鱼",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_WINE",
+   "Name": "葡萄酒",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_JEANS",
+   "Name": "牛仔裤",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_PERFUME",
+   "Name": "香水",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "6"
+  },
+  {
+   "ResourceType": "RESOURCE_COSMETICS",
+   "Name": "化妆品",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_TOYS",
+   "Name": "玩具",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "4"
+  },
+  {
+   "ResourceType": "RESOURCE_CINNAMON",
+   "Name": "肉桂",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "6"
+  },
+  {
+   "ResourceType": "RESOURCE_CLOVES",
+   "Name": "丁香",
+   "ResourceClassType": "RESOURCECLASS_LUXURY",
+   "PrereqTech": "",
+   "Happiness": "6"
+  },
+  {
+   "ResourceType": "RESOURCE_ALUMINUM",
+   "Name": "铝",
+   "ResourceClassType": "RESOURCECLASS_STRATEGIC",
+   "PrereqTech": "TECH_RADIO",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_COAL",
+   "Name": "煤",
+   "ResourceClassType": "RESOURCECLASS_STRATEGIC",
+   "PrereqTech": "TECH_INDUSTRIALIZATION",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_HORSES",
+   "Name": "马",
+   "ResourceClassType": "RESOURCECLASS_STRATEGIC",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_IRON",
+   "Name": "铁",
+   "ResourceClassType": "RESOURCECLASS_STRATEGIC",
+   "PrereqTech": "TECH_BRONZE_WORKING",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_NITER",
+   "Name": "硝石",
+   "ResourceClassType": "RESOURCECLASS_STRATEGIC",
+   "PrereqTech": "TECH_MILITARY_ENGINEERING",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_OIL",
+   "Name": "石油",
+   "ResourceClassType": "RESOURCECLASS_STRATEGIC",
+   "PrereqTech": "TECH_STEEL",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_URANIUM",
+   "Name": "铀",
+   "ResourceClassType": "RESOURCECLASS_STRATEGIC",
+   "PrereqTech": "TECH_COMBINED_ARMS",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_ANTIQUITY_SITE",
+   "Name": "历史古迹",
+   "ResourceClassType": "RESOURCECLASS_ARTIFACT",
+   "PrereqTech": "",
+   "Happiness": "0"
+  },
+  {
+   "ResourceType": "RESOURCE_SHIPWRECK",
+   "Name": "海难遗址",
+   "ResourceClassType": "RESOURCECLASS_ARTIFACT",
+   "PrereqTech": "",
+   "Happiness": "0"
+  }
+ ]
+}

@@ -1,0 +1,246 @@
+{
+ "table": "UnitUpgrades",
+ "desc": "单位升级链",
+ "columns": [
+  "Unit",
+  "UpgradeUnit"
+ ],
+ "rows": [
+  {
+   "Unit": "UNIT_SCOUT",
+   "UpgradeUnit": "UNIT_RANGER"
+  },
+  {
+   "Unit": "UNIT_WARRIOR",
+   "UpgradeUnit": "UNIT_SWORDSMAN"
+  },
+  {
+   "Unit": "UNIT_SWORDSMAN",
+   "UpgradeUnit": "UNIT_MAN_AT_ARMS"
+  },
+  {
+   "Unit": "UNIT_MAN_AT_ARMS",
+   "UpgradeUnit": "UNIT_MUSKETMAN"
+  },
+  {
+   "Unit": "UNIT_MUSKETMAN",
+   "UpgradeUnit": "UNIT_LINE_INFANTRY"
+  },
+  {
+   "Unit": "UNIT_LINE_INFANTRY",
+   "UpgradeUnit": "UNIT_INFANTRY"
+  },
+  {
+   "Unit": "UNIT_SPEARMAN",
+   "UpgradeUnit": "UNIT_PIKEMAN"
+  },
+  {
+   "Unit": "UNIT_PIKEMAN",
+   "UpgradeUnit": "UNIT_AT_CREW"
+  },
+  {
+   "Unit": "UNIT_AT_CREW",
+   "UpgradeUnit": "UNIT_MODERN_AT"
+  },
+  {
+   "Unit": "UNIT_INFANTRY",
+   "UpgradeUnit": "UNIT_MECHANIZED_INFANTRY"
+  },
+  {
+   "Unit": "UNIT_SLINGER",
+   "UpgradeUnit": "UNIT_ARCHER"
+  },
+  {
+   "Unit": "UNIT_ARCHER",
+   "UpgradeUnit": "UNIT_CROSSBOWMAN"
+  },
+  {
+   "Unit": "UNIT_CROSSBOWMAN",
+   "UpgradeUnit": "UNIT_FIELD_CANNON"
+  },
+  {
+   "Unit": "UNIT_FIELD_CANNON",
+   "UpgradeUnit": "UNIT_MACHINE_GUN"
+  },
+  {
+   "Unit": "UNIT_HORSEMAN",
+   "UpgradeUnit": "UNIT_CAVALRY"
+  },
+  {
+   "Unit": "UNIT_CAVALRY",
+   "UpgradeUnit": "UNIT_HELICOPTER"
+  },
+  {
+   "Unit": "UNIT_CATAPULT",
+   "UpgradeUnit": "UNIT_TREBUCHET"
+  },
+  {
+   "Unit": "UNIT_TREBUCHET",
+   "UpgradeUnit": "UNIT_BOMBARD"
+  },
+  {
+   "Unit": "UNIT_BOMBARD",
+   "UpgradeUnit": "UNIT_ARTILLERY"
+  },
+  {
+   "Unit": "UNIT_ARTILLERY",
+   "UpgradeUnit": "UNIT_ROCKET_ARTILLERY"
+  },
+  {
+   "Unit": "UNIT_ANTIAIR_GUN",
+   "UpgradeUnit": "UNIT_MOBILE_SAM"
+  },
+  {
+   "Unit": "UNIT_BATTERING_RAM",
+   "UpgradeUnit": "UNIT_MEDIC"
+  },
+  {
+   "Unit": "UNIT_SIEGE_TOWER",
+   "UpgradeUnit": "UNIT_MEDIC"
+  },
+  {
+   "Unit": "UNIT_HEAVY_CHARIOT",
+   "UpgradeUnit": "UNIT_KNIGHT"
+  },
+  {
+   "Unit": "UNIT_KNIGHT",
+   "UpgradeUnit": "UNIT_TANK"
+  },
+  {
+   "Unit": "UNIT_TANK",
+   "UpgradeUnit": "UNIT_MODERN_ARMOR"
+  },
+  {
+   "Unit": "UNIT_GALLEY",
+   "UpgradeUnit": "UNIT_CARAVEL"
+  },
+  {
+   "Unit": "UNIT_QUADRIREME",
+   "UpgradeUnit": "UNIT_FRIGATE"
+  },
+  {
+   "Unit": "UNIT_CARAVEL",
+   "UpgradeUnit": "UNIT_IRONCLAD"
+  },
+  {
+   "Unit": "UNIT_IRONCLAD",
+   "UpgradeUnit": "UNIT_DESTROYER"
+  },
+  {
+   "Unit": "UNIT_PRIVATEER",
+   "UpgradeUnit": "UNIT_SUBMARINE"
+  },
+  {
+   "Unit": "UNIT_FRIGATE",
+   "UpgradeUnit": "UNIT_BATTLESHIP"
+  },
+  {
+   "Unit": "UNIT_BATTLESHIP",
+   "UpgradeUnit": "UNIT_MISSILE_CRUISER"
+  },
+  {
+   "Unit": "UNIT_SUBMARINE",
+   "UpgradeUnit": "UNIT_NUCLEAR_SUBMARINE"
+  },
+  {
+   "Unit": "UNIT_BIPLANE",
+   "UpgradeUnit": "UNIT_FIGHTER"
+  },
+  {
+   "Unit": "UNIT_FIGHTER",
+   "UpgradeUnit": "UNIT_JET_FIGHTER"
+  },
+  {
+   "Unit": "UNIT_BOMBER",
+   "UpgradeUnit": "UNIT_JET_BOMBER"
+  },
+  {
+   "Unit": "UNIT_EGYPTIAN_CHARIOT_ARCHER",
+   "UpgradeUnit": "UNIT_CROSSBOWMAN"
+  },
+  {
+   "Unit": "UNIT_GREEK_HOPLITE",
+   "UpgradeUnit": "UNIT_PIKEMAN"
+  },
+  {
+   "Unit": "UNIT_SCYTHIAN_HORSE_ARCHER",
+   "UpgradeUnit": "UNIT_CROSSBOWMAN"
+  },
+  {
+   "Unit": "UNIT_SUMERIAN_WAR_CART",
+   "UpgradeUnit": "UNIT_KNIGHT"
+  },
+  {
+   "Unit": "UNIT_ENGLISH_REDCOAT",
+   "UpgradeUnit": "UNIT_INFANTRY"
+  },
+  {
+   "Unit": "UNIT_ENGLISH_SEADOG",
+   "UpgradeUnit": "UNIT_SUBMARINE"
+  },
+  {
+   "Unit": "UNIT_SPANISH_CONQUISTADOR",
+   "UpgradeUnit": "UNIT_LINE_INFANTRY"
+  },
+  {
+   "Unit": "UNIT_AMERICAN_ROUGH_RIDER",
+   "UpgradeUnit": "UNIT_TANK"
+  },
+  {
+   "Unit": "UNIT_ROMAN_LEGION",
+   "UpgradeUnit": "UNIT_MAN_AT_ARMS"
+  },
+  {
+   "Unit": "UNIT_JAPANESE_SAMURAI",
+   "UpgradeUnit": "UNIT_MUSKETMAN"
+  },
+  {
+   "Unit": "UNIT_NORWEGIAN_BERSERKER",
+   "UpgradeUnit": "UNIT_MUSKETMAN"
+  },
+  {
+   "Unit": "UNIT_NORWEGIAN_LONGSHIP",
+   "UpgradeUnit": "UNIT_CARAVEL"
+  },
+  {
+   "Unit": "UNIT_RUSSIAN_COSSACK",
+   "UpgradeUnit": "UNIT_HELICOPTER"
+  },
+  {
+   "Unit": "UNIT_INDIAN_VARU",
+   "UpgradeUnit": "UNIT_TANK"
+  },
+  {
+   "Unit": "UNIT_ARABIAN_MAMLUK",
+   "UpgradeUnit": "UNIT_TANK"
+  },
+  {
+   "Unit": "UNIT_KONGO_SHIELD_BEARER",
+   "UpgradeUnit": "UNIT_MAN_AT_ARMS"
+  },
+  {
+   "Unit": "UNIT_FRENCH_GARDE_IMPERIALE",
+   "UpgradeUnit": "UNIT_INFANTRY"
+  },
+  {
+   "Unit": "UNIT_GERMAN_UBOAT",
+   "UpgradeUnit": "UNIT_NUCLEAR_SUBMARINE"
+  },
+  {
+   "Unit": "UNIT_AMERICAN_P51",
+   "UpgradeUnit": "UNIT_JET_FIGHTER"
+  },
+  {
+   "Unit": "UNIT_BRAZILIAN_MINAS_GERAES",
+   "UpgradeUnit": "UNIT_MISSILE_CRUISER"
+  },
+  {
+   "Unit": "UNIT_CHINESE_CROUCHING_TIGER",
+   "UpgradeUnit": "UNIT_FIELD_CANNON"
+  },
+  {
+   "Unit": "UNIT_AZTEC_EAGLE_WARRIOR",
+   "UpgradeUnit": "UNIT_SWORDSMAN"
+  }
+ ]
+}

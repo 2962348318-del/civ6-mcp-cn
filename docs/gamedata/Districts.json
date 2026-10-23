@@ -1,0 +1,226 @@
+{
+ "table": "Districts",
+ "desc": "区域",
+ "columns": [
+  "DistrictType",
+  "Name",
+  "Cost",
+  "PrereqTech",
+  "PrereqCivic",
+  "RequiresPopulation",
+  "NoAdjacentCity",
+  "Maintenance"
+ ],
+ "rows": [
+  {
+   "DistrictType": "DISTRICT_CITY_CENTER",
+   "Name": "市中心",
+   "Cost": "54",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "RequiresPopulation": "false",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  },
+  {
+   "DistrictType": "DISTRICT_HOLY_SITE",
+   "Name": "圣地",
+   "Cost": "54",
+   "PrereqTech": "TECH_ASTROLOGY",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_CAMPUS",
+   "Name": "学院",
+   "Cost": "54",
+   "PrereqTech": "TECH_WRITING",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_ENCAMPMENT",
+   "Name": "军营",
+   "Cost": "54",
+   "PrereqTech": "TECH_BRONZE_WORKING",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "true",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_HARBOR",
+   "Name": "港口",
+   "Cost": "54",
+   "PrereqTech": "TECH_CELESTIAL_NAVIGATION",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  },
+  {
+   "DistrictType": "DISTRICT_AERODROME",
+   "Name": "航空港",
+   "Cost": "54",
+   "PrereqTech": "TECH_FLIGHT",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_COMMERCIAL_HUB",
+   "Name": "商业中心",
+   "Cost": "54",
+   "PrereqTech": "TECH_CURRENCY",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  },
+  {
+   "DistrictType": "DISTRICT_ENTERTAINMENT_COMPLEX",
+   "Name": "娱乐中心",
+   "Cost": "54",
+   "PrereqTech": "",
+   "PrereqCivic": "CIVIC_GAMES_RECREATION",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_THEATER",
+   "Name": "剧院广场",
+   "Cost": "54",
+   "PrereqTech": "",
+   "PrereqCivic": "CIVIC_DRAMA_POETRY",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_INDUSTRIAL_ZONE",
+   "Name": "工业区",
+   "Cost": "54",
+   "PrereqTech": "TECH_APPRENTICESHIP",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_NEIGHBORHOOD",
+   "Name": "社区",
+   "Cost": "54",
+   "PrereqTech": "",
+   "PrereqCivic": "CIVIC_URBANIZATION",
+   "RequiresPopulation": "false",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  },
+  {
+   "DistrictType": "DISTRICT_AQUEDUCT",
+   "Name": "水渠",
+   "Cost": "36",
+   "PrereqTech": "TECH_ENGINEERING",
+   "PrereqCivic": "",
+   "RequiresPopulation": "false",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  },
+  {
+   "DistrictType": "DISTRICT_SPACEPORT",
+   "Name": "宇航中心",
+   "Cost": "1800",
+   "PrereqTech": "TECH_ROCKETRY",
+   "PrereqCivic": "",
+   "RequiresPopulation": "false",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  },
+  {
+   "DistrictType": "DISTRICT_WONDER",
+   "Name": "奇观",
+   "Cost": "0",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "RequiresPopulation": "false",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  },
+  {
+   "DistrictType": "DISTRICT_ACROPOLIS",
+   "Name": "卫城",
+   "Cost": "27",
+   "PrereqTech": "",
+   "PrereqCivic": "CIVIC_DRAMA_POETRY",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_BATH",
+   "Name": "浴场",
+   "Cost": "18",
+   "PrereqTech": "TECH_ENGINEERING",
+   "PrereqCivic": "",
+   "RequiresPopulation": "false",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  },
+  {
+   "DistrictType": "DISTRICT_HANSA",
+   "Name": "商业同业工会",
+   "Cost": "27",
+   "PrereqTech": "TECH_APPRENTICESHIP",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_LAVRA",
+   "Name": "拉夫拉修道院",
+   "Cost": "27",
+   "PrereqTech": "TECH_ASTROLOGY",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_MBANZA",
+   "Name": "姆班赞",
+   "Cost": "27",
+   "PrereqTech": "",
+   "PrereqCivic": "CIVIC_GUILDS",
+   "RequiresPopulation": "false",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  },
+  {
+   "DistrictType": "DISTRICT_STREET_CARNIVAL",
+   "Name": "街头狂欢节",
+   "Cost": "27",
+   "PrereqTech": "",
+   "PrereqCivic": "CIVIC_GAMES_RECREATION",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "1"
+  },
+  {
+   "DistrictType": "DISTRICT_ROYAL_NAVY_DOCKYARD",
+   "Name": "皇家海军船坞",
+   "Cost": "27",
+   "PrereqTech": "TECH_CELESTIAL_NAVIGATION",
+   "PrereqCivic": "",
+   "RequiresPopulation": "true",
+   "NoAdjacentCity": "false",
+   "Maintenance": "0"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "table": "UnitReplaces",
+ "desc": "文明独有单位替换关系",
+ "columns": [
+  "CivUniqueUnitType",
+  "ReplacesUnitType"
+ ],
+ "rows": [
+  {
+   "CivUniqueUnitType": "UNIT_GREEK_HOPLITE",
+   "ReplacesUnitType": "UNIT_SPEARMAN"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_EGYPTIAN_CHARIOT_ARCHER",
+   "ReplacesUnitType": "UNIT_HEAVY_CHARIOT"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_SPANISH_CONQUISTADOR",
+   "ReplacesUnitType": "UNIT_MUSKETMAN"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_ROMAN_LEGION",
+   "ReplacesUnitType": "UNIT_SWORDSMAN"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_JAPANESE_SAMURAI",
+   "ReplacesUnitType": "UNIT_MAN_AT_ARMS"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_NORWEGIAN_LONGSHIP",
+   "ReplacesUnitType": "UNIT_GALLEY"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_NORWEGIAN_BERSERKER",
+   "ReplacesUnitType": "UNIT_MAN_AT_ARMS"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_RUSSIAN_COSSACK",
+   "ReplacesUnitType": "UNIT_CAVALRY"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_ARABIAN_MAMLUK",
+   "ReplacesUnitType": "UNIT_KNIGHT"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_FRENCH_GARDE_IMPERIALE",
+   "ReplacesUnitType": "UNIT_LINE_INFANTRY"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_ENGLISH_REDCOAT",
+   "ReplacesUnitType": "UNIT_LINE_INFANTRY"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_KONGO_SHIELD_BEARER",
+   "ReplacesUnitType": "UNIT_SWORDSMAN"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_ENGLISH_SEADOG",
+   "ReplacesUnitType": "UNIT_PRIVATEER"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_GERMAN_UBOAT",
+   "ReplacesUnitType": "UNIT_SUBMARINE"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_AMERICAN_P51",
+   "ReplacesUnitType": "UNIT_FIGHTER"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_BRAZILIAN_MINAS_GERAES",
+   "ReplacesUnitType": "UNIT_BATTLESHIP"
+  },
+  {
+   "CivUniqueUnitType": "UNIT_AZTEC_EAGLE_WARRIOR",
+   "ReplacesUnitType": "UNIT_WARRIOR"
+  }
+ ]
+}

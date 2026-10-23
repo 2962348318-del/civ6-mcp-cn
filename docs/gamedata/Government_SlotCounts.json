@@ -1,0 +1,191 @@
+{
+ "table": "Government_SlotCounts",
+ "desc": "各政体的槽位配置",
+ "columns": [
+  "GovernmentType",
+  "GovernmentSlotType",
+  "NumSlots"
+ ],
+ "rows": [
+  {
+   "GovernmentType": "GOVERNMENT_CHIEFDOM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_CHIEFDOM",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_AUTOCRACY",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_AUTOCRACY",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_AUTOCRACY",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_AUTOCRACY",
+   "GovernmentSlotType": "SLOT_WILDCARD",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_OLIGARCHY",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_OLIGARCHY",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_OLIGARCHY",
+   "GovernmentSlotType": "SLOT_WILDCARD",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_CLASSICAL_REPUBLIC",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_CLASSICAL_REPUBLIC",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_CLASSICAL_REPUBLIC",
+   "GovernmentSlotType": "SLOT_WILDCARD",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MONARCHY",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MONARCHY",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MONARCHY",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MONARCHY",
+   "GovernmentSlotType": "SLOT_WILDCARD",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_THEOCRACY",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_THEOCRACY",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_THEOCRACY",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_THEOCRACY",
+   "GovernmentSlotType": "SLOT_WILDCARD",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MERCHANT_REPUBLIC",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MERCHANT_REPUBLIC",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MERCHANT_REPUBLIC",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MERCHANT_REPUBLIC",
+   "GovernmentSlotType": "SLOT_WILDCARD",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_FASCISM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "NumSlots": "4"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_FASCISM",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_FASCISM",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_FASCISM",
+   "GovernmentSlotType": "SLOT_WILDCARD",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_COMMUNISM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "NumSlots": "3"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_COMMUNISM",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "3"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_COMMUNISM",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_COMMUNISM",
+   "GovernmentSlotType": "SLOT_WILDCARD",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_DEMOCRACY",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "NumSlots": "1"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_DEMOCRACY",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "NumSlots": "3"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_DEMOCRACY",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "NumSlots": "2"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_DEMOCRACY",
+   "GovernmentSlotType": "SLOT_WILDCARD",
+   "NumSlots": "2"
+  }
+ ]
+}

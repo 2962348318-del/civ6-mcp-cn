@@ -1,0 +1,489 @@
+{
+ "table": "Technologies",
+ "desc": "科技树节点",
+ "columns": [
+  "TechnologyType",
+  "Name",
+  "Cost",
+  "EraType",
+  "UITreeRow"
+ ],
+ "rows": [
+  {
+   "TechnologyType": "TECH_POTTERY",
+   "Name": "制陶术",
+   "Cost": "25",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "0"
+  },
+  {
+   "TechnologyType": "TECH_ANIMAL_HUSBANDRY",
+   "Name": "畜牧业",
+   "Cost": "25",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_MINING",
+   "Name": "采矿业",
+   "Cost": "25",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "3"
+  },
+  {
+   "TechnologyType": "TECH_SAILING",
+   "Name": "航海术",
+   "Cost": "50",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "-3"
+  },
+  {
+   "TechnologyType": "TECH_ASTROLOGY",
+   "Name": "占星术",
+   "Cost": "50",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "-2"
+  },
+  {
+   "TechnologyType": "TECH_IRRIGATION",
+   "Name": "灌溉",
+   "Cost": "50",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "-1"
+  },
+  {
+   "TechnologyType": "TECH_ARCHERY",
+   "Name": "箭术",
+   "Cost": "50",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_WRITING",
+   "Name": "写作",
+   "Cost": "50",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "0"
+  },
+  {
+   "TechnologyType": "TECH_MASONRY",
+   "Name": "砌砖",
+   "Cost": "80",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "2"
+  },
+  {
+   "TechnologyType": "TECH_BRONZE_WORKING",
+   "Name": "铸铜术",
+   "Cost": "80",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "3"
+  },
+  {
+   "TechnologyType": "TECH_THE_WHEEL",
+   "Name": "轮子",
+   "Cost": "80",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "4"
+  },
+  {
+   "TechnologyType": "TECH_CELESTIAL_NAVIGATION",
+   "Name": "天文导航",
+   "Cost": "120",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "-2"
+  },
+  {
+   "TechnologyType": "TECH_CURRENCY",
+   "Name": "货币",
+   "Cost": "120",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "0"
+  },
+  {
+   "TechnologyType": "TECH_HORSEBACK_RIDING",
+   "Name": "骑马",
+   "Cost": "120",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_IRON_WORKING",
+   "Name": "炼铁术",
+   "Cost": "120",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "3"
+  },
+  {
+   "TechnologyType": "TECH_SHIPBUILDING",
+   "Name": "造船术",
+   "Cost": "200",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "-3"
+  },
+  {
+   "TechnologyType": "TECH_MATHEMATICS",
+   "Name": "数学",
+   "Cost": "200",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "-1"
+  },
+  {
+   "TechnologyType": "TECH_CONSTRUCTION",
+   "Name": "建造",
+   "Cost": "200",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "2"
+  },
+  {
+   "TechnologyType": "TECH_ENGINEERING",
+   "Name": "工程",
+   "Cost": "200",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "4"
+  },
+  {
+   "TechnologyType": "TECH_MILITARY_TACTICS",
+   "Name": "战术",
+   "Cost": "300",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "-2"
+  },
+  {
+   "TechnologyType": "TECH_APPRENTICESHIP",
+   "Name": "学徒",
+   "Cost": "300",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "0"
+  },
+  {
+   "TechnologyType": "TECH_MACHINERY",
+   "Name": "机械",
+   "Cost": "300",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "4"
+  },
+  {
+   "TechnologyType": "TECH_EDUCATION",
+   "Name": "教育",
+   "Cost": "390",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "-1"
+  },
+  {
+   "TechnologyType": "TECH_STIRRUPS",
+   "Name": "马镫",
+   "Cost": "390",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_MILITARY_ENGINEERING",
+   "Name": "军事工程学",
+   "Cost": "390",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "2"
+  },
+  {
+   "TechnologyType": "TECH_CASTLES",
+   "Name": "城堡",
+   "Cost": "390",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "3"
+  },
+  {
+   "TechnologyType": "TECH_CARTOGRAPHY",
+   "Name": "制图学",
+   "Cost": "540",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "-3"
+  },
+  {
+   "TechnologyType": "TECH_MASS_PRODUCTION",
+   "Name": "批量生产",
+   "Cost": "540",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "-2"
+  },
+  {
+   "TechnologyType": "TECH_BANKING",
+   "Name": "银行业",
+   "Cost": "540",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "0"
+  },
+  {
+   "TechnologyType": "TECH_GUNPOWDER",
+   "Name": "火药",
+   "Cost": "540",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_PRINTING",
+   "Name": "印刷术",
+   "Cost": "540",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "4"
+  },
+  {
+   "TechnologyType": "TECH_SQUARE_RIGGING",
+   "Name": "横帆装置",
+   "Cost": "660",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "-3"
+  },
+  {
+   "TechnologyType": "TECH_ASTRONOMY",
+   "Name": "天文学",
+   "Cost": "660",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "-1"
+  },
+  {
+   "TechnologyType": "TECH_METAL_CASTING",
+   "Name": "金属铸造",
+   "Cost": "660",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_SIEGE_TACTICS",
+   "Name": "攻城术",
+   "Cost": "660",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "3"
+  },
+  {
+   "TechnologyType": "TECH_INDUSTRIALIZATION",
+   "Name": "工业化",
+   "Cost": "845",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "-2"
+  },
+  {
+   "TechnologyType": "TECH_SCIENTIFIC_THEORY",
+   "Name": "科学理论",
+   "Cost": "845",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "-1"
+  },
+  {
+   "TechnologyType": "TECH_BALLISTICS",
+   "Name": "弹道学",
+   "Cost": "845",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_MILITARY_SCIENCE",
+   "Name": "军事学",
+   "Cost": "845",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "3"
+  },
+  {
+   "TechnologyType": "TECH_STEAM_POWER",
+   "Name": "蒸汽动力",
+   "Cost": "970",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "-3"
+  },
+  {
+   "TechnologyType": "TECH_SANITATION",
+   "Name": "卫生设备",
+   "Cost": "970",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "-1"
+  },
+  {
+   "TechnologyType": "TECH_ECONOMICS",
+   "Name": "经济",
+   "Cost": "970",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "0"
+  },
+  {
+   "TechnologyType": "TECH_RIFLING",
+   "Name": "膛线",
+   "Cost": "970",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "3"
+  },
+  {
+   "TechnologyType": "TECH_FLIGHT",
+   "Name": "飞行",
+   "Cost": "1140",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "-2"
+  },
+  {
+   "TechnologyType": "TECH_REPLACEABLE_PARTS",
+   "Name": "零件规格化",
+   "Cost": "1140",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "0"
+  },
+  {
+   "TechnologyType": "TECH_STEEL",
+   "Name": "钢铁",
+   "Cost": "1140",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_ELECTRICITY",
+   "Name": "电力",
+   "Cost": "1250",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "-3"
+  },
+  {
+   "TechnologyType": "TECH_RADIO",
+   "Name": "无线电",
+   "Cost": "1250",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "-2"
+  },
+  {
+   "TechnologyType": "TECH_CHEMISTRY",
+   "Name": "化学",
+   "Cost": "1250",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "-1"
+  },
+  {
+   "TechnologyType": "TECH_COMBUSTION",
+   "Name": "内燃机",
+   "Cost": "1250",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "2"
+  },
+  {
+   "TechnologyType": "TECH_ADVANCED_FLIGHT",
+   "Name": "现代航空",
+   "Cost": "1410",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "-2"
+  },
+  {
+   "TechnologyType": "TECH_ROCKETRY",
+   "Name": "火箭研究",
+   "Cost": "1410",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "-1"
+  },
+  {
+   "TechnologyType": "TECH_ADVANCED_BALLISTICS",
+   "Name": "高级弹道学",
+   "Cost": "1410",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "0"
+  },
+  {
+   "TechnologyType": "TECH_COMBINED_ARMS",
+   "Name": "联合作战",
+   "Cost": "1410",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_PLASTICS",
+   "Name": "塑料",
+   "Cost": "1410",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "2"
+  },
+  {
+   "TechnologyType": "TECH_COMPUTERS",
+   "Name": "电脑",
+   "Cost": "1580",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "-3"
+  },
+  {
+   "TechnologyType": "TECH_NUCLEAR_FISSION",
+   "Name": "核裂变",
+   "Cost": "1580",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_SYNTHETIC_MATERIALS",
+   "Name": "合成材料",
+   "Cost": "1580",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "2"
+  },
+  {
+   "TechnologyType": "TECH_TELECOMMUNICATIONS",
+   "Name": "远程通信",
+   "Cost": "1850",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "-3"
+  },
+  {
+   "TechnologyType": "TECH_SATELLITES",
+   "Name": "卫星",
+   "Cost": "1850",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "-1"
+  },
+  {
+   "TechnologyType": "TECH_GUIDANCE_SYSTEMS",
+   "Name": "制导系统",
+   "Cost": "1850",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "0"
+  },
+  {
+   "TechnologyType": "TECH_LASERS",
+   "Name": "激光",
+   "Cost": "1850",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_COMPOSITES",
+   "Name": "复合材料",
+   "Cost": "1850",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "2"
+  },
+  {
+   "TechnologyType": "TECH_STEALTH_TECHNOLOGY",
+   "Name": "隐形技术",
+   "Cost": "1850",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "3"
+  },
+  {
+   "TechnologyType": "TECH_ROBOTICS",
+   "Name": "机器人技术",
+   "Cost": "2155",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "-2"
+  },
+  {
+   "TechnologyType": "TECH_NANOTECHNOLOGY",
+   "Name": "纳米技术",
+   "Cost": "2155",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "2"
+  },
+  {
+   "TechnologyType": "TECH_NUCLEAR_FUSION",
+   "Name": "核聚变",
+   "Cost": "2155",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "1"
+  },
+  {
+   "TechnologyType": "TECH_FUTURE_TECH",
+   "Name": "未来科技",
+   "Cost": "2500",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "0"
+  }
+ ]
+}

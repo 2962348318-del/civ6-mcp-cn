@@ -1,0 +1,240 @@
+{
+ "table": "Improvements",
+ "desc": "改良设施(含蛮族营地标识)",
+ "columns": [
+  "ImprovementType",
+  "Name",
+  "PrereqTech",
+  "PrereqCivic",
+  "BarbarianCamp",
+  "Goody",
+  "Buildable"
+ ],
+ "rows": [
+  {
+   "ImprovementType": "IMPROVEMENT_BARBARIAN_CAMP",
+   "Name": "蛮族哨站",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "BarbarianCamp": "true",
+   "Goody": "false",
+   "Buildable": "false"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_FARM",
+   "Name": "农场",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_MINE",
+   "Name": "矿山",
+   "PrereqTech": "TECH_MINING",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_QUARRY",
+   "Name": "采石场",
+   "PrereqTech": "TECH_MINING",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_FISHING_BOATS",
+   "Name": "渔船",
+   "PrereqTech": "TECH_SAILING",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_PASTURE",
+   "Name": "牧场",
+   "PrereqTech": "TECH_ANIMAL_HUSBANDRY",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_PLANTATION",
+   "Name": "种植园",
+   "PrereqTech": "TECH_IRRIGATION",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_CAMP",
+   "Name": "营地",
+   "PrereqTech": "TECH_ANIMAL_HUSBANDRY",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_LUMBER_MILL",
+   "Name": "伐木场",
+   "PrereqTech": "TECH_MACHINERY",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_GOODY_HUT",
+   "Name": "部落村庄",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "true",
+   "Buildable": "false"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_OIL_WELL",
+   "Name": "油井",
+   "PrereqTech": "TECH_STEEL",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "false"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_OFFSHORE_OIL_RIG",
+   "Name": "海上石油钻机",
+   "PrereqTech": "TECH_PLASTICS",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "false"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_FORT",
+   "Name": "堡垒",
+   "PrereqTech": "TECH_SIEGE_TACTICS",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_AIRSTRIP",
+   "Name": "飞机跑道",
+   "PrereqTech": "TECH_FLIGHT",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_BEACH_RESORT",
+   "Name": "海滨度假区",
+   "PrereqTech": "TECH_RADIO",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_MISSILE_SILO",
+   "Name": "导弹发射井",
+   "PrereqTech": "TECH_ROCKETRY",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_CHATEAU",
+   "Name": "城堡",
+   "PrereqTech": "",
+   "PrereqCivic": "CIVIC_HUMANISM",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_COLOSSAL_HEAD",
+   "Name": "巨神头像",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_GREAT_WALL",
+   "Name": "长城",
+   "PrereqTech": "TECH_MASONRY",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_KURGAN",
+   "Name": "坟墩",
+   "PrereqTech": "TECH_ANIMAL_HUSBANDRY",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_MISSION",
+   "Name": "传教团",
+   "PrereqTech": "TECH_EDUCATION",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_ROMAN_FORT",
+   "Name": "古罗马堡垒",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_SPHINX",
+   "Name": "狮身人面像",
+   "PrereqTech": "",
+   "PrereqCivic": "CIVIC_CRAFTSMANSHIP",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_STEPWELL",
+   "Name": "梯井",
+   "PrereqTech": "TECH_IRRIGATION",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  },
+  {
+   "ImprovementType": "IMPROVEMENT_ZIGGURAT",
+   "Name": "金字形神塔",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "BarbarianCamp": "false",
+   "Goody": "false",
+   "Buildable": "true"
+  }
+ ]
+}

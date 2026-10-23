@@ -1,0 +1,42 @@
+{
+ "table": "Difficulties",
+ "desc": "难度档位",
+ "columns": [
+  "DifficultyType",
+  "Name"
+ ],
+ "rows": [
+  {
+   "DifficultyType": "DIFFICULTY_SETTLER",
+   "Name": "开拓者"
+  },
+  {
+   "DifficultyType": "DIFFICULTY_CHIEFTAIN",
+   "Name": "首领"
+  },
+  {
+   "DifficultyType": "DIFFICULTY_WARLORD",
+   "Name": "军阀"
+  },
+  {
+   "DifficultyType": "DIFFICULTY_PRINCE",
+   "Name": "王子"
+  },
+  {
+   "DifficultyType": "DIFFICULTY_KING",
+   "Name": "国王"
+  },
+  {
+   "DifficultyType": "DIFFICULTY_EMPEROR",
+   "Name": "君主"
+  },
+  {
+   "DifficultyType": "DIFFICULTY_IMMORTAL",
+   "Name": "不朽"
+  },
+  {
+   "DifficultyType": "DIFFICULTY_DEITY",
+   "Name": "神"
+  }
+ ]
+}

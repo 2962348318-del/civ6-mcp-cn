@@ -1,0 +1,13 @@
+{
+ "table": "HandicapInfos",
+ "desc": "难度句柄",
+ "columns": [
+  "HandicapType",
+  "Name",
+  "AIStartingUnits",
+  "AIStartingSettlers",
+  "AIPerEraModifier"
+ ],
+ "missing": true,
+ "rows": []
+}

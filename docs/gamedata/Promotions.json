@@ -1,0 +1,12 @@
+{
+ "table": "Promotions",
+ "desc": "单位晋升",
+ "columns": [
+  "UnitPromotionType",
+  "Name",
+  "PromotionClass",
+  "Level"
+ ],
+ "missing": true,
+ "rows": []
+}

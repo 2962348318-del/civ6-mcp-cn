@@ -1,0 +1,190 @@
+{
+ "table": "District_Adjacencies",
+ "desc": "区域相邻加成挂载",
+ "columns": [
+  "DistrictType",
+  "YieldChangeId"
+ ],
+ "rows": [
+  {
+   "DistrictType": "DISTRICT_CAMPUS",
+   "YieldChangeId": "Mountains_Science1"
+  },
+  {
+   "DistrictType": "DISTRICT_CAMPUS",
+   "YieldChangeId": "Mountains_Science2"
+  },
+  {
+   "DistrictType": "DISTRICT_CAMPUS",
+   "YieldChangeId": "Mountains_Science3"
+  },
+  {
+   "DistrictType": "DISTRICT_CAMPUS",
+   "YieldChangeId": "Mountains_Science4"
+  },
+  {
+   "DistrictType": "DISTRICT_CAMPUS",
+   "YieldChangeId": "Mountains_Science5"
+  },
+  {
+   "DistrictType": "DISTRICT_CAMPUS",
+   "YieldChangeId": "Jungle_Science"
+  },
+  {
+   "DistrictType": "DISTRICT_CAMPUS",
+   "YieldChangeId": "District_Science"
+  },
+  {
+   "DistrictType": "DISTRICT_HOLY_SITE",
+   "YieldChangeId": "NaturalWonder_Faith"
+  },
+  {
+   "DistrictType": "DISTRICT_HOLY_SITE",
+   "YieldChangeId": "Mountain_Faith1"
+  },
+  {
+   "DistrictType": "DISTRICT_HOLY_SITE",
+   "YieldChangeId": "Mountain_Faith2"
+  },
+  {
+   "DistrictType": "DISTRICT_HOLY_SITE",
+   "YieldChangeId": "Mountain_Faith3"
+  },
+  {
+   "DistrictType": "DISTRICT_HOLY_SITE",
+   "YieldChangeId": "Mountain_Faith4"
+  },
+  {
+   "DistrictType": "DISTRICT_HOLY_SITE",
+   "YieldChangeId": "Mountain_Faith5"
+  },
+  {
+   "DistrictType": "DISTRICT_HOLY_SITE",
+   "YieldChangeId": "Forest_Faith"
+  },
+  {
+   "DistrictType": "DISTRICT_HOLY_SITE",
+   "YieldChangeId": "District_Faith"
+  },
+  {
+   "DistrictType": "DISTRICT_COMMERCIAL_HUB",
+   "YieldChangeId": "River_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_COMMERCIAL_HUB",
+   "YieldChangeId": "Harbor_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_COMMERCIAL_HUB",
+   "YieldChangeId": "RoyalDock_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_COMMERCIAL_HUB",
+   "YieldChangeId": "District_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_HARBOR",
+   "YieldChangeId": "SeaResource_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_HARBOR",
+   "YieldChangeId": "District_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_HARBOR",
+   "YieldChangeId": "Harbor_City_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_THEATER",
+   "YieldChangeId": "Wonder_Culture"
+  },
+  {
+   "DistrictType": "DISTRICT_THEATER",
+   "YieldChangeId": "District_Culture"
+  },
+  {
+   "DistrictType": "DISTRICT_INDUSTRIAL_ZONE",
+   "YieldChangeId": "Mine_Production"
+  },
+  {
+   "DistrictType": "DISTRICT_INDUSTRIAL_ZONE",
+   "YieldChangeId": "Quarry_Production"
+  },
+  {
+   "DistrictType": "DISTRICT_INDUSTRIAL_ZONE",
+   "YieldChangeId": "District_Production"
+  },
+  {
+   "DistrictType": "DISTRICT_ACROPOLIS",
+   "YieldChangeId": "Wonder_Culture"
+  },
+  {
+   "DistrictType": "DISTRICT_ACROPOLIS",
+   "YieldChangeId": "District_Culture_Standard"
+  },
+  {
+   "DistrictType": "DISTRICT_ACROPOLIS",
+   "YieldChangeId": "District_Culture_City_Center"
+  },
+  {
+   "DistrictType": "DISTRICT_HANSA",
+   "YieldChangeId": "Commerical_Hub_Production"
+  },
+  {
+   "DistrictType": "DISTRICT_HANSA",
+   "YieldChangeId": "District_Production"
+  },
+  {
+   "DistrictType": "DISTRICT_HANSA",
+   "YieldChangeId": "Resource_Production"
+  },
+  {
+   "DistrictType": "DISTRICT_LAVRA",
+   "YieldChangeId": "NaturalWonder_Faith"
+  },
+  {
+   "DistrictType": "DISTRICT_LAVRA",
+   "YieldChangeId": "Mountain_Faith1"
+  },
+  {
+   "DistrictType": "DISTRICT_LAVRA",
+   "YieldChangeId": "Mountain_Faith2"
+  },
+  {
+   "DistrictType": "DISTRICT_LAVRA",
+   "YieldChangeId": "Mountain_Faith3"
+  },
+  {
+   "DistrictType": "DISTRICT_LAVRA",
+   "YieldChangeId": "Mountain_Faith4"
+  },
+  {
+   "DistrictType": "DISTRICT_LAVRA",
+   "YieldChangeId": "Mountain_Faith5"
+  },
+  {
+   "DistrictType": "DISTRICT_LAVRA",
+   "YieldChangeId": "Forest_Faith"
+  },
+  {
+   "DistrictType": "DISTRICT_LAVRA",
+   "YieldChangeId": "District_Faith"
+  },
+  {
+   "DistrictType": "DISTRICT_ROYAL_NAVY_DOCKYARD",
+   "YieldChangeId": "SeaResource_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_ROYAL_NAVY_DOCKYARD",
+   "YieldChangeId": "District_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_ROYAL_NAVY_DOCKYARD",
+   "YieldChangeId": "RoyalDock_City_Gold"
+  },
+  {
+   "DistrictType": "DISTRICT_CAMPUS",
+   "YieldChangeId": "GBR_Science"
+  }
+ ]
+}

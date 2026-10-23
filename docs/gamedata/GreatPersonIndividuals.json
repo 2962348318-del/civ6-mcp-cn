@@ -1,0 +1,1074 @@
+{
+ "table": "GreatPersonIndividuals",
+ "desc": "伟人个体",
+ "columns": [
+  "GreatPersonIndividualType",
+  "Name",
+  "GreatPersonClassType",
+  "EraType"
+ ],
+ "rows": [
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ARTEMISIA",
+   "Name": "阿尔特米西亚",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS",
+   "Name": "盖尤斯·杜伊路斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_THEMISTOCLES",
+   "Name": "特米斯托克力",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON",
+   "Name": "雷夫·埃里克森",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_RAJENDRA_CHOLA",
+   "Name": "拉金德拉·朱罗",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ZHENG_HE",
+   "Name": "郑和",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE",
+   "Name": "弗朗西斯·德瑞克",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ",
+   "Name": "圣·克鲁斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN",
+   "Name": "李舜臣",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_CHING_SHIH",
+   "Name": "郑一嫂",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON",
+   "Name": "霍雷肖·纳尔逊",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA",
+   "Name": "拉斯喀瑞尼亚·鲍勃里斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER",
+   "Name": "弗兰兹·冯·希佩尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA",
+   "Name": "若阿金·马奎斯·葡京",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO",
+   "Name": "东乡平八郎",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ",
+   "Name": "切斯特·尼米兹",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER",
+   "Name": "葛丽丝·霍普",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV",
+   "Name": "谢尔盖·戈尔什科夫",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO",
+   "Name": "克兰西·费尔南多",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ANDREY_RUBLEV",
+   "Name": "安德烈·鲁布烈夫",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_HIERONYMUS_BOSCH",
+   "Name": "耶罗尼米斯·博斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_DONATELLO",
+   "Name": "多纳泰罗",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MICHELANGELO",
+   "Name": "米开朗基罗",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_QIU_YING",
+   "Name": "仇英",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_TITIAN",
+   "Name": "提香",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_EL_GRECO",
+   "Name": "埃尔·格列柯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_REMBRANDT_VAN_RIJN",
+   "Name": "伦勃朗·凡·莱因",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SOFONISBA_ANGUISSOLA",
+   "Name": "索福尼斯巴·安圭索拉",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ANGELICA_KAUFFMAN",
+   "Name": "安杰丽卡·考夫曼",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JANG_SEUNG_EOP",
+   "Name": "张承业",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_KATSUSHIKA_HOKUSAI",
+   "Name": "葛饰北斋",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_VINCENT_VAN_GOGH",
+   "Name": "文森特·梵高",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_EDMONIA_LEWIS",
+   "Name": "爱慕妮亚·刘易斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARIE_ANNE_COLLOT",
+   "Name": "玛丽安妮·科洛",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_CLAUDE_MONET",
+   "Name": "克劳德·莫奈",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_BORIS_ORLOVSKY",
+   "Name": "鲍里斯·奥洛夫斯基",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GUSTAV_KLIMT",
+   "Name": "古斯塔夫·克里姆特",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_AMRITA_SHER_GIL",
+   "Name": "阿姆瑞塔·谢吉尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARY_CASSATT",
+   "Name": "玛丽·卡萨特",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_BI_SHENG",
+   "Name": "毕昇",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ISIDORE_OF_MILETUS",
+   "Name": "米利都的伊西多尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE",
+   "Name": "圣乔治·詹姆斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_FILIPPO_BRUNELLESCHI",
+   "Name": "菲利波·布鲁内列斯基",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI",
+   "Name": "列奥纳多·达·芬奇",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN",
+   "Name": "米马尔·希南",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE",
+   "Name": "爱达·勒芙蕾丝",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GUSTAVE_EIFFEL",
+   "Name": "古斯塔夫·埃菲尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JAMES_WATT",
+   "Name": "詹姆斯·瓦特",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO",
+   "Name": "阿尔瓦·阿尔托",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_NIKOLA_TESLA",
+   "Name": "尼古拉·特斯拉",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ROBERT_GODDARD",
+   "Name": "罗伯特·哥达德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING",
+   "Name": "约翰•罗布尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JANE_DREW",
+   "Name": "简·德鲁",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SERGEI_KOROLEV",
+   "Name": "谢尔盖·科罗廖夫",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA",
+   "Name": "查尔斯·柯里亚",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON",
+   "Name": "约瑟夫·帕克斯顿",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_WERNHER_VON_BRAUN",
+   "Name": "沃纳·冯·布劳恩",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_BOUDICA",
+   "Name": "布狄卡",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA",
+   "Name": "汉尼拔·巴卡",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SUN_TZU",
+   "Name": "孙子",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_AETHELFLAED",
+   "Name": "埃塞尔弗莱德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_EL_CID",
+   "Name": "艾尔·熙德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN",
+   "Name": "成吉思汗",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS",
+   "Name": "古斯塔夫·阿道弗斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC",
+   "Name": "圣女贞德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ANA_NZINGA",
+   "Name": "安娜·恩津加",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE",
+   "Name": "拿破仑·波拿巴",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI",
+   "Name": "詹西女王",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR",
+   "Name": "何塞·德·圣马丁",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOHN_MONASH",
+   "Name": "约翰·莫纳什",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA",
+   "Name": "玛丽娜·拉斯科娃",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SAMORI_TURE",
+   "Name": "萨摩里·杜尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER",
+   "Name": "德怀特·艾森豪威尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV",
+   "Name": "格奥尔吉·朱可夫",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR",
+   "Name": "道格拉斯·麦克阿瑟",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SUDIRMAN",
+   "Name": "苏迪曼",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD",
+   "Name": "阿哈默德·沙哈·马苏德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE",
+   "Name": "维贾雅·维玛拉拉特",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_COLAEUS",
+   "Name": "柯莱欧司",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARCUS_LICINIUS_CRASSUS",
+   "Name": "马库斯·李锡尼·克拉苏",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ZHANG_QIAN",
+   "Name": "张骞",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARCO_POLO",
+   "Name": "马可波罗",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI",
+   "Name": "皮耶罗·迪·巴尔迪",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_IRENE_OF_ATHENS",
+   "Name": "伊琳娜女皇",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GIOVANNI_DE_MEDICI",
+   "Name": "乔凡尼·德·美第奇",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER",
+   "Name": "雅各布·富格尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL",
+   "Name": "拉贾·托达·马尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ADAM_SMITH",
+   "Name": "亚当·斯密",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOHN_SPILSBURY",
+   "Name": "约翰·斯皮斯伯里",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR",
+   "Name": "约翰·雅各·阿斯特",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARY_KATHERINE_GODDARD",
+   "Name": "玛丽·凯瑟琳·戈达德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOHN_ROCKEFELLER",
+   "Name": "约翰·洛克菲勒",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SARAH_BREEDLOVE",
+   "Name": "莎拉·布里德洛夫",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN",
+   "Name": "海伦娜·鲁宾斯坦",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MELITTA_BENTZ",
+   "Name": "梅里塔·本茨",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LEVI_STRAUSS",
+   "Name": "李维·史特劳斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ESTEE_LAUDER",
+   "Name": "雅诗兰黛",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MASARU_IBUKA",
+   "Name": "井深大",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA",
+   "Name": "贾姆希德吉·塔塔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ANTONIO_VIVALDI",
+   "Name": "安东尼奥·维瓦尔第",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOHANN_SEBASTIAN_BACH",
+   "Name": "约翰·塞巴斯蒂安·巴赫",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LUDWIG_VAN_BEETHOVEN",
+   "Name": "路德维希·凡·贝多芬",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_WOLFGANG_AMADEUS_MOZART",
+   "Name": "沃尔夫冈·阿马迪斯·莫扎特",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_YATSUHASHI_KENGYO",
+   "Name": "八桥检校",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ANTONIO_CARLOS_GOMEZ",
+   "Name": "安东尼奥·卡洛斯·戈梅斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_FRANZ_LISZT",
+   "Name": "弗朗兹·李斯特",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_FREDERIC_CHOPIN",
+   "Name": "弗里德里克·肖邦",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_PETER_ILYICH_TCHAIKOVSKY",
+   "Name": "彼得·伊里奇·柴可夫斯基",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LIU_TIANHUA",
+   "Name": "刘天华",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ANTONIN_DVORAK",
+   "Name": "安东尼·德沃夏克",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_CLARA_SCHUMANN",
+   "Name": "克拉拉·舒曼",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JUVENTINO_ROSAS",
+   "Name": "胡文蒂诺·罗萨斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LILIUOKALANI",
+   "Name": "利留卡拉尼",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GAUHAR_JAAN",
+   "Name": "高哈尔·扬",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MYKOLA_LEONTOVYCH",
+   "Name": "尼古拉·李森科",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOHN_THE_BAPTIST",
+   "Name": "施洗者约翰",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_CONFUCIUS",
+   "Name": "孔子",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ZOROASTER",
+   "Name": "琐罗亚斯德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SIDDHARTHA_GAUTAMA",
+   "Name": "悉达多·乔达摩",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LAOZI",
+   "Name": "老子",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SIMON_PETER",
+   "Name": "西蒙·彼得",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_BODHIDHARMA",
+   "Name": "菩提达摩",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ADI_SHANKARA",
+   "Name": "阿迪·商羯罗",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_SONGTSAN_GAMPO",
+   "Name": "松赞干布",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_O_NO_YASUMARO",
+   "Name": "太安万侣",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_IRENAEUS",
+   "Name": "爱任纽",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARTIN_LUTHER",
+   "Name": "马丁·路德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_FRANCIS_OF_ASSISI",
+   "Name": "阿西西的方济各",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MADHVA_ACHARYA",
+   "Name": "摩陀婆·阿查里雅",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_THOMAS_AQUINAS",
+   "Name": "托马斯·阿奎那",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_HAJI_HUUD",
+   "Name": "哈吉·洪德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ARYABHATA",
+   "Name": "阿耶波多",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_EUCLID",
+   "Name": "欧几里得",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_HYPATIA",
+   "Name": "希帕蒂娅",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI",
+   "Name": "艾布·卡西姆·扎哈拉维",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN",
+   "Name": "宾根的希尔德加德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM",
+   "Name": "奥马尔·海亚姆",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI",
+   "Name": "伽利略·伽利雷",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ISAAC_NEWTON",
+   "Name": "艾萨克·牛顿",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET",
+   "Name": "埃米莉·夏特莱",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG",
+   "Name": "詹姆斯·杨",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_CHARLES_DARWIN",
+   "Name": "查尔斯·达尔文",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV",
+   "Name": "德米特里·门捷列夫",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ALAN_TURING",
+   "Name": "阿兰·图灵",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ALBERT_EINSTEIN",
+   "Name": "阿尔伯特·爱因斯坦",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ALFRED_NOBEL",
+   "Name": "阿尔弗雷德·诺贝尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL",
+   "Name": "佳纳克伊·安马尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARY_LEAKEY",
+   "Name": "玛丽·利基",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER",
+   "Name": "埃尔文·薛定谔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM",
+   "Name": "阿卜杜勒·萨拉姆",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_CARL_SAGAN",
+   "Name": "卡尔·萨根",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK",
+   "Name": "斯黛芬妮·克劳莱克",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "EraType": "ERA_INFORMATION"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_BHASA",
+   "Name": "跋娑",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_HOMER",
+   "Name": "荷马",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_OVID",
+   "Name": "奥维德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_QU_YUAN",
+   "Name": "屈原",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_CLASSICAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_GEOFFREY_CHAUCER",
+   "Name": "杰弗里·乔叟",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LI_BAI",
+   "Name": "李白",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MURASAKI_SHIKIBU",
+   "Name": "紫式部",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_MEDIEVAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARGARET_CAVENDISH",
+   "Name": "玛格丽特·卡文迪什",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MIGUEL_DE_CERVANTES",
+   "Name": "米格尔·德·塞万提斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_NICCOLO_MACHIAVELLI",
+   "Name": "尼可罗·马基亚维利",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_WILLIAM_SHAKESPEARE",
+   "Name": "威廉·莎士比亚",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARIE_CATHERINE_D_AULNOY",
+   "Name": "玛丽-凯瑟琳·奥诺伊",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_RENAISSANCE"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_ALEXANDER_PUSHKIN",
+   "Name": "亚历山大·普希金",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_EDGAR_ALLEN_POE",
+   "Name": "埃德加·艾伦·坡",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JANE_AUSTEN",
+   "Name": "简·奥斯汀",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JOHANN_WOLFGANG_VON_GOETHE",
+   "Name": "约翰·沃尔夫冈·冯·歌德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARY_SHELLEY",
+   "Name": "玛丽·雪莱",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_INDUSTRIAL"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_JAMES_JOYCE",
+   "Name": "詹姆斯·乔伊斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_EMILY_DICKINSON",
+   "Name": "艾米莉·狄金森",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_LEO_TOLSTOY",
+   "Name": "列夫·托尔斯泰",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_MARK_TWAIN",
+   "Name": "马克·吐温",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_F_SCOTT_FITZGERALD",
+   "Name": "弗朗西斯·斯科特·菲茨杰拉德",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_MODERN"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_HG_WELLS",
+   "Name": "赫伯特·乔治·威尔斯",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_RABINDRANATH_TAGORE",
+   "Name": "拉宾德拉纳特·泰戈尔",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_ATOMIC"
+  },
+  {
+   "GreatPersonIndividualType": "GREAT_PERSON_INDIVIDUAL_KAREL_CAPEK",
+   "Name": "卡雷尔·恰佩克",
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "EraType": "ERA_INFORMATION"
+  }
+ ]
+}

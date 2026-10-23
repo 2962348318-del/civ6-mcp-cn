@@ -1,0 +1,177 @@
+{
+ "table": "Projects",
+ "desc": "项目(太空船等)",
+ "columns": [
+  "ProjectType",
+  "Name",
+  "Cost",
+  "PrereqTech",
+  "PrereqCivic",
+  "MaxPlayerInstances",
+  "PrereqDistrict"
+ ],
+ "rows": [
+  {
+   "ProjectType": "PROJECT_REPAIR_OUTER_DEFENSES",
+   "Name": "修复外围防线",
+   "Cost": "0",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": ""
+  },
+  {
+   "ProjectType": "PROJECT_LAUNCH_EARTH_SATELLITE",
+   "Name": "发射地球卫星",
+   "Cost": "900",
+   "PrereqTech": "TECH_ROCKETRY",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "1",
+   "PrereqDistrict": "DISTRICT_SPACEPORT"
+  },
+  {
+   "ProjectType": "PROJECT_LAUNCH_MOON_LANDING",
+   "Name": "启动登月计划",
+   "Cost": "1500",
+   "PrereqTech": "TECH_SATELLITES",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "1",
+   "PrereqDistrict": "DISTRICT_SPACEPORT"
+  },
+  {
+   "ProjectType": "PROJECT_LAUNCH_MARS_REACTOR",
+   "Name": "发射火星反应堆",
+   "Cost": "1800",
+   "PrereqTech": "TECH_NUCLEAR_FUSION",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "1",
+   "PrereqDistrict": "DISTRICT_SPACEPORT"
+  },
+  {
+   "ProjectType": "PROJECT_LAUNCH_MARS_HABITATION",
+   "Name": "发射火星住所",
+   "Cost": "1800",
+   "PrereqTech": "TECH_ROBOTICS",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "1",
+   "PrereqDistrict": "DISTRICT_SPACEPORT"
+  },
+  {
+   "ProjectType": "PROJECT_LAUNCH_MARS_HYDROPONICS",
+   "Name": "发射火星溶液栽培",
+   "Cost": "1800",
+   "PrereqTech": "TECH_NANOTECHNOLOGY",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "1",
+   "PrereqDistrict": "DISTRICT_SPACEPORT"
+  },
+  {
+   "ProjectType": "PROJECT_MANHATTAN_PROJECT",
+   "Name": "曼哈顿计划",
+   "Cost": "1000",
+   "PrereqTech": "TECH_NUCLEAR_FISSION",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "1",
+   "PrereqDistrict": ""
+  },
+  {
+   "ProjectType": "PROJECT_OPERATION_IVY",
+   "Name": "常春藤行动",
+   "Cost": "1000",
+   "PrereqTech": "TECH_NUCLEAR_FUSION",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "1",
+   "PrereqDistrict": ""
+  },
+  {
+   "ProjectType": "PROJECT_BUILD_NUCLEAR_DEVICE",
+   "Name": "建造核装置",
+   "Cost": "800",
+   "PrereqTech": "TECH_NUCLEAR_FISSION",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": ""
+  },
+  {
+   "ProjectType": "PROJECT_BUILD_THERMONUCLEAR_DEVICE",
+   "Name": "建造热核装置",
+   "Cost": "1000",
+   "PrereqTech": "TECH_NUCLEAR_FUSION",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": ""
+  },
+  {
+   "ProjectType": "PROJECT_CARNIVAL",
+   "Name": "狂欢节",
+   "Cost": "25",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": "DISTRICT_STREET_CARNIVAL"
+  },
+  {
+   "ProjectType": "PROJECT_ENHANCE_DISTRICT_ENCAMPMENT",
+   "Name": "军营训练",
+   "Cost": "25",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": "DISTRICT_ENCAMPMENT"
+  },
+  {
+   "ProjectType": "PROJECT_ENHANCE_DISTRICT_HARBOR",
+   "Name": "港口运输",
+   "Cost": "25",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": "DISTRICT_HARBOR"
+  },
+  {
+   "ProjectType": "PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE",
+   "Name": "工业区物流",
+   "Cost": "25",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": "DISTRICT_INDUSTRIAL_ZONE"
+  },
+  {
+   "ProjectType": "PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB",
+   "Name": "商业投资中心",
+   "Cost": "25",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": "DISTRICT_COMMERCIAL_HUB"
+  },
+  {
+   "ProjectType": "PROJECT_ENHANCE_DISTRICT_HOLY_SITE",
+   "Name": "圣地祷告者",
+   "Cost": "25",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": "DISTRICT_HOLY_SITE"
+  },
+  {
+   "ProjectType": "PROJECT_ENHANCE_DISTRICT_CAMPUS",
+   "Name": "学院研究补助金",
+   "Cost": "25",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": "DISTRICT_CAMPUS"
+  },
+  {
+   "ProjectType": "PROJECT_ENHANCE_DISTRICT_THEATER",
+   "Name": "剧院广场庆祝活动",
+   "Cost": "25",
+   "PrereqTech": "",
+   "PrereqCivic": "",
+   "MaxPlayerInstances": "",
+   "PrereqDistrict": "DISTRICT_THEATER"
+  }
+ ]
+}

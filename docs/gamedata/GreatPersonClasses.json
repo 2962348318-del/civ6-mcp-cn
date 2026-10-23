@@ -1,0 +1,46 @@
+{
+ "table": "GreatPersonClasses",
+ "desc": "伟人类别",
+ "columns": [
+  "GreatPersonClassType",
+  "Name"
+ ],
+ "rows": [
+  {
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_GENERAL",
+   "Name": "大将军"
+  },
+  {
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ADMIRAL",
+   "Name": "海军统帅"
+  },
+  {
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ENGINEER",
+   "Name": "大工程师"
+  },
+  {
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MERCHANT",
+   "Name": "大商人"
+  },
+  {
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_PROPHET",
+   "Name": "大预言家"
+  },
+  {
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_SCIENTIST",
+   "Name": "大科学家"
+  },
+  {
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_WRITER",
+   "Name": "大作家"
+  },
+  {
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_ARTIST",
+   "Name": "大艺术家"
+  },
+  {
+   "GreatPersonClassType": "GREAT_PERSON_CLASS_MUSICIAN",
+   "Name": "大音乐家"
+  }
+ ]
+}

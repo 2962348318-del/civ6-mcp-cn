@@ -1,0 +1,72 @@
+{
+ "table": "Governments",
+ "desc": "政体",
+ "columns": [
+  "GovernmentType",
+  "Name",
+  "PrereqCivic",
+  "BonusType"
+ ],
+ "rows": [
+  {
+   "GovernmentType": "GOVERNMENT_CHIEFDOM",
+   "Name": "酋邦",
+   "PrereqCivic": "",
+   "BonusType": "NO_GOVERNMENTBONUS"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_AUTOCRACY",
+   "Name": "独裁统治",
+   "PrereqCivic": "CIVIC_POLITICAL_PHILOSOPHY",
+   "BonusType": "GOVERNMENTBONUS_WONDER_CONSTRUCTION"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_OLIGARCHY",
+   "Name": "寡头政体",
+   "PrereqCivic": "CIVIC_POLITICAL_PHILOSOPHY",
+   "BonusType": "GOVERNMENTBONUS_COMBAT_EXPERIENCE"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_CLASSICAL_REPUBLIC",
+   "Name": "古典共和",
+   "PrereqCivic": "CIVIC_POLITICAL_PHILOSOPHY",
+   "BonusType": "GOVERNMENTBONUS_GREAT_PEOPLE"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MONARCHY",
+   "Name": "君主制",
+   "PrereqCivic": "CIVIC_DIVINE_RIGHT",
+   "BonusType": "GOVERNMENTBONUS_ENVOYS"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_THEOCRACY",
+   "Name": "神权政体",
+   "PrereqCivic": "CIVIC_REFORMED_CHURCH",
+   "BonusType": "GOVERNMENTBONUS_FAITH_PURCHASES"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_MERCHANT_REPUBLIC",
+   "Name": "商人共和国",
+   "PrereqCivic": "CIVIC_EXPLORATION",
+   "BonusType": "GOVERNMENTBONUS_GOLD_PURCHASES"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_FASCISM",
+   "Name": "法西斯主义",
+   "PrereqCivic": "CIVIC_TOTALITARIANISM",
+   "BonusType": "GOVERNMENTBONUS_UNIT_PRODUCTION"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_COMMUNISM",
+   "Name": "共产主义",
+   "PrereqCivic": "CIVIC_CLASS_STRUGGLE",
+   "BonusType": "GOVERNMENTBONUS_OVERALL_PRODUCTION"
+  },
+  {
+   "GovernmentType": "GOVERNMENT_DEMOCRACY",
+   "Name": "民主主义",
+   "PrereqCivic": "CIVIC_SUFFRAGE",
+   "BonusType": "GOVERNMENTBONUS_DISTRICT_PROJECTS"
+  }
+ ]
+}

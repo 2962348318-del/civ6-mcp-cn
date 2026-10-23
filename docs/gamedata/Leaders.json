@@ -1,0 +1,276 @@
+{
+ "table": "Leaders",
+ "desc": "领袖",
+ "columns": [
+  "LeaderType",
+  "Name",
+  "InheritFrom"
+ ],
+ "rows": [
+  {
+   "LeaderType": "LEADER_DEFAULT",
+   "Name": "",
+   "InheritFrom": ""
+  },
+  {
+   "LeaderType": "LEADER_BARBAROSSA",
+   "Name": "弗雷德里克·巴巴罗萨",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_CATHERINE_DE_MEDICI",
+   "Name": "凯瑟琳·德·美第奇",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_CLEOPATRA",
+   "Name": "克利欧佩特拉",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_GANDHI",
+   "Name": "甘地",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_GILGAMESH",
+   "Name": "吉尔伽美什",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_GORGO",
+   "Name": "戈尔戈",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_HARDRADA",
+   "Name": "哈拉尔德·哈德拉达",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_HOJO",
+   "Name": "北条时宗",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_MVEMBA",
+   "Name": "姆本巴·恩津加",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_PEDRO",
+   "Name": "佩德罗二世",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_PERICLES",
+   "Name": "伯里克利",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_PETER_GREAT",
+   "Name": "彼得",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_PHILIP_II",
+   "Name": "菲利普二世",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_QIN",
+   "Name": "秦始皇",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_SALADIN",
+   "Name": "萨拉丁",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_TOMYRIS",
+   "Name": "托米丽司",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_TRAJAN",
+   "Name": "图拉真",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_T_ROOSEVELT",
+   "Name": "泰迪·罗斯福",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_VICTORIA",
+   "Name": "维多利亚",
+   "InheritFrom": "LEADER_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_DEFAULT",
+   "Name": "",
+   "InheritFrom": ""
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_SCIENTIFIC",
+   "Name": "",
+   "InheritFrom": "LEADER_MINOR_CIV_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_RELIGIOUS",
+   "Name": "",
+   "InheritFrom": "LEADER_MINOR_CIV_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_TRADE",
+   "Name": "",
+   "InheritFrom": "LEADER_MINOR_CIV_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_CULTURAL",
+   "Name": "",
+   "InheritFrom": "LEADER_MINOR_CIV_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_MILITARISTIC",
+   "Name": "",
+   "InheritFrom": "LEADER_MINOR_CIV_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_INDUSTRIAL",
+   "Name": "",
+   "InheritFrom": "LEADER_MINOR_CIV_DEFAULT"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_AMSTERDAM",
+   "Name": "阿姆斯特丹",
+   "InheritFrom": "LEADER_MINOR_CIV_TRADE"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_BRUSSELS",
+   "Name": "布鲁塞尔",
+   "InheritFrom": "LEADER_MINOR_CIV_INDUSTRIAL"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_BUENOS_AIRES",
+   "Name": "布宜诺斯艾利斯",
+   "InheritFrom": "LEADER_MINOR_CIV_INDUSTRIAL"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_CARTHAGE",
+   "Name": "迦太基",
+   "InheritFrom": "LEADER_MINOR_CIV_MILITARISTIC"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_GENEVA",
+   "Name": "日内瓦",
+   "InheritFrom": "LEADER_MINOR_CIV_SCIENTIFIC"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_HATTUSA",
+   "Name": "哈图沙",
+   "InheritFrom": "LEADER_MINOR_CIV_SCIENTIFIC"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_HONG_KONG",
+   "Name": "香港",
+   "InheritFrom": "LEADER_MINOR_CIV_INDUSTRIAL"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_JAKARTA",
+   "Name": "斯里巴加湾",
+   "InheritFrom": "LEADER_MINOR_CIV_TRADE"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_JERUSALEM",
+   "Name": "耶路撒冷",
+   "InheritFrom": "LEADER_MINOR_CIV_RELIGIOUS"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_KABUL",
+   "Name": "喀布尔",
+   "InheritFrom": "LEADER_MINOR_CIV_MILITARISTIC"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_KANDY",
+   "Name": "康提",
+   "InheritFrom": "LEADER_MINOR_CIV_RELIGIOUS"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_KUMASI",
+   "Name": "库马西",
+   "InheritFrom": "LEADER_MINOR_CIV_CULTURAL"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_LA_VENTA",
+   "Name": "拉文塔",
+   "InheritFrom": "LEADER_MINOR_CIV_RELIGIOUS"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_LISBON",
+   "Name": "摩加迪沙",
+   "InheritFrom": "LEADER_MINOR_CIV_TRADE"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_MOHENJO_DARO",
+   "Name": "摩亨朱-达罗",
+   "InheritFrom": "LEADER_MINOR_CIV_CULTURAL"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_NAN_MADOL",
+   "Name": "南马都尔",
+   "InheritFrom": "LEADER_MINOR_CIV_CULTURAL"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_PRESLAV",
+   "Name": "普雷斯拉夫",
+   "InheritFrom": "LEADER_MINOR_CIV_MILITARISTIC"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_SEOUL",
+   "Name": "首尔",
+   "InheritFrom": "LEADER_MINOR_CIV_SCIENTIFIC"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_STOCKHOLM",
+   "Name": "斯德哥尔摩",
+   "InheritFrom": "LEADER_MINOR_CIV_SCIENTIFIC"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_TORONTO",
+   "Name": "多伦多",
+   "InheritFrom": "LEADER_MINOR_CIV_INDUSTRIAL"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_VALLETTA",
+   "Name": "瓦莱塔",
+   "InheritFrom": "LEADER_MINOR_CIV_MILITARISTIC"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_VILNIUS",
+   "Name": "维尔纽斯",
+   "InheritFrom": "LEADER_MINOR_CIV_CULTURAL"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_YEREVAN",
+   "Name": "埃里温",
+   "InheritFrom": "LEADER_MINOR_CIV_RELIGIOUS"
+  },
+  {
+   "LeaderType": "LEADER_MINOR_CIV_ZANZIBAR",
+   "Name": "桑给巴尔",
+   "InheritFrom": "LEADER_MINOR_CIV_TRADE"
+  },
+  {
+   "LeaderType": "LEADER_BARBARIAN",
+   "Name": "野蛮人",
+   "InheritFrom": ""
+  },
+  {
+   "LeaderType": "LEADER_MONTEZUMA",
+   "Name": "蒙特祖玛",
+   "InheritFrom": "LEADER_DEFAULT"
+  }
+ ]
+}

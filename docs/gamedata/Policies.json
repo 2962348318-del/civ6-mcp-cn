@@ -1,0 +1,734 @@
+{
+ "table": "Policies",
+ "desc": "全部政策卡",
+ "columns": [
+  "PolicyType",
+  "Name",
+  "PrereqCivic",
+  "GovernmentSlotType",
+  "RequiresGovernmentUnlock"
+ ],
+ "rows": [
+  {
+   "PolicyType": "POLICY_DISCIPLINE",
+   "Name": "纪律",
+   "PrereqCivic": "CIVIC_CODE_OF_LAWS",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_SURVEY",
+   "Name": "调查",
+   "PrereqCivic": "CIVIC_CODE_OF_LAWS",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_GOD_KING",
+   "Name": "君主崇拜",
+   "PrereqCivic": "CIVIC_CODE_OF_LAWS",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_URBAN_PLANNING",
+   "Name": "城市规划",
+   "PrereqCivic": "CIVIC_CODE_OF_LAWS",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_ILKUM",
+   "Name": "服役",
+   "PrereqCivic": "CIVIC_CRAFTSMANSHIP",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_AGOGE",
+   "Name": "斯巴达教育",
+   "PrereqCivic": "CIVIC_CRAFTSMANSHIP",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_CARAVANSARIES",
+   "Name": "商队旅馆",
+   "PrereqCivic": "CIVIC_FOREIGN_TRADE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MARITIME_INDUSTRIES",
+   "Name": "海运业",
+   "PrereqCivic": "CIVIC_FOREIGN_TRADE",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MANEUVER",
+   "Name": "演习",
+   "PrereqCivic": "CIVIC_MILITARY_TRADITION",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_STRATEGOS",
+   "Name": "将军",
+   "PrereqCivic": "CIVIC_MILITARY_TRADITION",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_CORVEE",
+   "Name": "强迫劳役",
+   "PrereqCivic": "CIVIC_STATE_WORKFORCE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_CONSCRIPTION",
+   "Name": "征兵",
+   "PrereqCivic": "CIVIC_STATE_WORKFORCE",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_LAND_SURVEYORS",
+   "Name": "土地测量员",
+   "PrereqCivic": "CIVIC_EARLY_EMPIRE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_COLONIZATION",
+   "Name": "殖民",
+   "PrereqCivic": "CIVIC_EARLY_EMPIRE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_INSPIRATION",
+   "Name": "鼓舞",
+   "PrereqCivic": "CIVIC_MYSTICISM",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_REVELATION",
+   "Name": "启示",
+   "PrereqCivic": "CIVIC_MYSTICISM",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_INSULAE",
+   "Name": "楼房",
+   "PrereqCivic": "CIVIC_GAMES_RECREATION",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_CHARISMATIC_LEADER",
+   "Name": "魅力型领袖",
+   "PrereqCivic": "CIVIC_POLITICAL_PHILOSOPHY",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_DIPLOMATIC_LEAGUE",
+   "Name": "外交联盟",
+   "PrereqCivic": "CIVIC_POLITICAL_PHILOSOPHY",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_LITERARY_TRADITION",
+   "Name": "文学传统",
+   "PrereqCivic": "CIVIC_DRAMA_POETRY",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_RAID",
+   "Name": "扫荡",
+   "PrereqCivic": "CIVIC_MILITARY_TRAINING",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_VETERANCY",
+   "Name": "经验",
+   "PrereqCivic": "CIVIC_MILITARY_TRAINING",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_BASTIONS",
+   "Name": "棱堡",
+   "PrereqCivic": "CIVIC_DEFENSIVE_TACTICS",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_LIMES",
+   "Name": "边界",
+   "PrereqCivic": "CIVIC_DEFENSIVE_TACTICS",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_NATURAL_PHILOSOPHY",
+   "Name": "自然哲学",
+   "PrereqCivic": "CIVIC_RECORDED_HISTORY",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_SCRIPTURE",
+   "Name": "经文",
+   "PrereqCivic": "CIVIC_THEOLOGY",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_NAVAL_INFRASTRUCTURE",
+   "Name": "海军基础设施",
+   "PrereqCivic": "CIVIC_NAVAL_TRADITION",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_NAVIGATION",
+   "Name": "航海",
+   "PrereqCivic": "CIVIC_NAVAL_TRADITION",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_FEUDAL_CONTRACT",
+   "Name": "封建契约",
+   "PrereqCivic": "CIVIC_FEUDALISM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_SERFDOM",
+   "Name": "农奴制",
+   "PrereqCivic": "CIVIC_FEUDALISM",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_RETAINERS",
+   "Name": "侍从",
+   "PrereqCivic": "CIVIC_CIVIL_SERVICE",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MERITOCRACY",
+   "Name": "精英政治",
+   "PrereqCivic": "CIVIC_CIVIL_SERVICE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_SACK",
+   "Name": "洗劫",
+   "PrereqCivic": "CIVIC_MERCENARIES",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_PROFESSIONAL_ARMY",
+   "Name": "职业军队",
+   "PrereqCivic": "CIVIC_MERCENARIES",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_TRADE_CONFEDERATION",
+   "Name": "贸易联盟",
+   "PrereqCivic": "CIVIC_MERCENARIES",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MERCHANT_CONFEDERATION",
+   "Name": "商人联盟",
+   "PrereqCivic": "CIVIC_MEDIEVAL_FAIRES",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_AESTHETICS",
+   "Name": "美学",
+   "PrereqCivic": "CIVIC_MEDIEVAL_FAIRES",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MEDINA_QUARTER",
+   "Name": "古老城区",
+   "PrereqCivic": "CIVIC_MEDIEVAL_FAIRES",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_CRAFTSMEN",
+   "Name": "工匠",
+   "PrereqCivic": "CIVIC_GUILDS",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_TOWN_CHARTERS",
+   "Name": "城镇特许状",
+   "PrereqCivic": "CIVIC_GUILDS",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_TRAVELING_MERCHANTS",
+   "Name": "旅行商人",
+   "PrereqCivic": "CIVIC_GUILDS",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_CHIVALRY",
+   "Name": "骑士精神",
+   "PrereqCivic": "CIVIC_DIVINE_RIGHT",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_GOTHIC_ARCHITECTURE",
+   "Name": "哥特式建筑",
+   "PrereqCivic": "CIVIC_DIVINE_RIGHT",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_PRESS_GANGS",
+   "Name": "强征入伍",
+   "PrereqCivic": "CIVIC_EXPLORATION",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_COLONIAL_OFFICES",
+   "Name": "殖民地办事处",
+   "PrereqCivic": "CIVIC_EXPLORATION",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_INVENTION",
+   "Name": "发明",
+   "PrereqCivic": "CIVIC_HUMANISM",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_FRESCOES",
+   "Name": "壁画",
+   "PrereqCivic": "CIVIC_HUMANISM",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MACHIAVELLIANISM",
+   "Name": "权术主义",
+   "PrereqCivic": "CIVIC_DIPLOMATIC_SERVICE",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_WARS_OF_RELIGION",
+   "Name": "宗教战争",
+   "PrereqCivic": "CIVIC_REFORMED_CHURCH",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_RELIGIOUS_ORDERS",
+   "Name": "宗教教派",
+   "PrereqCivic": "CIVIC_REFORMED_CHURCH",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_SIMULTANEUM",
+   "Name": "共享教堂",
+   "PrereqCivic": "CIVIC_REFORMED_CHURCH",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_LOGISTICS",
+   "Name": "后勤",
+   "PrereqCivic": "CIVIC_MERCANTILISM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_TRIANGULAR_TRADE",
+   "Name": "三角贸易",
+   "PrereqCivic": "CIVIC_MERCANTILISM",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_RATIONALISM",
+   "Name": "理性主义",
+   "PrereqCivic": "CIVIC_THE_ENLIGHTENMENT",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_FREE_MARKET",
+   "Name": "自由市场",
+   "PrereqCivic": "CIVIC_THE_ENLIGHTENMENT",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_LIBERALISM",
+   "Name": "自由主义",
+   "PrereqCivic": "CIVIC_THE_ENLIGHTENMENT",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_NATIVE_CONQUEST",
+   "Name": "本土征服",
+   "PrereqCivic": "CIVIC_COLONIALISM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_COLONIAL_TAXES",
+   "Name": "殖民地税收",
+   "PrereqCivic": "CIVIC_COLONIALISM",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_RAJ",
+   "Name": "统治",
+   "PrereqCivic": "CIVIC_COLONIALISM",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_PUBLIC_WORKS",
+   "Name": "公共工程",
+   "PrereqCivic": "CIVIC_CIVIL_ENGINEERING",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_SKYSCRAPERS",
+   "Name": "摩天大楼",
+   "PrereqCivic": "CIVIC_CIVIL_ENGINEERING",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_GRANDE_ARMEE",
+   "Name": "大军团",
+   "PrereqCivic": "CIVIC_NATIONALISM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_NATIONAL_IDENTITY",
+   "Name": "国家认同",
+   "PrereqCivic": "CIVIC_NATIONALISM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_GRAND_OPERA",
+   "Name": "大歌剧",
+   "PrereqCivic": "CIVIC_OPERA_BALLET",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_SYMPHONIES",
+   "Name": "交响曲",
+   "PrereqCivic": "CIVIC_OPERA_BALLET",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_PUBLIC_TRANSPORT",
+   "Name": "公共交通",
+   "PrereqCivic": "CIVIC_URBANIZATION",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_TOTAL_WAR",
+   "Name": "全面战争",
+   "PrereqCivic": "CIVIC_SCORCHED_EARTH",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_EXPROPRIATION",
+   "Name": "征收",
+   "PrereqCivic": "CIVIC_SCORCHED_EARTH",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MILITARY_ORGANIZATION",
+   "Name": "军事组织",
+   "PrereqCivic": "CIVIC_SCORCHED_EARTH",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MILITARY_RESEARCH",
+   "Name": "军事研究",
+   "PrereqCivic": "CIVIC_URBANIZATION",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_RESOURCE_MANAGEMENT",
+   "Name": "资源管理",
+   "PrereqCivic": "CIVIC_CONSERVATION",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_PROPAGANDA",
+   "Name": "宣传机构",
+   "PrereqCivic": "CIVIC_MASS_MEDIA",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_LEVEE_EN_MASSE",
+   "Name": "全民动员",
+   "PrereqCivic": "CIVIC_MOBILIZATION",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_LAISSEZ_FAIRE",
+   "Name": "不干涉主义",
+   "PrereqCivic": "CIVIC_CAPITALISM",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MARKET_ECONOMY",
+   "Name": "市场经济",
+   "PrereqCivic": "CIVIC_CAPITALISM",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_NOBEL_PRIZE",
+   "Name": "诺贝尔奖",
+   "PrereqCivic": "CIVIC_NUCLEAR_PROGRAM",
+   "GovernmentSlotType": "SLOT_GREAT_PERSON",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_NUCLEAR_ESPIONAGE",
+   "Name": "核间谍",
+   "PrereqCivic": "CIVIC_NUCLEAR_PROGRAM",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_POLICE_STATE",
+   "Name": "警察国度",
+   "PrereqCivic": "CIVIC_IDEOLOGY",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_ECONOMIC_UNION",
+   "Name": "经济同盟",
+   "PrereqCivic": "CIVIC_SUFFRAGE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_FINEST_HOUR",
+   "Name": "光荣时刻",
+   "PrereqCivic": "CIVIC_SUFFRAGE",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_ARSENAL_OF_DEMOCRACY",
+   "Name": "民主军械库",
+   "PrereqCivic": "CIVIC_SUFFRAGE",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_NEW_DEAL",
+   "Name": "新政",
+   "PrereqCivic": "CIVIC_SUFFRAGE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_LIGHTNING_WARFARE",
+   "Name": "闪电战",
+   "PrereqCivic": "CIVIC_TOTALITARIANISM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_THIRD_ALTERNATIVE",
+   "Name": "第三选择",
+   "PrereqCivic": "CIVIC_TOTALITARIANISM",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MARTIAL_LAW",
+   "Name": "军事管制",
+   "PrereqCivic": "CIVIC_TOTALITARIANISM",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_GUNBOAT_DIPLOMACY",
+   "Name": "炮舰外交",
+   "PrereqCivic": "CIVIC_TOTALITARIANISM",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_FIVE_YEAR_PLAN",
+   "Name": "五年计划",
+   "PrereqCivic": "CIVIC_CLASS_STRUGGLE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_COLLECTIVIZATION",
+   "Name": "集体化",
+   "PrereqCivic": "CIVIC_CLASS_STRUGGLE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_PATRIOTIC_WAR",
+   "Name": "卫国战争",
+   "PrereqCivic": "CIVIC_CLASS_STRUGGLE",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_DEFENSE_OF_MOTHERLAND",
+   "Name": "保卫祖国",
+   "PrereqCivic": "CIVIC_CLASS_STRUGGLE",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_CRYPTOGRAPHY",
+   "Name": "密码学",
+   "PrereqCivic": "CIVIC_COLD_WAR",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_INTERNATIONAL_WATERS",
+   "Name": "公海",
+   "PrereqCivic": "CIVIC_COLD_WAR",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_CONTAINMENT",
+   "Name": "遏制",
+   "PrereqCivic": "CIVIC_COLD_WAR",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_HERITAGE_TOURISM",
+   "Name": "遗产旅游",
+   "PrereqCivic": "CIVIC_CULTURAL_HERITAGE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_SPORTS_MEDIA",
+   "Name": "体育传媒",
+   "PrereqCivic": "CIVIC_PROFESSIONAL_SPORTS",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_MILITARY_FIRST",
+   "Name": "先军政策",
+   "PrereqCivic": "CIVIC_RAPID_DEPLOYMENT",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_SATELLITE_BROADCASTS",
+   "Name": "卫星广播",
+   "PrereqCivic": "CIVIC_SPACE_RACE",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_INTEGRATED_SPACE_CELL",
+   "Name": "一体化空间机构",
+   "PrereqCivic": "CIVIC_SPACE_RACE",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_STRATEGIC_AIR_FORCE",
+   "Name": "战略空军",
+   "PrereqCivic": "CIVIC_GLOBALIZATION",
+   "GovernmentSlotType": "SLOT_MILITARY",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_ECOMMERCE",
+   "Name": "电子商务",
+   "PrereqCivic": "CIVIC_GLOBALIZATION",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_INTERNATIONAL_SPACE_AGENCY",
+   "Name": "国际宇航局",
+   "PrereqCivic": "CIVIC_GLOBALIZATION",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_ONLINE_COMMUNITIES",
+   "Name": "在线社区",
+   "PrereqCivic": "CIVIC_SOCIAL_MEDIA",
+   "GovernmentSlotType": "SLOT_ECONOMIC",
+   "RequiresGovernmentUnlock": ""
+  },
+  {
+   "PolicyType": "POLICY_COLLECTIVE_ACTIVISM",
+   "Name": "集体行动主义",
+   "PrereqCivic": "CIVIC_SOCIAL_MEDIA",
+   "GovernmentSlotType": "SLOT_DIPLOMATIC",
+   "RequiresGovernmentUnlock": ""
+  }
+ ]
+}

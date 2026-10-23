@@ -1,0 +1,958 @@
+{
+ "table": "UnitPromotions",
+ "desc": "单位晋升树",
+ "columns": [
+  "UnitPromotionType",
+  "Name",
+  "PromotionClass",
+  "Level",
+  "Column",
+  "Description"
+ ],
+ "rows": [
+  {
+   "UnitPromotionType": "PROMOTION_RANGER",
+   "Name": "游骑兵",
+   "PromotionClass": "PROMOTION_CLASS_RECON",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_RANGER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ALPINE",
+   "Name": "高山",
+   "PromotionClass": "PROMOTION_CLASS_RECON",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_ALPINE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SENTRY",
+   "Name": "哨兵",
+   "PromotionClass": "PROMOTION_CLASS_RECON",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_SENTRY_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_GUERRILLA",
+   "Name": "游击队",
+   "PromotionClass": "PROMOTION_CLASS_RECON",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_GUERRILLA_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPYGLASS",
+   "Name": "望远镜",
+   "PromotionClass": "PROMOTION_CLASS_RECON",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_SPYGLASS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_AMBUSH",
+   "Name": "埋伏",
+   "PromotionClass": "PROMOTION_CLASS_RECON",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_AMBUSH_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_CAMOUFLAGE",
+   "Name": "伪装",
+   "PromotionClass": "PROMOTION_CLASS_RECON",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_CAMOUFLAGE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_BATTLECRY",
+   "Name": "战嚎",
+   "PromotionClass": "PROMOTION_CLASS_MELEE",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_BATTLECRY_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_TORTOISE",
+   "Name": "龟形盾",
+   "PromotionClass": "PROMOTION_CLASS_MELEE",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_TORTOISE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_COMMANDO",
+   "Name": "突击队",
+   "PromotionClass": "PROMOTION_CLASS_MELEE",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_COMMANDO_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_AMPHIBIOUS",
+   "Name": "水陆两栖",
+   "PromotionClass": "PROMOTION_CLASS_MELEE",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_AMPHIBIOUS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ZWEIHANDER",
+   "Name": "双手剑",
+   "PromotionClass": "PROMOTION_CLASS_MELEE",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_ZWEIHANDER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_URBAN_WARFARE",
+   "Name": "城镇战",
+   "PromotionClass": "PROMOTION_CLASS_MELEE",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_URBAN_WARFARE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ELITE_GUARD",
+   "Name": "精英卫队",
+   "PromotionClass": "PROMOTION_CLASS_MELEE",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_ELITE_GUARD_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_VOLLEY",
+   "Name": "齐射",
+   "PromotionClass": "PROMOTION_CLASS_RANGED",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_VOLLEY_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_GARRISON",
+   "Name": "驻军",
+   "PromotionClass": "PROMOTION_CLASS_RANGED",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_GARRISON_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ARROW_STORM",
+   "Name": "风暴之箭",
+   "PromotionClass": "PROMOTION_CLASS_RANGED",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_ARROW_STORM_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_INCENDIARIES",
+   "Name": "燃烧弹",
+   "PromotionClass": "PROMOTION_CLASS_RANGED",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_INCENDIARIES_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SUPPRESSION",
+   "Name": "压制",
+   "PromotionClass": "PROMOTION_CLASS_RANGED",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_SUPPRESSION_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_EMPLACEMENT",
+   "Name": "炮台",
+   "PromotionClass": "PROMOTION_CLASS_RANGED",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_EMPLACEMENT_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_EXPERT_MARKSMAN",
+   "Name": "神枪手",
+   "PromotionClass": "PROMOTION_CLASS_RANGED",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_EXPERT_MARKSMAN_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_GRAPE_SHOT",
+   "Name": "霰弹",
+   "PromotionClass": "PROMOTION_CLASS_SIEGE",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_GRAPE_SHOT_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_CREW_WEAPONS",
+   "Name": "重武器",
+   "PromotionClass": "PROMOTION_CLASS_SIEGE",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_CREW_WEAPONS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SHRAPNEL",
+   "Name": "榴霰弹",
+   "PromotionClass": "PROMOTION_CLASS_SIEGE",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_SHRAPNEL_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SHELLS",
+   "Name": "炮弹",
+   "PromotionClass": "PROMOTION_CLASS_SIEGE",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_SHELLS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ADVANCED_RANGEFINDING",
+   "Name": "先进测距",
+   "PromotionClass": "PROMOTION_CLASS_SIEGE",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_ADVANCED_RANGEFINDING_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_EXPERT_CREW",
+   "Name": "专家组",
+   "PromotionClass": "PROMOTION_CLASS_SIEGE",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_EXPERT_CREW_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_FORWARD_OBSERVERS",
+   "Name": "前方观察员",
+   "PromotionClass": "PROMOTION_CLASS_SIEGE",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_FORWARD_OBSERVERS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ECHELON",
+   "Name": "梯队",
+   "PromotionClass": "PROMOTION_CLASS_ANTI_CAVALRY",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_ECHELON_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_THRUST",
+   "Name": "突袭",
+   "PromotionClass": "PROMOTION_CLASS_ANTI_CAVALRY",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_THRUST_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SQUARE",
+   "Name": "方阵",
+   "PromotionClass": "PROMOTION_CLASS_ANTI_CAVALRY",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_SQUARE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SCHILTRON",
+   "Name": "长矛阵",
+   "PromotionClass": "PROMOTION_CLASS_ANTI_CAVALRY",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_SCHILTRON_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_REDEPLOY",
+   "Name": "重新部署",
+   "PromotionClass": "PROMOTION_CLASS_ANTI_CAVALRY",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_REDEPLOY_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_CHOKE_POINTS",
+   "Name": "咽喉要道",
+   "PromotionClass": "PROMOTION_CLASS_ANTI_CAVALRY",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_CHOKE_POINTS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_HOLD_THE_LINE",
+   "Name": "压阵",
+   "PromotionClass": "PROMOTION_CLASS_ANTI_CAVALRY",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_HOLD_THE_LINE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_CAPARISON",
+   "Name": "马衣",
+   "PromotionClass": "PROMOTION_CLASS_LIGHT_CAVALRY",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_CAPARISON_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_COURSERS",
+   "Name": "追猎者",
+   "PromotionClass": "PROMOTION_CLASS_LIGHT_CAVALRY",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_COURSERS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_DEPREDATION",
+   "Name": "掠夺",
+   "PromotionClass": "PROMOTION_CLASS_LIGHT_CAVALRY",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_DEPREDATION_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_DOUBLE_ENVELOPMENT",
+   "Name": "两翼包围",
+   "PromotionClass": "PROMOTION_CLASS_LIGHT_CAVALRY",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_DOUBLE_ENVELOPMENT_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPIKING_THE_GUNS",
+   "Name": "火药失效",
+   "PromotionClass": "PROMOTION_CLASS_LIGHT_CAVALRY",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_SPIKING_THE_GUNS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_PURSUIT",
+   "Name": "追击",
+   "PromotionClass": "PROMOTION_CLASS_LIGHT_CAVALRY",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_PURSUIT_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ESCORT_MOBILITY",
+   "Name": "护卫队机动性",
+   "PromotionClass": "PROMOTION_CLASS_LIGHT_CAVALRY",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_ESCORT_MOBILITY_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_CHARGE",
+   "Name": "冲锋",
+   "PromotionClass": "PROMOTION_CLASS_HEAVY_CAVALRY",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_CHARGE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_BARDING",
+   "Name": "战马铠甲",
+   "PromotionClass": "PROMOTION_CLASS_HEAVY_CAVALRY",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_BARDING_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_MARAUDING",
+   "Name": "抢劫",
+   "PromotionClass": "PROMOTION_CLASS_HEAVY_CAVALRY",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_MARAUDING_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ROUT",
+   "Name": "击溃",
+   "PromotionClass": "PROMOTION_CLASS_HEAVY_CAVALRY",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_ROUT_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ARMOR_PIERCING",
+   "Name": "穿透护甲",
+   "PromotionClass": "PROMOTION_CLASS_HEAVY_CAVALRY",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_ARMOR_PIERCING_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_REACTIVE_ARMOR",
+   "Name": "反应装甲",
+   "PromotionClass": "PROMOTION_CLASS_HEAVY_CAVALRY",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_REACTIVE_ARMOR_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_BREAKTHROUGH",
+   "Name": "突破",
+   "PromotionClass": "PROMOTION_CLASS_HEAVY_CAVALRY",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_BREAKTHROUGH_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_DOGFIGHTING",
+   "Name": "空中缠斗",
+   "PromotionClass": "PROMOTION_CLASS_AIR_FIGHTER",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_DOGFIGHTING_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_COCKPIT_ARMOR",
+   "Name": "座舱护甲",
+   "PromotionClass": "PROMOTION_CLASS_AIR_FIGHTER",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_COCKPIT_ARMOR_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_INTERCEPTOR",
+   "Name": "拦截机",
+   "PromotionClass": "PROMOTION_CLASS_AIR_FIGHTER",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_INTERCEPTOR_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_STRAFE",
+   "Name": "扫射",
+   "PromotionClass": "PROMOTION_CLASS_AIR_FIGHTER",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_STRAFE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_GROUND_CREWS",
+   "Name": "地勤人员",
+   "PromotionClass": "PROMOTION_CLASS_AIR_FIGHTER",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_GROUND_CREWS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_TANK_BUSTER",
+   "Name": "坦克克星",
+   "PromotionClass": "PROMOTION_CLASS_AIR_FIGHTER",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_TANK_BUSTER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_DROP_TANKS",
+   "Name": "副油箱",
+   "PromotionClass": "PROMOTION_CLASS_AIR_FIGHTER",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_DROP_TANKS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_BOX_FORMATION",
+   "Name": "方阵形式",
+   "PromotionClass": "PROMOTION_CLASS_AIR_BOMBER",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_BOX_FORMATION_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_EVASIVE_MANEUVERS",
+   "Name": "机动规避",
+   "PromotionClass": "PROMOTION_CLASS_AIR_BOMBER",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_EVASIVE_MANEUVERS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_TORPEDO_BOMBER",
+   "Name": "鱼雷轰炸机",
+   "PromotionClass": "PROMOTION_CLASS_AIR_BOMBER",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_TORPEDO_BOMBER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_CLOSE_AIR_SUPPORT",
+   "Name": "近距空中支援",
+   "PromotionClass": "PROMOTION_CLASS_AIR_BOMBER",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_CLOSE_AIR_SUPPORT_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_TACTICAL_MAINTENANCE",
+   "Name": "战术维护",
+   "PromotionClass": "PROMOTION_CLASS_AIR_BOMBER",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_TACTICAL_MAINTENANCE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_LONG_RANGE",
+   "Name": "远程",
+   "PromotionClass": "PROMOTION_CLASS_AIR_BOMBER",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_LONG_RANGE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SUPERFORTRESS",
+   "Name": "超级堡垒",
+   "PromotionClass": "PROMOTION_CLASS_AIR_BOMBER",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_SUPERFORTRESS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_EMBOLON",
+   "Name": "楔形阵",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_MELEE",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_EMBOLON_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_HELMSMAN",
+   "Name": "舵手",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_MELEE",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_HELMSMAN_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_REINFORCED_HULL",
+   "Name": "加固船壳",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_MELEE",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_REINFORCED_HULL_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_RUTTER",
+   "Name": "航线海图",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_MELEE",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_RUTTER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_AUXILIARY_SHIPS",
+   "Name": "辅助船",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_MELEE",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_AUXILIARY_SHIPS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_CONVOY",
+   "Name": "护航队",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_MELEE",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_CONVOY_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_CREEPING_ATTACK",
+   "Name": "匍匐攻击",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_MELEE",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_CREEPING_ATTACK_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_LINE_OF_BATTLE",
+   "Name": "战斗队形",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RANGED",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_LINE_OF_BATTLE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_BOMBARDMENT",
+   "Name": "轰炸",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RANGED",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_BOMBARDMENT_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_PREPARATORY_FIRE",
+   "Name": "火力准备",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RANGED",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_PREPARATORY_FIRE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ROLLING_BARRAGE",
+   "Name": "徐进弹",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RANGED",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_ROLLING_BARRAGE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SUPPLY_FLEET",
+   "Name": "船舰补给",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RANGED",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_SUPPLY_FLEET_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_PROXIMITY_FUSES",
+   "Name": "近爆引管",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RANGED",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_PROXIMITY_FUSES_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_COINCIDENCE_RANGEFINDING",
+   "Name": "测距一致",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RANGED",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_COINCIDENCE_RANGEFINDING_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_FLIGHT_DECK",
+   "Name": "飞行甲板",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_CARRIER",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_HANGAR_DECK",
+   "Name": "机库甲板",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_CARRIER",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_HANGAR_DECK_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_FOLDING_WINGS",
+   "Name": "折翼",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_CARRIER",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SCOUT_PLANES",
+   "Name": "侦察飞机",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_CARRIER",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_SCOUT_PLANES_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ADVANCED_ENGINES",
+   "Name": "先进发动机",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_CARRIER",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_ADVANCED_ENGINES_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_DECK_CREWS",
+   "Name": "甲板专员",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_CARRIER",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_DECK_CREWS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SUPER_CARRIER",
+   "Name": "超级航空母舰",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_CARRIER",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_SUPER_CARRIER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_LOOT",
+   "Name": "掠夺",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RAIDER",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_LOOT_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_BOARDING",
+   "Name": "登船",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RAIDER",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_BOARDING_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SWIFT_KEEL",
+   "Name": "龙骨改良",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RAIDER",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_SWIFT_KEEL_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_HOMING_TORPEDOES",
+   "Name": "自导鱼雷",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RAIDER",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_HOMING_TORPEDOES_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_OBSERVATION",
+   "Name": "观察",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RAIDER",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_OBSERVATION_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SILENT_RUNNING",
+   "Name": "无声运行",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RAIDER",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_SILENT_RUNNING_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_WOLFPACK",
+   "Name": "狼群战术",
+   "PromotionClass": "PROMOTION_CLASS_NAVAL_RAIDER",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_WOLFPACK_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_ORATOR",
+   "Name": "演说者",
+   "PromotionClass": "PROMOTION_CLASS_APOSTLE",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_ORATOR_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_PROSELYTIZER",
+   "Name": "劝导者",
+   "PromotionClass": "PROMOTION_CLASS_APOSTLE",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_PROSELYTIZER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_TRANSLATOR",
+   "Name": "翻译员",
+   "PromotionClass": "PROMOTION_CLASS_APOSTLE",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_TRANSLATOR_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_PILGRIM",
+   "Name": "朝圣者",
+   "PromotionClass": "PROMOTION_CLASS_APOSTLE",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_PILGRIM_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_INDULGENCE_VENDOR",
+   "Name": "赎罪卷小贩",
+   "PromotionClass": "PROMOTION_CLASS_APOSTLE",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_INDULGENCE_VENDOR_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_HEATHEN_CONVERSION",
+   "Name": "异教徒信仰转变",
+   "PromotionClass": "PROMOTION_CLASS_APOSTLE",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_HEATHEN_CONVERSION_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_DEBATER",
+   "Name": "辩论者",
+   "PromotionClass": "PROMOTION_CLASS_APOSTLE",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_DEBATER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_MARTYR",
+   "Name": "殉道者",
+   "PromotionClass": "PROMOTION_CLASS_APOSTLE",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_MARTYR_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_CHAPLAIN",
+   "Name": "牧师",
+   "PromotionClass": "PROMOTION_CLASS_APOSTLE",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_CHAPLAIN_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_MONK_SHADOW_STRIKE",
+   "Name": "无影拳",
+   "PromotionClass": "PROMOTION_CLASS_MONK",
+   "Level": "1",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_MONK_SHADOW_STRIKE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_MONK_TWILIGHT_VEIL",
+   "Name": "迷魂幕",
+   "PromotionClass": "PROMOTION_CLASS_MONK",
+   "Level": "1",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_MONK_TWILIGHT_VEIL_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_MONK_EXPLODING_PALMS",
+   "Name": "穿心掌",
+   "PromotionClass": "PROMOTION_CLASS_MONK",
+   "Level": "2",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_MONK_EXPLODING_PALMS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_MONK_DISCIPLES",
+   "Name": "弟子",
+   "PromotionClass": "PROMOTION_CLASS_MONK",
+   "Level": "2",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_MONK_DISCIPLES_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_MONK_SWEEPING_WIND",
+   "Name": "风舞拳",
+   "PromotionClass": "PROMOTION_CLASS_MONK",
+   "Level": "3",
+   "Column": "1",
+   "Description": "LOC_PROMOTION_MONK_SWEEPING_WIND_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_MONK_DANCING_CRANE",
+   "Name": "白鹤拳",
+   "PromotionClass": "PROMOTION_CLASS_MONK",
+   "Level": "3",
+   "Column": "3",
+   "Description": "LOC_PROMOTION_MONK_DANCING_CRANE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_MONK_COBRA_STRIKE",
+   "Name": "蛇形拳",
+   "PromotionClass": "PROMOTION_CLASS_MONK",
+   "Level": "4",
+   "Column": "2",
+   "Description": "LOC_PROMOTION_MONK_COBRA_STRIKE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_TECHNOLOGIST",
+   "Name": "技术专家",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_TECHNOLOGIST_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_CAT_BURGLAR",
+   "Name": "飞贼",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_CAT_BURGLAR_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_DEMOLITIONS",
+   "Name": "爆破兵",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_DEMOLITIONS_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_CON_ARTIST",
+   "Name": "骗子",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_CON_ARTIST_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_GUERILLA_LEADER",
+   "Name": "游击队领袖",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_GUERILLA_LEADER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_ROCKET_SCIENTIST",
+   "Name": "火箭专家",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_ROCKET_SCIENTIST_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_SEDUCTION",
+   "Name": "诱惑",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_SEDUCTION_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_DISGUISE",
+   "Name": "掩饰",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_DISGUISE_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_LINGUIST",
+   "Name": "语言学家",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_LINGUIST_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_QUARTERMASTER",
+   "Name": "军需官",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_QUARTERMASTER_DESCRIPTION"
+  },
+  {
+   "UnitPromotionType": "PROMOTION_SPY_ACE_DRIVER",
+   "Name": "王牌驾驶员",
+   "PromotionClass": "PROMOTION_CLASS_SPY",
+   "Level": "1",
+   "Column": "0",
+   "Description": "LOC_PROMOTION_SPY_ACE_DRIVER_DESCRIPTION"
+  }
+ ]
+}

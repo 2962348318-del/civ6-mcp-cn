@@ -1,0 +1,51 @@
+{
+ "table": "Eras",
+ "desc": "时代",
+ "columns": [
+  "EraType",
+  "Name",
+  "ChronologyIndex"
+ ],
+ "rows": [
+  {
+   "EraType": "ERA_ANCIENT",
+   "Name": "远古时代",
+   "ChronologyIndex": "1"
+  },
+  {
+   "EraType": "ERA_CLASSICAL",
+   "Name": "古典时期",
+   "ChronologyIndex": "2"
+  },
+  {
+   "EraType": "ERA_MEDIEVAL",
+   "Name": "中世纪",
+   "ChronologyIndex": "3"
+  },
+  {
+   "EraType": "ERA_RENAISSANCE",
+   "Name": "文艺复兴时期",
+   "ChronologyIndex": "4"
+  },
+  {
+   "EraType": "ERA_INDUSTRIAL",
+   "Name": "工业时代",
+   "ChronologyIndex": "5"
+  },
+  {
+   "EraType": "ERA_MODERN",
+   "Name": "现代",
+   "ChronologyIndex": "6"
+  },
+  {
+   "EraType": "ERA_ATOMIC",
+   "Name": "原子能时代",
+   "ChronologyIndex": "7"
+  },
+  {
+   "EraType": "ERA_INFORMATION",
+   "Name": "信息时代",
+   "ChronologyIndex": "8"
+  }
+ ]
+}

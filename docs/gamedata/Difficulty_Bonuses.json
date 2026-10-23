@@ -1,0 +1,10 @@
+{
+ "table": "Difficulty_Bonuses",
+ "desc": "难度修正器挂载",
+ "columns": [
+  "DifficultyType",
+  "ModifierId"
+ ],
+ "missing": true,
+ "rows": []
+}

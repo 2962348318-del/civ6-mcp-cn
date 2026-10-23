@@ -1,0 +1,370 @@
+{
+ "table": "Civics",
+ "desc": "市政树节点",
+ "columns": [
+  "CivicType",
+  "Name",
+  "Cost",
+  "EraType",
+  "UITreeRow"
+ ],
+ "rows": [
+  {
+   "CivicType": "CIVIC_CODE_OF_LAWS",
+   "Name": "法典",
+   "Cost": "20",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "0"
+  },
+  {
+   "CivicType": "CIVIC_CRAFTSMANSHIP",
+   "Name": "技艺",
+   "Cost": "40",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "-2"
+  },
+  {
+   "CivicType": "CIVIC_FOREIGN_TRADE",
+   "Name": "对外贸易",
+   "Cost": "40",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "2"
+  },
+  {
+   "CivicType": "CIVIC_MILITARY_TRADITION",
+   "Name": "军事传统",
+   "Cost": "50",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "-3"
+  },
+  {
+   "CivicType": "CIVIC_STATE_WORKFORCE",
+   "Name": "国家劳动力",
+   "Cost": "70",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "0"
+  },
+  {
+   "CivicType": "CIVIC_EARLY_EMPIRE",
+   "Name": "帝国初期",
+   "Cost": "70",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "1"
+  },
+  {
+   "CivicType": "CIVIC_MYSTICISM",
+   "Name": "神秘主义",
+   "Cost": "50",
+   "EraType": "ERA_ANCIENT",
+   "UITreeRow": "3"
+  },
+  {
+   "CivicType": "CIVIC_GAMES_RECREATION",
+   "Name": "游戏和娱乐",
+   "Cost": "110",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "-2"
+  },
+  {
+   "CivicType": "CIVIC_POLITICAL_PHILOSOPHY",
+   "Name": "政治哲学",
+   "Cost": "110",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "0"
+  },
+  {
+   "CivicType": "CIVIC_DRAMA_POETRY",
+   "Name": "戏剧和诗歌",
+   "Cost": "110",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "2"
+  },
+  {
+   "CivicType": "CIVIC_MILITARY_TRAINING",
+   "Name": "军事训练",
+   "Cost": "120",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "-3"
+  },
+  {
+   "CivicType": "CIVIC_DEFENSIVE_TACTICS",
+   "Name": "防御战术",
+   "Cost": "175",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_RECORDED_HISTORY",
+   "Name": "历史记录",
+   "Cost": "175",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "1"
+  },
+  {
+   "CivicType": "CIVIC_THEOLOGY",
+   "Name": "神学",
+   "Cost": "120",
+   "EraType": "ERA_CLASSICAL",
+   "UITreeRow": "3"
+  },
+  {
+   "CivicType": "CIVIC_NAVAL_TRADITION",
+   "Name": "海军传统",
+   "Cost": "200",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "-2"
+  },
+  {
+   "CivicType": "CIVIC_FEUDALISM",
+   "Name": "封建主义",
+   "Cost": "275",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_CIVIL_SERVICE",
+   "Name": "行政部门",
+   "Cost": "275",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "1"
+  },
+  {
+   "CivicType": "CIVIC_MERCENARIES",
+   "Name": "雇佣兵",
+   "Cost": "290",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "-3"
+  },
+  {
+   "CivicType": "CIVIC_MEDIEVAL_FAIRES",
+   "Name": "中世纪集市",
+   "Cost": "385",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_GUILDS",
+   "Name": "公会",
+   "Cost": "385",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "1"
+  },
+  {
+   "CivicType": "CIVIC_DIVINE_RIGHT",
+   "Name": "王权神授",
+   "Cost": "290",
+   "EraType": "ERA_MEDIEVAL",
+   "UITreeRow": "3"
+  },
+  {
+   "CivicType": "CIVIC_EXPLORATION",
+   "Name": "探索",
+   "Cost": "400",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "-3"
+  },
+  {
+   "CivicType": "CIVIC_HUMANISM",
+   "Name": "人文主义",
+   "Cost": "540",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_DIPLOMATIC_SERVICE",
+   "Name": "外交部门",
+   "Cost": "540",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "1"
+  },
+  {
+   "CivicType": "CIVIC_REFORMED_CHURCH",
+   "Name": "归正会",
+   "Cost": "400",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "3"
+  },
+  {
+   "CivicType": "CIVIC_MERCANTILISM",
+   "Name": "重商主义",
+   "Cost": "655",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_THE_ENLIGHTENMENT",
+   "Name": "启蒙运动",
+   "Cost": "655",
+   "EraType": "ERA_RENAISSANCE",
+   "UITreeRow": "1"
+  },
+  {
+   "CivicType": "CIVIC_COLONIALISM",
+   "Name": "殖民主义",
+   "Cost": "725",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "-3"
+  },
+  {
+   "CivicType": "CIVIC_CIVIL_ENGINEERING",
+   "Name": "土木工程",
+   "Cost": "920",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_NATIONALISM",
+   "Name": "民族主义",
+   "Cost": "920",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "0"
+  },
+  {
+   "CivicType": "CIVIC_OPERA_BALLET",
+   "Name": "歌剧和芭蕾",
+   "Cost": "725",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "2"
+  },
+  {
+   "CivicType": "CIVIC_NATURAL_HISTORY",
+   "Name": "自然历史",
+   "Cost": "870",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "-3"
+  },
+  {
+   "CivicType": "CIVIC_SCORCHED_EARTH",
+   "Name": "焦土策略",
+   "Cost": "1060",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "2"
+  },
+  {
+   "CivicType": "CIVIC_URBANIZATION",
+   "Name": "城市化",
+   "Cost": "1060",
+   "EraType": "ERA_INDUSTRIAL",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_CONSERVATION",
+   "Name": "保护地球",
+   "Cost": "1255",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "-3"
+  },
+  {
+   "CivicType": "CIVIC_CAPITALISM",
+   "Name": "资本主义",
+   "Cost": "1560",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "-2"
+  },
+  {
+   "CivicType": "CIVIC_NUCLEAR_PROGRAM",
+   "Name": "核计划",
+   "Cost": "1715",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "-2"
+  },
+  {
+   "CivicType": "CIVIC_MASS_MEDIA",
+   "Name": "大众媒体",
+   "Cost": "1410",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_MOBILIZATION",
+   "Name": "动员",
+   "Cost": "1410",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "1"
+  },
+  {
+   "CivicType": "CIVIC_IDEOLOGY",
+   "Name": "意识形态",
+   "Cost": "660",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_SUFFRAGE",
+   "Name": "选举权",
+   "Cost": "1715",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "0"
+  },
+  {
+   "CivicType": "CIVIC_TOTALITARIANISM",
+   "Name": "极权主义",
+   "Cost": "1715",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "2"
+  },
+  {
+   "CivicType": "CIVIC_CLASS_STRUGGLE",
+   "Name": "阶级斗争",
+   "Cost": "1715",
+   "EraType": "ERA_MODERN",
+   "UITreeRow": "3"
+  },
+  {
+   "CivicType": "CIVIC_COLD_WAR",
+   "Name": "冷战",
+   "Cost": "2185",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_PROFESSIONAL_SPORTS",
+   "Name": "职业体育",
+   "Cost": "2185",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "2"
+  },
+  {
+   "CivicType": "CIVIC_CULTURAL_HERITAGE",
+   "Name": "文化遗产",
+   "Cost": "1955",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "-3"
+  },
+  {
+   "CivicType": "CIVIC_RAPID_DEPLOYMENT",
+   "Name": "紧急部署",
+   "Cost": "2415",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "-1"
+  },
+  {
+   "CivicType": "CIVIC_SPACE_RACE",
+   "Name": "太空竞赛",
+   "Cost": "2415",
+   "EraType": "ERA_ATOMIC",
+   "UITreeRow": "1"
+  },
+  {
+   "CivicType": "CIVIC_GLOBALIZATION",
+   "Name": "全球化",
+   "Cost": "2880",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "0"
+  },
+  {
+   "CivicType": "CIVIC_SOCIAL_MEDIA",
+   "Name": "社交媒体",
+   "Cost": "2880",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "2"
+  },
+  {
+   "CivicType": "CIVIC_FUTURE_CIVIC",
+   "Name": "未来市政",
+   "Cost": "3200",
+   "EraType": "ERA_INFORMATION",
+   "UITreeRow": "1"
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "table": "Features",
+ "desc": "地貌特征 — 移动力修正",
+ "columns": [
+  "FeatureType",
+  "Name",
+  "MovementChange",
+  "DefenseModifier",
+  "Impassable",
+  "NaturalWonder"
+ ],
+ "rows": [
+  {
+   "FeatureType": "FEATURE_FLOODPLAINS",
+   "Name": "泛滥平原",
+   "MovementChange": "0",
+   "DefenseModifier": "-2",
+   "Impassable": "false",
+   "NaturalWonder": "false"
+  },
+  {
+   "FeatureType": "FEATURE_ICE",
+   "Name": "冰",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "true",
+   "NaturalWonder": "false"
+  },
+  {
+   "FeatureType": "FEATURE_JUNGLE",
+   "Name": "雨林",
+   "MovementChange": "1",
+   "DefenseModifier": "3",
+   "Impassable": "false",
+   "NaturalWonder": "false"
+  },
+  {
+   "FeatureType": "FEATURE_FOREST",
+   "Name": "森林",
+   "MovementChange": "1",
+   "DefenseModifier": "3",
+   "Impassable": "false",
+   "NaturalWonder": "false"
+  },
+  {
+   "FeatureType": "FEATURE_OASIS",
+   "Name": "绿洲",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "false",
+   "NaturalWonder": "false"
+  },
+  {
+   "FeatureType": "FEATURE_MARSH",
+   "Name": "沼泽",
+   "MovementChange": "1",
+   "DefenseModifier": "-2",
+   "Impassable": "false",
+   "NaturalWonder": "false"
+  },
+  {
+   "FeatureType": "FEATURE_BARRIER_REEF",
+   "Name": "大堡礁",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "false",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_CLIFFS_DOVER",
+   "Name": "多佛白崖",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "false",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_CRATER_LAKE",
+   "Name": "火山口湖",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "false",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_DEAD_SEA",
+   "Name": "死海",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "false",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_EVEREST",
+   "Name": "珠穆朗玛峰",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "true",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_GALAPAGOS",
+   "Name": "加拉帕戈斯群岛",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "true",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_KILIMANJARO",
+   "Name": "乞力马扎罗山",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "true",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_PANTANAL",
+   "Name": "潘塔纳尔湿地",
+   "MovementChange": "1",
+   "DefenseModifier": "-2",
+   "Impassable": "false",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_PIOPIOTAHI",
+   "Name": "米尔福德峡湾",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "true",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_TORRES_DEL_PAINE",
+   "Name": "百内国家公园",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "true",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_TSINGY",
+   "Name": "贝马拉哈国家公园",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "true",
+   "NaturalWonder": "true"
+  },
+  {
+   "FeatureType": "FEATURE_YOSEMITE",
+   "Name": "约塞米蒂国家公园",
+   "MovementChange": "0",
+   "DefenseModifier": "0",
+   "Impassable": "true",
+   "NaturalWonder": "true"
+  }
+ ]
+}

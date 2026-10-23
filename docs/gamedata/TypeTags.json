@@ -1,0 +1,2510 @@
+{
+ "table": "TypeTags",
+ "desc": "类型标签 — 兵种克制判定依据",
+ "columns": [
+  "Type",
+  "Tag"
+ ],
+ "rows": [
+  {
+   "Type": "REQUIREMENT_PLAYER_HAS_GIVEN_INFLUENCE_TOKENS",
+   "Tag": "INFLUENCE_REQUIREMENT"
+  },
+  {
+   "Type": "REQUIREMENT_PLAYER_IS_SUZERAIN",
+   "Tag": "INFLUENCE_REQUIREMENT"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_ARCHIPELAGIC_STATE",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_AYYUBID_DYNASTY",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_BACKSTAB_AVERSE",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_BLACK_QUEEN",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_BULL_MOOSE",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_BUSHIDO",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_END_TO_SUFFERING",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_ENVIRONMENT",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_EXPLOITATIVE",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_LAST_VIKING_KING",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_MAGNIFICENCES",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_OPTIMUS_PRINCEPS",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_PARANOID",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_PERPETUALLY_ON_GUARD",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_QUEEN_OF_NILE",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_WITH_SHIELD_OR_ON_IT",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_AGENDA_ZEALOT",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_ARCHAEOLOGY",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_BROKEN_PROMISE",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_ESPIONAGE",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_GOVERNMENTS",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_INCURSION",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_KEPT_PROMISE",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_NEW_WARMONGER",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_NO_PROMISE",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_ONE_SIDED_TRADES",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_PEACEFUL",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_RANDOM",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_SETTLED_CITIES",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_THIRD_PARTY_EFFECTS",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_TRADE_RELATIONS",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "MODIFIER_PLAYER_DIPLOMACY_WARMONGER",
+   "Tag": "DIPLOMACY_MODIFIER"
+  },
+  {
+   "Type": "RESOURCE_BANANAS",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_BANANAS",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_BANANAS",
+   "Tag": "CLASS_ORAL_TRADITION"
+  },
+  {
+   "Type": "RESOURCE_CATTLE",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_COPPER",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_COPPER",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_CRABS",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_CRABS",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_CRABS",
+   "Tag": "CLASS_SEA"
+  },
+  {
+   "Type": "RESOURCE_DEER",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_DEER",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_FISH",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_FISH",
+   "Tag": "CLASS_SEA"
+  },
+  {
+   "Type": "RESOURCE_RICE",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_SHEEP",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_STONE",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_WHEAT",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_CITRUS",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_CITRUS",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_CITRUS",
+   "Tag": "CLASS_ORAL_TRADITION"
+  },
+  {
+   "Type": "RESOURCE_COCOA",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_COCOA",
+   "Tag": "CLASS_GODDESS_OF_FESTIVALS"
+  },
+  {
+   "Type": "RESOURCE_COFFEE",
+   "Tag": "CLASS_CULTURE"
+  },
+  {
+   "Type": "RESOURCE_COFFEE",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_COFFEE",
+   "Tag": "CLASS_GODDESS_OF_FESTIVALS"
+  },
+  {
+   "Type": "RESOURCE_COTTON",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_COTTON",
+   "Tag": "CLASS_ORAL_TRADITION"
+  },
+  {
+   "Type": "RESOURCE_DIAMONDS",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_DIAMONDS",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_DYES",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_DYES",
+   "Tag": "CLASS_ORAL_TRADITION"
+  },
+  {
+   "Type": "RESOURCE_FURS",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_FURS",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_GYPSUM",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_GYPSUM",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_INCENSE",
+   "Tag": "CLASS_CULTURE"
+  },
+  {
+   "Type": "RESOURCE_INCENSE",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_INCENSE",
+   "Tag": "CLASS_GODDESS_OF_FESTIVALS"
+  },
+  {
+   "Type": "RESOURCE_IVORY",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_IVORY",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_JADE",
+   "Tag": "CLASS_CULTURE"
+  },
+  {
+   "Type": "RESOURCE_JADE",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_MARBLE",
+   "Tag": "CLASS_CULTURE"
+  },
+  {
+   "Type": "RESOURCE_MARBLE",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_MERCURY",
+   "Tag": "CLASS_SCIENCE"
+  },
+  {
+   "Type": "RESOURCE_MERCURY",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_PEARLS",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_PEARLS",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_PEARLS",
+   "Tag": "CLASS_SEA"
+  },
+  {
+   "Type": "RESOURCE_SALT",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_SALT",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_SALT",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_SILK",
+   "Tag": "CLASS_CULTURE"
+  },
+  {
+   "Type": "RESOURCE_SILK",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_SILK",
+   "Tag": "CLASS_ORAL_TRADITION"
+  },
+  {
+   "Type": "RESOURCE_SILVER",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_SILVER",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_SPICES",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_SPICES",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_SPICES",
+   "Tag": "CLASS_ORAL_TRADITION"
+  },
+  {
+   "Type": "RESOURCE_SUGAR",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_SUGAR",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_SUGAR",
+   "Tag": "CLASS_ORAL_TRADITION"
+  },
+  {
+   "Type": "RESOURCE_TEA",
+   "Tag": "CLASS_SCIENCE"
+  },
+  {
+   "Type": "RESOURCE_TEA",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_TEA",
+   "Tag": "CLASS_GODDESS_OF_FESTIVALS"
+  },
+  {
+   "Type": "RESOURCE_TOBACCO",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_TOBACCO",
+   "Tag": "CLASS_GODDESS_OF_FESTIVALS"
+  },
+  {
+   "Type": "RESOURCE_TRUFFLES",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_WHALES",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_WHALES",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_WHALES",
+   "Tag": "CLASS_SEA"
+  },
+  {
+   "Type": "RESOURCE_WINE",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_WINE",
+   "Tag": "CLASS_GOLD"
+  },
+  {
+   "Type": "RESOURCE_WINE",
+   "Tag": "CLASS_GODDESS_OF_FESTIVALS"
+  },
+  {
+   "Type": "RESOURCE_ALUMINUM",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_ALUMINUM",
+   "Tag": "CLASS_SCIENCE"
+  },
+  {
+   "Type": "RESOURCE_COAL",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_HORSES",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_HORSES",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_IRON",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_IRON",
+   "Tag": "CLASS_SCIENCE"
+  },
+  {
+   "Type": "RESOURCE_NITER",
+   "Tag": "CLASS_FOOD"
+  },
+  {
+   "Type": "RESOURCE_NITER",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_OIL",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_URANIUM",
+   "Tag": "CLASS_PRODUCTION"
+  },
+  {
+   "Type": "RESOURCE_URANIUM",
+   "Tag": "CLASS_SCIENCE"
+  },
+  {
+   "Type": "ABILITY_ANTI_CAVALRY",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_HEAVY_CHARIOT",
+   "Tag": "CLASS_HEAVY_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_IGNORE_TERRAIN_COST",
+   "Tag": "CLASS_HELICOPTER"
+  },
+  {
+   "Type": "ABILITY_IGNORE_CROSSING_RIVERS_COST",
+   "Tag": "CLASS_HELICOPTER"
+  },
+  {
+   "Type": "ABILITY_ARCHAEOLOGIST_ENTER_FOREIGN_LANDS",
+   "Tag": "CLASS_ARCHAEOLOGIST"
+  },
+  {
+   "Type": "ABILITY_RELIGIOUS_ENTER_FOREIGN_LANDS",
+   "Tag": "CLASS_RELIGIOUS"
+  },
+  {
+   "Type": "ABILITY_RELIGIOUS_IGNORE_TERRAIN_COST",
+   "Tag": "CLASS_RELIGIOUS_ALL"
+  },
+  {
+   "Type": "ABILITY_IGNORE_ZOC",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_IGNORE_ZOC",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_IGNORE_ZOC",
+   "Tag": "CLASS_LONGSHIP"
+  },
+  {
+   "Type": "ABILITY_IGNORE_ZOC",
+   "Tag": "CLASS_WAR_CART"
+  },
+  {
+   "Type": "ABILITY_IGNORE_ZOC",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_IGNORE_ZOC",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_LIGHT_CHARIOT",
+   "Tag": "CLASS_LIGHT_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_NO_MOVE_AND_SHOOT",
+   "Tag": "CLASS_SIEGE_SETUP"
+  },
+  {
+   "Type": "ABILITY_ENABLE_WALL_ATTACK",
+   "Tag": "CLASS_BATTERING_RAM"
+  },
+  {
+   "Type": "ABILITY_BYPASS_WALLS",
+   "Tag": "CLASS_SIEGE_TOWER"
+  },
+  {
+   "Type": "ABILITY_ANTI_SPEAR",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_RECEIVE_RANGE_BONUS",
+   "Tag": "CLASS_FORWARD_OBSERVER"
+  },
+  {
+   "Type": "ABILITY_UNOBSTRUCTED_VIEW",
+   "Tag": "CLASS_OBSERVATION"
+  },
+  {
+   "Type": "ABILITY_UNOBSTRUCTED_VIEW",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_OBSERVATION_STRENGTH_BONUS",
+   "Tag": "CLASS_OBSERVATION"
+  },
+  {
+   "Type": "ABILITY_RELIGIOUS_CANNOT_ATTACK",
+   "Tag": "CLASS_MISSIONARY"
+  },
+  {
+   "Type": "ABILITY_FRIENDLY_TERRITORY_RELIGIOUS",
+   "Tag": "CLASS_INQUISITOR"
+  },
+  {
+   "Type": "ABILITY_NO_FOREIGN_SPREAD",
+   "Tag": "CLASS_INQUISITOR"
+  },
+  {
+   "Type": "ABILITY_OLIGARCHY_MELEE_BUFF",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_OLIGARCHY_MELEE_BUFF",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_OLIGARCHY_MELEE_BUFF",
+   "Tag": "CLASS_WARRIOR_MONK"
+  },
+  {
+   "Type": "ABILITY_THEOCRACY_RELIGIOUS_BUFF",
+   "Tag": "CLASS_RELIGIOUS"
+  },
+  {
+   "Type": "ABILITY_THEOCRACY_RELIGIOUS_BUFF",
+   "Tag": "CLASS_INQUISITOR"
+  },
+  {
+   "Type": "ABILITY_RELIGIOUS_ORDERS_BUFF",
+   "Tag": "CLASS_RELIGIOUS"
+  },
+  {
+   "Type": "ABILITY_RELIGIOUS_ORDERS_BUFF",
+   "Tag": "CLASS_INQUISITOR"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_HEAVY_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_LIGHT_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_FASCISM_ATTACK_BUFF",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_HEAVY_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_COMMUNISM_DEFENSE_BUFF",
+   "Tag": "CLASS_LIGHT_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_MEDIC_HEAL",
+   "Tag": "CLASS_MEDIC"
+  },
+  {
+   "Type": "ABILITY_STEALTH",
+   "Tag": "CLASS_STEALTH"
+  },
+  {
+   "Type": "ABILITY_SEE_HIDDEN",
+   "Tag": "CLASS_REVEAL_STEALTH"
+  },
+  {
+   "Type": "ABILITY_COASTAL_RAID",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_MELEE_COASTAL_RAID",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_BYPASS_COMBAT_UNIT",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_HEAL_NEUTRAL_TERRITORY",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA",
+   "Tag": "CLASS_TRADER"
+  },
+  {
+   "Type": "ABILITY_BERSERKER_RAGE",
+   "Tag": "CLASS_MELEE_BERSERKER"
+  },
+  {
+   "Type": "ABILITY_BERSERKER_MOVEMENT",
+   "Tag": "CLASS_MELEE_BERSERKER"
+  },
+  {
+   "Type": "ABILITY_LONGSHIP_MOVEMENT",
+   "Tag": "CLASS_LONGSHIP"
+  },
+  {
+   "Type": "ABILITY_PRIZE_SHIPS",
+   "Tag": "CLASS_CAPTURE_SHIPS"
+  },
+  {
+   "Type": "ABILITY_CAPTIVE_WORKERS",
+   "Tag": "CLASS_CAPTURE_WORKER"
+  },
+  {
+   "Type": "ABILITY_BALKAN_CAVALRY",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_BALKAN_CAVALRY",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_ALTITUDE_TRAINING",
+   "Tag": "CLASS_RELIGIOUS_ALL"
+  },
+  {
+   "Type": "ABILITY_COSSACK",
+   "Tag": "CLASS_COSSACK"
+  },
+  {
+   "Type": "ABILITY_REDCOAT",
+   "Tag": "CLASS_REDCOAT"
+  },
+  {
+   "Type": "ABILITY_VARU",
+   "Tag": "CLASS_VARU"
+  },
+  {
+   "Type": "ABILITY_NAGAO",
+   "Tag": "CLASS_NAGAO"
+  },
+  {
+   "Type": "ABILITY_CONQUISTADOR",
+   "Tag": "CLASS_CONQUISTADOR"
+  },
+  {
+   "Type": "ABILITY_GARDE",
+   "Tag": "CLASS_GARDE"
+  },
+  {
+   "Type": "ABILITY_HOPLITE",
+   "Tag": "CLASS_HOPLITE"
+  },
+  {
+   "Type": "ABILITY_UBOAT",
+   "Tag": "CLASS_UBOAT"
+  },
+  {
+   "Type": "ABILITY_ROUGH_RIDER",
+   "Tag": "CLASS_ROUGH_RIDER"
+  },
+  {
+   "Type": "ABILITY_MAMLUK",
+   "Tag": "CLASS_MAMLUK"
+  },
+  {
+   "Type": "ABILITY_SAMURAI",
+   "Tag": "CLASS_SAMURAI"
+  },
+  {
+   "Type": "ABILITY_MUSTANG",
+   "Tag": "CLASS_MUSTANG"
+  },
+  {
+   "Type": "ABILITY_PUSHBACK",
+   "Tag": "CLASS_PUSHBACK"
+  },
+  {
+   "Type": "ABILITY_DIGGER",
+   "Tag": "CLASS_DIGGER"
+  },
+  {
+   "Type": "ABILITY_GREAT_ADMIRAL_MOVEMENT",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_GREAT_ADMIRAL_MOVEMENT",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_GREAT_ADMIRAL_MOVEMENT",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_GREAT_ADMIRAL_MOVEMENT",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_GREAT_ADMIRAL_STRENGTH",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_GREAT_ADMIRAL_STRENGTH",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_GREAT_ADMIRAL_STRENGTH",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_GREAT_ADMIRAL_STRENGTH",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_HEAVY_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_LIGHT_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_MOVEMENT",
+   "Tag": "CLASS_WARRIOR_MONK"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_HEAVY_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_LIGHT_CHARIOT"
+  },
+  {
+   "Type": "ABILITY_GREAT_GENERAL_STRENGTH",
+   "Tag": "CLASS_WARRIOR_MONK"
+  },
+  {
+   "Type": "ABILITY_BARRACKS_TRAINED_UNIT_XP",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_BARRACKS_TRAINED_UNIT_XP",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_BARRACKS_TRAINED_UNIT_XP",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_STABLE_TRAINED_UNIT_XP",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_STABLE_TRAINED_UNIT_XP",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_STABLE_TRAINED_UNIT_XP",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_ARMORY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_ARMORY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_ARMORY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_ARMORY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_ARMORY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_ARMORY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_MILITARY_ACADEMY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_MILITARY_ACADEMY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_MILITARY_ACADEMY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_MILITARY_ACADEMY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_MILITARY_ACADEMY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_MILITARY_ACADEMY_TRAINED_UNIT_XP",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_LIGHTHOUSE_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_LIGHTHOUSE_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_LIGHTHOUSE_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_LIGHTHOUSE_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_SHIPYARD_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_SHIPYARD_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_SHIPYARD_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_SHIPYARD_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_SEAPORT_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_SEAPORT_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_SEAPORT_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_SEAPORT_TRAINED_UNIT_XP",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_HANGAR_TRAINED_AIRCRAFT_XP",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_AIRPORT_TRAINED_AIRCRAFT_XP",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_ROYAL_NAVY_DOCKYARD_MOVEMENT_BONUS",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_ROYAL_NAVY_DOCKYARD_MOVEMENT_BONUS",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_ROYAL_NAVY_DOCKYARD_MOVEMENT_BONUS",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_ROYAL_NAVY_DOCKYARD_MOVEMENT_BONUS",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_ROMAN_LEGION_BUILD",
+   "Tag": "CLASS_LEGION"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_MOVEMENT",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_MOVEMENT",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_MOVEMENT",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_MOVEMENT",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT",
+   "Tag": "CLASS_RELIGIOUS"
+  },
+  {
+   "Type": "ABILITY_RAJENDRA_CHOLA_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_RAJENDRA_CHOLA_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_RAJENDRA_CHOLA_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_RAJENDRA_CHOLA_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_FRANCIS_DRAKE_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_FRANCIS_DRAKE_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_FRANCIS_DRAKE_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_FRANCIS_DRAKE_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_CHING_SHIH_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_CHING_SHIH_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_CHING_SHIH_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_CHING_SHIH_PLUNDER_BONUS",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_CLANCY_FERNANDO_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_CLANCY_FERNANDO_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_CLANCY_FERNANDO_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_CLANCY_FERNANDO_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_HORATIO_NELSON_FLANKING_BONUS",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_HORATIO_NELSON_FLANKING_BONUS",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_HORATIO_NELSON_FLANKING_BONUS",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_HORATIO_NELSON_FLANKING_BONUS",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_LASKARINA_BOUBOULINA_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_LASKARINA_BOUBOULINA_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_LASKARINA_BOUBOULINA_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_LASKARINA_BOUBOULINA_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_SERGEY_GORSHKOV_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_SERGEY_GORSHKOV_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_SERGEY_GORSHKOV_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_SERGEY_GORSHKOV_BONUS_EXPERIENCE",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_JOHN_MONASH_BONUS_EXPERIENCE",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_JOHN_MONASH_BONUS_EXPERIENCE",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_JOHN_MONASH_BONUS_EXPERIENCE",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_JOHN_MONASH_BONUS_EXPERIENCE",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_JOHN_MONASH_BONUS_EXPERIENCE",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_JOHN_MONASH_BONUS_EXPERIENCE",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_JOHN_MONASH_BONUS_EXPERIENCE",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_SHALLOW_WATER_COMBAT_BONUS",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_SHALLOW_WATER_COMBAT_BONUS",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_SHALLOW_WATER_COMBAT_BONUS",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_HOJO_TOKIMUNE_SHALLOW_WATER_COMBAT_BONUS",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_RELIGIOUS_ALL"
+  },
+  {
+   "Type": "ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_KNARR_IGNORE_EMBARK_DISEMBARK_COST",
+   "Tag": "CLASS_ALL_COMBAT_UNITS"
+  },
+  {
+   "Type": "ABILITY_KNARR_IGNORE_EMBARK_DISEMBARK_COST",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "ABILITY_KNARR_IGNORE_EMBARK_DISEMBARK_COST",
+   "Tag": "CLASS_SUPPORT"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "ABILITY_RANGED_ATTACK_DISTRICT_DEBUFF",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "ABILITY_BOMBARD_ATTACK_UNIT_DEBUFF",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "ABILITY_AIR_FIGHTER_ATTACK_DISTRICT_DEBUFF",
+   "Tag": "CLASS_AIR_FIGHTER"
+  },
+  {
+   "Type": "ABILITY_AIR_BOMBER_ATTACK_UNIT_DEBUFF",
+   "Tag": "CLASS_AIR_BOMBER"
+  },
+  {
+   "Type": "ABILITY_ANTI_AIR_COVER",
+   "Tag": "CLASS_ANTI_AIR"
+  },
+  {
+   "Type": "UNIT_SETTLER",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_BUILDER",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_BUILDER",
+   "Tag": "CLASS_BUILDER"
+  },
+  {
+   "Type": "UNIT_MISSIONARY",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_APOSTLE",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_INQUISITOR",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_GURU",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_ARCHAEOLOGIST",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_GREAT_GENERAL",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_GREAT_MERCHANT",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_GREAT_SCIENTIST",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_GREAT_WRITER",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_GREAT_ARTIST",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_GREAT_MUSICIAN",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_MILITARY_ENGINEER",
+   "Tag": "CLASS_SUPPORT"
+  },
+  {
+   "Type": "UNIT_NATURALIST",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_BARBARIAN_HORSEMAN",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "UNIT_BARBARIAN_HORSE_ARCHER",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "UNIT_BARBARIAN_HORSE_ARCHER",
+   "Tag": "CLASS_MOBILE_RANGED"
+  },
+  {
+   "Type": "UNIT_SCOUT",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "UNIT_SCOUT",
+   "Tag": "CLASS_REVEAL_STEALTH"
+  },
+  {
+   "Type": "UNIT_RANGER",
+   "Tag": "CLASS_RECON"
+  },
+  {
+   "Type": "UNIT_RANGER",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "UNIT_RANGER",
+   "Tag": "CLASS_MOBILE_RANGED"
+  },
+  {
+   "Type": "UNIT_WARRIOR",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_SWORDSMAN",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_MAN_AT_ARMS",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_MUSKETMAN",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_LINE_INFANTRY",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_INFANTRY",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_MECHANIZED_INFANTRY",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_SLINGER",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "UNIT_ARCHER",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "UNIT_CROSSBOWMAN",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "UNIT_CHINESE_CROUCHING_TIGER",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "UNIT_FIELD_CANNON",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "UNIT_MACHINE_GUN",
+   "Tag": "CLASS_RANGED"
+  },
+  {
+   "Type": "UNIT_SPEARMAN",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "UNIT_PIKEMAN",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "UNIT_CATAPULT",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "UNIT_CATAPULT",
+   "Tag": "CLASS_SIEGE_SETUP"
+  },
+  {
+   "Type": "UNIT_CATAPULT",
+   "Tag": "CLASS_FORWARD_OBSERVER"
+  },
+  {
+   "Type": "UNIT_TREBUCHET",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "UNIT_TREBUCHET",
+   "Tag": "CLASS_SIEGE_SETUP"
+  },
+  {
+   "Type": "UNIT_TREBUCHET",
+   "Tag": "CLASS_FORWARD_OBSERVER"
+  },
+  {
+   "Type": "UNIT_BOMBARD",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "UNIT_BOMBARD",
+   "Tag": "CLASS_SIEGE_SETUP"
+  },
+  {
+   "Type": "UNIT_BOMBARD",
+   "Tag": "CLASS_FORWARD_OBSERVER"
+  },
+  {
+   "Type": "UNIT_ARTILLERY",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "UNIT_ARTILLERY",
+   "Tag": "CLASS_SIEGE_SETUP"
+  },
+  {
+   "Type": "UNIT_ARTILLERY",
+   "Tag": "CLASS_FORWARD_OBSERVER"
+  },
+  {
+   "Type": "UNIT_ROCKET_ARTILLERY",
+   "Tag": "CLASS_SIEGE"
+  },
+  {
+   "Type": "UNIT_ROCKET_ARTILLERY",
+   "Tag": "CLASS_SIEGE_SETUP"
+  },
+  {
+   "Type": "UNIT_ROCKET_ARTILLERY",
+   "Tag": "CLASS_FORWARD_OBSERVER"
+  },
+  {
+   "Type": "UNIT_HEAVY_CHARIOT",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "UNIT_HEAVY_CHARIOT",
+   "Tag": "CLASS_HEAVY_CHARIOT"
+  },
+  {
+   "Type": "UNIT_KNIGHT",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "UNIT_HORSEMAN",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "UNIT_SCYTHIAN_HORSE_ARCHER",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "UNIT_SCYTHIAN_HORSE_ARCHER",
+   "Tag": "CLASS_MOBILE_RANGED"
+  },
+  {
+   "Type": "UNIT_CAVALRY",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "UNIT_HELICOPTER",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "UNIT_HELICOPTER",
+   "Tag": "CLASS_HELICOPTER"
+  },
+  {
+   "Type": "UNIT_BATTERING_RAM",
+   "Tag": "CLASS_BATTERING_RAM"
+  },
+  {
+   "Type": "UNIT_BATTERING_RAM",
+   "Tag": "CLASS_SUPPORT"
+  },
+  {
+   "Type": "UNIT_SIEGE_TOWER",
+   "Tag": "CLASS_SIEGE_TOWER"
+  },
+  {
+   "Type": "UNIT_SIEGE_TOWER",
+   "Tag": "CLASS_SUPPORT"
+  },
+  {
+   "Type": "UNIT_GALLEY",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "UNIT_CARAVEL",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "UNIT_IRONCLAD",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "UNIT_DESTROYER",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "UNIT_DESTROYER",
+   "Tag": "CLASS_REVEAL_STEALTH"
+  },
+  {
+   "Type": "UNIT_DESTROYER",
+   "Tag": "CLASS_ANTI_AIR"
+  },
+  {
+   "Type": "UNIT_QUADRIREME",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_FRIGATE",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_BIPLANE",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "UNIT_BIPLANE",
+   "Tag": "CLASS_AIR_FIGHTER"
+  },
+  {
+   "Type": "UNIT_BATTLESHIP",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_BATTLESHIP",
+   "Tag": "CLASS_ANTI_AIR"
+  },
+  {
+   "Type": "UNIT_MISSILE_CRUISER",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_MISSILE_CRUISER",
+   "Tag": "CLASS_ANTI_AIR"
+  },
+  {
+   "Type": "UNIT_PRIVATEER",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "UNIT_PRIVATEER",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_PRIVATEER",
+   "Tag": "CLASS_STEALTH"
+  },
+  {
+   "Type": "UNIT_PRIVATEER",
+   "Tag": "CLASS_REVEAL_STEALTH"
+  },
+  {
+   "Type": "UNIT_NUCLEAR_SUBMARINE",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "UNIT_NUCLEAR_SUBMARINE",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_NUCLEAR_SUBMARINE",
+   "Tag": "CLASS_STEALTH"
+  },
+  {
+   "Type": "UNIT_NUCLEAR_SUBMARINE",
+   "Tag": "CLASS_REVEAL_STEALTH"
+  },
+  {
+   "Type": "UNIT_AIRCRAFT_CARRIER",
+   "Tag": "CLASS_NAVAL_CARRIER"
+  },
+  {
+   "Type": "UNIT_EGYPTIAN_CHARIOT_ARCHER",
+   "Tag": "CLASS_LIGHT_CHARIOT"
+  },
+  {
+   "Type": "UNIT_EGYPTIAN_CHARIOT_ARCHER",
+   "Tag": "CLASS_RANGED_CAVALRY"
+  },
+  {
+   "Type": "UNIT_SUMERIAN_WAR_CART",
+   "Tag": "CLASS_HEAVY_CHARIOT"
+  },
+  {
+   "Type": "UNIT_SUMERIAN_WAR_CART",
+   "Tag": "CLASS_WAR_CART"
+  },
+  {
+   "Type": "UNIT_JAPANESE_SAMURAI",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_JAPANESE_SAMURAI",
+   "Tag": "CLASS_SAMURAI"
+  },
+  {
+   "Type": "UNIT_GREEK_HOPLITE",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "UNIT_GREEK_HOPLITE",
+   "Tag": "CLASS_HOPLITE"
+  },
+  {
+   "Type": "UNIT_AT_CREW",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "UNIT_TANK",
+   "Tag": "CLASS_HEAVY_CHARIOT"
+  },
+  {
+   "Type": "UNIT_TANK",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "UNIT_MODERN_ARMOR",
+   "Tag": "CLASS_HEAVY_CHARIOT"
+  },
+  {
+   "Type": "UNIT_MODERN_ARMOR",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "UNIT_MODERN_AT",
+   "Tag": "CLASS_ANTI_CAVALRY"
+  },
+  {
+   "Type": "UNIT_AMERICAN_ROUGH_RIDER",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "UNIT_AMERICAN_ROUGH_RIDER",
+   "Tag": "CLASS_ROUGH_RIDER"
+  },
+  {
+   "Type": "UNIT_SPANISH_CONQUISTADOR",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_SPANISH_CONQUISTADOR",
+   "Tag": "CLASS_CONQUISTADOR"
+  },
+  {
+   "Type": "UNIT_MISSIONARY",
+   "Tag": "CLASS_RELIGIOUS"
+  },
+  {
+   "Type": "UNIT_MISSIONARY",
+   "Tag": "CLASS_RELIGIOUS_ALL"
+  },
+  {
+   "Type": "UNIT_MISSIONARY",
+   "Tag": "CLASS_RELIGIOUS_SPREAD"
+  },
+  {
+   "Type": "UNIT_MISSIONARY",
+   "Tag": "CLASS_MISSIONARY"
+  },
+  {
+   "Type": "UNIT_APOSTLE",
+   "Tag": "CLASS_RELIGIOUS"
+  },
+  {
+   "Type": "UNIT_APOSTLE",
+   "Tag": "CLASS_RELIGIOUS_ALL"
+  },
+  {
+   "Type": "UNIT_APOSTLE",
+   "Tag": "CLASS_RELIGIOUS_SPREAD"
+  },
+  {
+   "Type": "UNIT_INQUISITOR",
+   "Tag": "CLASS_INQUISITOR"
+  },
+  {
+   "Type": "UNIT_INQUISITOR",
+   "Tag": "CLASS_RELIGIOUS_ALL"
+  },
+  {
+   "Type": "UNIT_INQUISITOR",
+   "Tag": "CLASS_RELIGIOUS_SPREAD"
+  },
+  {
+   "Type": "UNIT_GURU",
+   "Tag": "CLASS_RELIGIOUS"
+  },
+  {
+   "Type": "UNIT_GURU",
+   "Tag": "CLASS_RELIGIOUS_ALL"
+  },
+  {
+   "Type": "UNIT_GURU",
+   "Tag": "CLASS_MISSIONARY"
+  },
+  {
+   "Type": "UNIT_WARRIOR_MONK",
+   "Tag": "CLASS_WARRIOR_MONK"
+  },
+  {
+   "Type": "UNIT_OBSERVATION_BALLOON",
+   "Tag": "CLASS_OBSERVATION"
+  },
+  {
+   "Type": "UNIT_OBSERVATION_BALLOON",
+   "Tag": "CLASS_SUPPORT"
+  },
+  {
+   "Type": "UNIT_ROMAN_LEGION",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_ROMAN_LEGION",
+   "Tag": "CLASS_LEGION"
+  },
+  {
+   "Type": "UNIT_FIGHTER",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "UNIT_FIGHTER",
+   "Tag": "CLASS_AIR_FIGHTER"
+  },
+  {
+   "Type": "UNIT_BOMBER",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "UNIT_BOMBER",
+   "Tag": "CLASS_AIR_BOMBER"
+  },
+  {
+   "Type": "UNIT_JET_BOMBER",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "UNIT_JET_BOMBER",
+   "Tag": "CLASS_AIR_BOMBER"
+  },
+  {
+   "Type": "UNIT_JET_FIGHTER",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "UNIT_JET_FIGHTER",
+   "Tag": "CLASS_AIR_FIGHTER"
+  },
+  {
+   "Type": "UNIT_MEDIC",
+   "Tag": "CLASS_MEDIC"
+  },
+  {
+   "Type": "UNIT_MEDIC",
+   "Tag": "CLASS_SUPPORT"
+  },
+  {
+   "Type": "UNIT_TRADER",
+   "Tag": "CLASS_TRADER"
+  },
+  {
+   "Type": "UNIT_TRADER",
+   "Tag": "CLASS_LANDCIVILIAN"
+  },
+  {
+   "Type": "UNIT_ARCHAEOLOGIST",
+   "Tag": "CLASS_ARCHAEOLOGIST"
+  },
+  {
+   "Type": "UNIT_SUBMARINE",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "UNIT_SUBMARINE",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_SUBMARINE",
+   "Tag": "CLASS_STEALTH"
+  },
+  {
+   "Type": "UNIT_SUBMARINE",
+   "Tag": "CLASS_REVEAL_STEALTH"
+  },
+  {
+   "Type": "UNIT_NORWEGIAN_BERSERKER",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_NORWEGIAN_BERSERKER",
+   "Tag": "CLASS_MELEE_BERSERKER"
+  },
+  {
+   "Type": "UNIT_SPY",
+   "Tag": "CLASS_SPY"
+  },
+  {
+   "Type": "UNIT_NORWEGIAN_LONGSHIP",
+   "Tag": "CLASS_LONGSHIP"
+  },
+  {
+   "Type": "UNIT_NORWEGIAN_LONGSHIP",
+   "Tag": "CLASS_NAVAL_MELEE"
+  },
+  {
+   "Type": "UNIT_RUSSIAN_COSSACK",
+   "Tag": "CLASS_LIGHT_CAVALRY"
+  },
+  {
+   "Type": "UNIT_RUSSIAN_COSSACK",
+   "Tag": "CLASS_COSSACK"
+  },
+  {
+   "Type": "UNIT_INDIAN_VARU",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "UNIT_INDIAN_VARU",
+   "Tag": "CLASS_VARU"
+  },
+  {
+   "Type": "UNIT_ARABIAN_MAMLUK",
+   "Tag": "CLASS_HEAVY_CAVALRY"
+  },
+  {
+   "Type": "UNIT_ARABIAN_MAMLUK",
+   "Tag": "CLASS_MAMLUK"
+  },
+  {
+   "Type": "UNIT_KONGO_SHIELD_BEARER",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_KONGO_SHIELD_BEARER",
+   "Tag": "CLASS_NAGAO"
+  },
+  {
+   "Type": "UNIT_ENGLISH_SEADOG",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "UNIT_ENGLISH_SEADOG",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_ENGLISH_SEADOG",
+   "Tag": "CLASS_STEALTH"
+  },
+  {
+   "Type": "UNIT_ENGLISH_SEADOG",
+   "Tag": "CLASS_REVEAL_STEALTH"
+  },
+  {
+   "Type": "UNIT_ENGLISH_SEADOG",
+   "Tag": "CLASS_CAPTURE_SHIPS"
+  },
+  {
+   "Type": "UNIT_ENGLISH_REDCOAT",
+   "Tag": "CLASS_REDCOAT"
+  },
+  {
+   "Type": "UNIT_ENGLISH_REDCOAT",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_FRENCH_GARDE_IMPERIALE",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_FRENCH_GARDE_IMPERIALE",
+   "Tag": "CLASS_GARDE"
+  },
+  {
+   "Type": "UNIT_GERMAN_UBOAT",
+   "Tag": "CLASS_NAVAL_RAIDER"
+  },
+  {
+   "Type": "UNIT_GERMAN_UBOAT",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_GERMAN_UBOAT",
+   "Tag": "CLASS_UBOAT"
+  },
+  {
+   "Type": "UNIT_GERMAN_UBOAT",
+   "Tag": "CLASS_STEALTH"
+  },
+  {
+   "Type": "UNIT_GERMAN_UBOAT",
+   "Tag": "CLASS_REVEAL_STEALTH"
+  },
+  {
+   "Type": "UNIT_AMERICAN_P51",
+   "Tag": "CLASS_AIRCRAFT"
+  },
+  {
+   "Type": "UNIT_AMERICAN_P51",
+   "Tag": "CLASS_AIR_FIGHTER"
+  },
+  {
+   "Type": "UNIT_AMERICAN_P51",
+   "Tag": "CLASS_MUSTANG"
+  },
+  {
+   "Type": "UNIT_BRAZILIAN_MINAS_GERAES",
+   "Tag": "CLASS_NAVAL_RANGED"
+  },
+  {
+   "Type": "UNIT_BRAZILIAN_MINAS_GERAES",
+   "Tag": "CLASS_ANTI_AIR"
+  },
+  {
+   "Type": "UNIT_ANTIAIR_GUN",
+   "Tag": "CLASS_ANTI_AIR"
+  },
+  {
+   "Type": "UNIT_ANTIAIR_GUN",
+   "Tag": "CLASS_SUPPORT"
+  },
+  {
+   "Type": "UNIT_MOBILE_SAM",
+   "Tag": "CLASS_ANTI_AIR"
+  },
+  {
+   "Type": "UNIT_MOBILE_SAM",
+   "Tag": "CLASS_SUPPORT"
+  },
+  {
+   "Type": "UNIT_AZTEC_EAGLE_WARRIOR",
+   "Tag": "CLASS_MELEE"
+  },
+  {
+   "Type": "UNIT_AZTEC_EAGLE_WARRIOR",
+   "Tag": "CLASS_CAPTURE_WORKER"
+  }
+ ]
+}

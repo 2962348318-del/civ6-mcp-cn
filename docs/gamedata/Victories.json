@@ -1,0 +1,41 @@
+{
+ "table": "Victories",
+ "desc": "胜利类型",
+ "columns": [
+  "VictoryType",
+  "Name",
+  "EnabledByDefault"
+ ],
+ "rows": [
+  {
+   "VictoryType": "VICTORY_SCORE",
+   "Name": "分数胜利",
+   "EnabledByDefault": "true"
+  },
+  {
+   "VictoryType": "VICTORY_DEFAULT",
+   "Name": "胜利",
+   "EnabledByDefault": "true"
+  },
+  {
+   "VictoryType": "VICTORY_CONQUEST",
+   "Name": "统治胜利",
+   "EnabledByDefault": "true"
+  },
+  {
+   "VictoryType": "VICTORY_CULTURE",
+   "Name": "文化胜利",
+   "EnabledByDefault": "true"
+  },
+  {
+   "VictoryType": "VICTORY_RELIGIOUS",
+   "Name": "宗教胜利",
+   "EnabledByDefault": "true"
+  },
+  {
+   "VictoryType": "VICTORY_TECHNOLOGY",
+   "Name": "科技胜利",
+   "EnabledByDefault": "true"
+  }
+ ]
+}

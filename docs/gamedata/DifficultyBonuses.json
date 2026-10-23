@@ -1,0 +1,11 @@
+{
+ "table": "DifficultyBonuses",
+ "desc": "难度加成",
+ "columns": [
+  "DifficultyType",
+  "BonusType",
+  "Amount"
+ ],
+ "missing": true,
+ "rows": []
+}

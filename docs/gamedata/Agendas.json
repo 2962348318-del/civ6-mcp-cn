@@ -1,0 +1,226 @@
+{
+ "table": "Agendas",
+ "desc": "AI 议程",
+ "columns": [
+  "AgendaType",
+  "Name",
+  "Description"
+ ],
+ "rows": [
+  {
+   "AgendaType": "AGENDA_AIRPOWER",
+   "Name": "空军力量",
+   "Description": "LOC_AGENDA_AIRPOWER_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_BARBARIAN_LOVER",
+   "Name": "野蛮人联盟",
+   "Description": "LOC_AGENDA_BARBARIAN_LOVER_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_CITY_STATE_PROTECTOR",
+   "Name": "城邦保护者",
+   "Description": "LOC_AGENDA_CITY_STATE_PROTECTOR_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_CIVILIZED",
+   "Name": "文明人",
+   "Description": "LOC_AGENDA_CIVILIZED_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_CULTURED",
+   "Name": "文化人",
+   "Description": "LOC_AGENDA_CULTURED_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_DARWINIST",
+   "Name": "进化论者",
+   "Description": "LOC_AGENDA_DARWINIST_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_DEVOUT",
+   "Name": "虔诚的",
+   "Description": "LOC_AGENDA_DEVOUT_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_ENVIRONMENTALIST",
+   "Name": "环保人士",
+   "Description": "LOC_AGENDA_ENVIRONMENTALIST_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_EXPLOITATIVE",
+   "Name": "开发资源",
+   "Description": "LOC_AGENDA_EXPLOITATIVE_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_EXPLORER",
+   "Name": "探险家",
+   "Description": "LOC_AGENDA_EXPLORER_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_FUN_LOVING",
+   "Name": "快乐至上",
+   "Description": "LOC_AGENDA_FUN_LOVING_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_GREAT_PERSON_ADVOCATE",
+   "Name": "伟人倡导者",
+   "Description": "LOC_AGENDA_GREAT_PERSON_OBSESSED_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_IDEOLOGUE",
+   "Name": "理论家",
+   "Description": "LOC_AGENDA_IDEOLOGUE_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_INDUSTRIALIST",
+   "Name": "重工业",
+   "Description": "LOC_AGENDA_INDUSTRIALIST_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_MONEY_GRUBBER",
+   "Name": "财迷",
+   "Description": "LOC_AGENDA_MONEY_GRUBBER_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_NATURALIST",
+   "Name": "自然主义者",
+   "Description": "LOC_AGENDA_NATURALIST_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_NUKE_LOVER",
+   "Name": "核武器带来的快乐",
+   "Description": "LOC_AGENDA_NUKE_LOVER_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_PARANOID",
+   "Name": "偏执狂",
+   "Description": "LOC_AGENDA_PARANOID_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_POPULOUS",
+   "Name": "人口稠密",
+   "Description": "LOC_AGENDA_POPULOUS_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_STANDING_ARMY",
+   "Name": "常备军",
+   "Description": "LOC_AGENDA_STANDING_ARMY_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_TECHNOPHILE",
+   "Name": "技术爱好者",
+   "Description": "LOC_AGENDA_TECHNOPHILE_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_WONDER_ADVOCATE",
+   "Name": "情迷奇观",
+   "Description": "LOC_AGENDA_WONDER_OBSESSED_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_ALLY_OF_ENKIDU",
+   "Name": "恩奇都联盟",
+   "Description": "LOC_AGENDA_ALLY_OF_ENKIDU_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_AYYUBID_DYNASTY",
+   "Name": "阿尤布王朝",
+   "Description": "LOC_AGENDA_AYYUBID_DYNASTY_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_BACKSTAB_AVERSE",
+   "Name": "讨厌手段卑鄙之人",
+   "Description": "LOC_AGENDA_BACKSTAB_AVERSE_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_BIG_STICK_POLICY",
+   "Name": "大棒政策",
+   "Description": "LOC_AGENDA_BIG_STICK_POLICY_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_BLACK_QUEEN",
+   "Name": "黒女王",
+   "Description": "LOC_AGENDA_BLACK_QUEEN_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_BUSHIDO",
+   "Name": "武士道",
+   "Description": "LOC_AGENDA_BUSHIDO_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_CITY_STATE_ALLY",
+   "Name": "城邦同盟",
+   "Description": "LOC_AGENDA_CITY_STATE_ALLY_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_COUNTER_REFORMER",
+   "Name": "反改革者",
+   "Description": "LOC_AGENDA_COUNTER_REFORMER_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_DELIAN_LEAGUE",
+   "Name": "提洛同盟",
+   "Description": "LOC_AGENDA_DELIAN_LEAGUE_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_ENTHUSIASTIC_DISCIPLE",
+   "Name": "狂热信徒",
+   "Description": "LOC_AGENDA_ENTHUSIASTIC_DISCIPLE_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_GREAT_PERSON_OBSESSED",
+   "Name": "艺术赞助人",
+   "Description": "LOC_AGENDA_GREAT_PERSON_OBSESSED_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_IRON_CROWN",
+   "Name": "钢铁王冠",
+   "Description": "LOC_AGENDA_IRON_CROWN_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_LAST_VIKING_KING",
+   "Name": "最后的海盗王",
+   "Description": "LOC_AGENDA_LAST_VIKING_KING_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_OPTIMUS_PRINCEPS",
+   "Name": "最佳元首",
+   "Description": "LOC_AGENDA_OPTIMUS_PRINCEPS_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_PEACEKEEPER",
+   "Name": "和平卫士",
+   "Description": "LOC_AGENDA_PEACEKEEPER_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_QUEEN_OF_NILE",
+   "Name": "尼罗河女王",
+   "Description": "LOC_AGENDA_QUEEN_OF_THE_NILE_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_SUN_NEVER_SETS",
+   "Name": "日不落",
+   "Description": "LOC_AGENDA_SUN_NEVER_SETS_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_TLATOANI",
+   "Name": "特诺奇蒂特兰",
+   "Description": "LOC_AGENDA_TLATOANI_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_WESTERNIZER",
+   "Name": "西化派",
+   "Description": "LOC_AGENDA_WESTERNIZER_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_WITH_YOUR_SHIELD_OR_ON_IT",
+   "Name": "荣誉而归或战死沙场",
+   "Description": "LOC_AGENDA_WITH_YOUR_SHIELD_OR_ON_IT_DESCRIPTION"
+  },
+  {
+   "AgendaType": "AGENDA_WONDER_OBSESSED",
+   "Name": "万里长城",
+   "Description": "LOC_AGENDA_WONDER_OBSESSED_DESCRIPTION"
+  }
+ ]
+}

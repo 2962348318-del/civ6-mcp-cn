@@ -1,0 +1,168 @@
+{
+ "table": "Terrains",
+ "desc": "地形 — 移动力消耗",
+ "columns": [
+  "TerrainType",
+  "Name",
+  "Movement",
+  "DefenseModifier",
+  "Water",
+  "Mountain",
+  "Hills"
+ ],
+ "rows": [
+  {
+   "TerrainType": "TERRAIN_GRASS",
+   "Name": "草原",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_GRASS_HILLS",
+   "Name": "草原（丘陵）",
+   "Movement": "",
+   "DefenseModifier": "3",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "true"
+  },
+  {
+   "TerrainType": "TERRAIN_GRASS_MOUNTAIN",
+   "Name": "草原（山脉）",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "true",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_PLAINS",
+   "Name": "平原",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_PLAINS_HILLS",
+   "Name": "平原（丘陵）",
+   "Movement": "",
+   "DefenseModifier": "3",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "true"
+  },
+  {
+   "TerrainType": "TERRAIN_PLAINS_MOUNTAIN",
+   "Name": "平原（山脉）",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "true",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_DESERT",
+   "Name": "沙漠",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_DESERT_HILLS",
+   "Name": "沙漠（丘陵）",
+   "Movement": "",
+   "DefenseModifier": "3",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "true"
+  },
+  {
+   "TerrainType": "TERRAIN_DESERT_MOUNTAIN",
+   "Name": "沙漠（山脉）",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "true",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_TUNDRA",
+   "Name": "冻土",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_TUNDRA_HILLS",
+   "Name": "冻土（丘陵）",
+   "Movement": "",
+   "DefenseModifier": "3",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "true"
+  },
+  {
+   "TerrainType": "TERRAIN_TUNDRA_MOUNTAIN",
+   "Name": "冻土（山脉）",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "true",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_SNOW",
+   "Name": "雪地",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_SNOW_HILLS",
+   "Name": "雪地（丘陵）",
+   "Movement": "",
+   "DefenseModifier": "3",
+   "Water": "false",
+   "Mountain": "false",
+   "Hills": "true"
+  },
+  {
+   "TerrainType": "TERRAIN_SNOW_MOUNTAIN",
+   "Name": "雪地（山脉）",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "false",
+   "Mountain": "true",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_COAST",
+   "Name": "海岸与湖泊",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "true",
+   "Mountain": "false",
+   "Hills": "false"
+  },
+  {
+   "TerrainType": "TERRAIN_OCEAN",
+   "Name": "海洋",
+   "Movement": "",
+   "DefenseModifier": "0",
+   "Water": "true",
+   "Mountain": "false",
+   "Hills": "false"
+  }
+ ]
+}

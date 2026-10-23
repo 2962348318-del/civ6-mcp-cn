@@ -1,0 +1,13 @@
+{
+ "table": "MapSizes",
+ "desc": "地图大小与文明数",
+ "columns": [
+  "MapSizeType",
+  "Name",
+  "MaxPlayers",
+  "MaxCityStates",
+  "NumNaturalWonders"
+ ],
+ "missing": true,
+ "rows": []
+}

@@ -1,0 +1,910 @@
+{
+ "table": "Boosts",
+ "desc": "尤里卡 / 鼓舞的触发条件",
+ "columns": [
+  "TechnologyType",
+  "CivicType",
+  "BoostClass",
+  "Amount",
+  "NumItems",
+  "TriggerDescription"
+ ],
+ "rows": [
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_CRAFTSMANSHIP",
+   "BoostClass": "BOOST_TRIGGER_NUM_IMPROVED_TILES",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CRAFTSMANSHIP"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_FOREIGN_TRADE",
+   "BoostClass": "BOOST_TRIGGER_DISCOVER_CONTINENT",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_FOREIGN_TRADE"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_MILITARY_TRADITION",
+   "BoostClass": "BOOST_TRIGGER_CLEAR_CAMP",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MILITARY_TRADITION"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_STATE_WORKFORCE",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_UNIQUE_SPECIALTY_DISTRICTS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_STATE_WORKFORCE"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_EARLY_EMPIRE",
+   "BoostClass": "BOOST_TRIGGER_EMPIRE_POPULATION",
+   "Amount": "",
+   "NumItems": "6",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_EARLY_EMPIRE"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_MYSTICISM",
+   "BoostClass": "BOOST_TRIGGER_CREATE_PANTHEON",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MYSTICISM"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_GAMES_RECREATION",
+   "BoostClass": "BOOST_TRIGGER_RESEARCH_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_GAMES_RECREATION"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_POLITICAL_PHILOSOPHY",
+   "BoostClass": "BOOST_TRIGGER_MEET_X_CITY_STATES",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_POLITICAL_PHILOSOPHY"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_DRAMA_POETRY",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_WONDERS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_DRAMA_POETRY"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_MILITARY_TRAINING",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_DISTRICTS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MILITARY_TRAINING"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_DEFENSIVE_TACTICS",
+   "BoostClass": "BOOST_TRIGGER_RECEIVE_DOW",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_DEFENSIVE_TACTICS"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_RECORDED_HISTORY",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_DISTRICTS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_RECORDED_HISTORY"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_THEOLOGY",
+   "BoostClass": "BOOST_TRIGGER_FOUND_RELIGION",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_THEOLOGY"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_NAVAL_TRADITION",
+   "BoostClass": "BOOST_TRIGGER_KILL_WITH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_NAVAL_TRADITION"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_FEUDALISM",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_IMPROVEMENTS",
+   "Amount": "",
+   "NumItems": "6",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_FEUDALISM"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_COLONIALISM",
+   "BoostClass": "BOOST_TRIGGER_RESEARCH_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_COLONIALISM"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_CIVIL_SERVICE",
+   "BoostClass": "BOOST_TRIGGER_CITY_POPULATION",
+   "Amount": "",
+   "NumItems": "10",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CIVIL_SERVICE"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_MERCENARIES",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_LAND_UNITS",
+   "Amount": "",
+   "NumItems": "8",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MERCENARIES"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_MEDIEVAL_FAIRES",
+   "BoostClass": "BOOST_TRIGGER_MAINTAIN_X_TRADE_ROUTES",
+   "Amount": "",
+   "NumItems": "4",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MEDIEVAL_FAIRES"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_GUILDS",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_GUILDS"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_DIVINE_RIGHT",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_DIVINE_RIGHT"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_EXPLORATION",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_EXPLORATION"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_HUMANISM",
+   "BoostClass": "BOOST_TRIGGER_TRAIN_UNIT",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_HUMANISM"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_DIPLOMATIC_SERVICE",
+   "BoostClass": "BOOST_TRIGGER_HAVE_AN_ALLIANCE",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_DIPLOMATIC_SERVICE"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_REFORMED_CHURCH",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_CITIES_FOLLOWING_YOUR_RELIGION",
+   "Amount": "",
+   "NumItems": "6",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_REFORMED_CHURCH"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_MERCANTILISM",
+   "BoostClass": "BOOST_TRIGGER_TRAIN_UNIT",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MERCANTILISM"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_THE_ENLIGHTENMENT",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_GREAT_PEOPLE",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_THE_ENLIGHTENMENT"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_CIVIL_ENGINEERING",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_UNIQUE_SPECIALTY_DISTRICTS",
+   "Amount": "",
+   "NumItems": "7",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CIVIL_ENGINEERING"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_NATIONALISM",
+   "BoostClass": "BOOST_TRIGGER_DOW_CASUS_BELLI",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_NATIONALISM"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_OPERA_BALLET",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_OPERA_BALLET"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_NATURAL_HISTORY",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_NATURAL_HISTORY"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_URBANIZATION",
+   "BoostClass": "BOOST_TRIGGER_CITY_POPULATION",
+   "Amount": "",
+   "NumItems": "15",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_URBANIZATION"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_SCORCHED_EARTH",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SCORCHED_EARTH"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_CONSERVATION",
+   "BoostClass": "BOOST_TRIGGER_DISTRICT_APPEAL_LEVEL_MINIMUM_X",
+   "Amount": "",
+   "NumItems": "4",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CONSERVATION"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_MOBILIZATION",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_CORPS",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MOBILIZATION"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_MASS_MEDIA",
+   "BoostClass": "BOOST_TRIGGER_RESEARCH_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MASS_MEDIA"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_CAPITALISM",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CAPITALISM"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_NUCLEAR_PROGRAM",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_SUFFRAGE",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "4",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SUFFRAGE"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_TOTALITARIANISM",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_TOTALITARIANISM"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_CLASS_STRUGGLE",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CLASS_STRUGGLE"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_COLD_WAR",
+   "BoostClass": "BOOST_TRIGGER_RESEARCH_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_COLD_WAR"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_PROFESSIONAL_SPORTS",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_DISTRICTS",
+   "Amount": "",
+   "NumItems": "4",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_PROFESSIONAL_SPORTS"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_CULTURAL_HERITAGE",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_THEMED_BUILDINGS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CULTURAL_HERITAGE"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_RAPID_DEPLOYMENT",
+   "BoostClass": "BOOST_TRIGGER_AIRBASE_FOREIGN_CONTINENT",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_RAPID_DEPLOYMENT"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_SPACE_RACE",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_DISTRICTS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SPACE_RACE"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_GLOBALIZATION",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_GLOBALIZATION"
+  },
+  {
+   "TechnologyType": "",
+   "CivicType": "CIVIC_SOCIAL_MEDIA",
+   "BoostClass": "BOOST_TRIGGER_RESEARCH_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SOCIAL_MEDIA"
+  },
+  {
+   "TechnologyType": "TECH_SAILING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_SETTLE_COAST",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SAILING"
+  },
+  {
+   "TechnologyType": "TECH_ASTROLOGY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_FIND_NATURAL_WONDER",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_ASTROLOGY"
+  },
+  {
+   "TechnologyType": "TECH_IRRIGATION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_IMPROVEMENTS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_IRRIGATION"
+  },
+  {
+   "TechnologyType": "TECH_ARCHERY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_KILL_WITH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_ARCHERY"
+  },
+  {
+   "TechnologyType": "TECH_WRITING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_MEET_CIV",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_WRITING"
+  },
+  {
+   "TechnologyType": "TECH_MASONRY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_IMPROVEMENTS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MASONRY"
+  },
+  {
+   "TechnologyType": "TECH_BRONZE_WORKING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_NUM_BARBS_KILLED",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_BRONZE_WORKING"
+  },
+  {
+   "TechnologyType": "TECH_THE_WHEEL",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_IMPROVEMENTS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_THE_WHEEL"
+  },
+  {
+   "TechnologyType": "TECH_CELESTIAL_NAVIGATION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_IMPROVEMENTS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CELESTIAL_NAVIGATION"
+  },
+  {
+   "TechnologyType": "TECH_CURRENCY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_MAINTAIN_X_TRADE_ROUTES",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CURRENCY"
+  },
+  {
+   "TechnologyType": "TECH_HORSEBACK_RIDING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_IMPROVEMENTS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_HORSEBACK_RIDING"
+  },
+  {
+   "TechnologyType": "TECH_IRON_WORKING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_IMPROVE_SPECIFIC_RESOURCE",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_IRON_WORKING"
+  },
+  {
+   "TechnologyType": "TECH_SHIPBUILDING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SHIPBUILDING"
+  },
+  {
+   "TechnologyType": "TECH_MATHEMATICS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_UNIQUE_SPECIALTY_DISTRICTS",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MATHEMATICS"
+  },
+  {
+   "TechnologyType": "TECH_CONSTRUCTION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_CONSTRUCT_BUILDING",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CONSTRUCTION"
+  },
+  {
+   "TechnologyType": "TECH_ENGINEERING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_CONSTRUCT_BUILDING",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_ENGINEERING"
+  },
+  {
+   "TechnologyType": "TECH_MILITARY_TACTICS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_KILL_WITH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MILITARY_TACTICS"
+  },
+  {
+   "TechnologyType": "TECH_APPRENTICESHIP",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_IMPROVEMENTS",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_APPRENTICESHIP"
+  },
+  {
+   "TechnologyType": "TECH_STIRRUPS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_CULTURVATE_CIVIC",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_STIRRUPS"
+  },
+  {
+   "TechnologyType": "TECH_MACHINERY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MACHINERY"
+  },
+  {
+   "TechnologyType": "TECH_EDUCATION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_TRAIN_UNIT",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_EDUCATION"
+  },
+  {
+   "TechnologyType": "TECH_MILITARY_ENGINEERING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_DISTRICTS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MILITARY_ENGINEERING"
+  },
+  {
+   "TechnologyType": "TECH_CASTLES",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_POLICY_SLOTS",
+   "Amount": "",
+   "NumItems": "6",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CASTLES"
+  },
+  {
+   "TechnologyType": "TECH_CARTOGRAPHY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_DISTRICTS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CARTOGRAPHY"
+  },
+  {
+   "TechnologyType": "TECH_MASS_PRODUCTION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_IMPROVEMENTS",
+   "Amount": "",
+   "NumItems": "1",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MASS_PRODUCTION"
+  },
+  {
+   "TechnologyType": "TECH_BANKING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_CULTURVATE_CIVIC",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_BANKING"
+  },
+  {
+   "TechnologyType": "TECH_GUNPOWDER",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_CONSTRUCT_BUILDING",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_GUNPOWDER"
+  },
+  {
+   "TechnologyType": "TECH_PRINTING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_PRINTING"
+  },
+  {
+   "TechnologyType": "TECH_SQUARE_RIGGING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_KILL_WITH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SQUARE_RIGGING"
+  },
+  {
+   "TechnologyType": "TECH_ASTRONOMY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_BUILDING_MOUNTAIN",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_ASTRONOMY"
+  },
+  {
+   "TechnologyType": "TECH_METAL_CASTING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_METAL_CASTING"
+  },
+  {
+   "TechnologyType": "TECH_SIEGE_TACTICS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SIEGE_TACTICS"
+  },
+  {
+   "TechnologyType": "TECH_INDUSTRIALIZATION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_INDUSTRIALIZATION"
+  },
+  {
+   "TechnologyType": "TECH_SCIENTIFIC_THEORY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_CULTURVATE_CIVIC",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SCIENTIFIC_THEORY"
+  },
+  {
+   "TechnologyType": "TECH_BALLISTICS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_IMPROVEMENTS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_BALLISTICS"
+  },
+  {
+   "TechnologyType": "TECH_MILITARY_SCIENCE",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_KILL_WITH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MILITARY_SCIENCE"
+  },
+  {
+   "TechnologyType": "TECH_STEAM_POWER",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_STEAM_POWER"
+  },
+  {
+   "TechnologyType": "TECH_SANITATION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_DISTRICTS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SANITATION"
+  },
+  {
+   "TechnologyType": "TECH_ECONOMICS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_ECONOMICS"
+  },
+  {
+   "TechnologyType": "TECH_RIFLING",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_IMPROVE_SPECIFIC_RESOURCE",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_RIFLING"
+  },
+  {
+   "TechnologyType": "TECH_FLIGHT",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_WONDER_PAST_X_ERA",
+   "Amount": "",
+   "NumItems": "5",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_FLIGHT"
+  },
+  {
+   "TechnologyType": "TECH_REPLACEABLE_PARTS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_REPLACEABLE_PARTS"
+  },
+  {
+   "TechnologyType": "TECH_STEEL",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_UNIT_AND_IMPROVEMENT",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_STEEL"
+  },
+  {
+   "TechnologyType": "TECH_ELECTRICITY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_ELECTRICITY"
+  },
+  {
+   "TechnologyType": "TECH_RADIO",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_CREATED_NATIONAL_PARK",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_RADIO"
+  },
+  {
+   "TechnologyType": "TECH_CHEMISTRY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_RESEARCH_AGREEMENT",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_CHEMISTRY"
+  },
+  {
+   "TechnologyType": "TECH_COMBUSTION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_ARTIFACT_EXTRACTED",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_COMBUSTION"
+  },
+  {
+   "TechnologyType": "TECH_ADVANCED_FLIGHT",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_ADVANCED_FLIGHT"
+  },
+  {
+   "TechnologyType": "TECH_ROCKETRY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MUST_STEAL"
+  },
+  {
+   "TechnologyType": "TECH_ADVANCED_BALLISTICS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS"
+  },
+  {
+   "TechnologyType": "TECH_COMBINED_ARMS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_ARMIES",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_COMBINED_ARMS"
+  },
+  {
+   "TechnologyType": "TECH_PLASTICS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_IMPROVE_SPECIFIC_RESOURCE",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_PLASTICS"
+  },
+  {
+   "TechnologyType": "TECH_COMPUTERS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_POLICY_SLOTS",
+   "Amount": "",
+   "NumItems": "8",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_COMPUTERS"
+  },
+  {
+   "TechnologyType": "TECH_NUCLEAR_FISSION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MUST_STEAL"
+  },
+  {
+   "TechnologyType": "TECH_SYNTHETIC_MATERIALS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_DISTRICTS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_SYNTHETIC_MATERIALS"
+  },
+  {
+   "TechnologyType": "TECH_TELECOMMUNICATIONS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_HAVE_X_BUILDINGS",
+   "Amount": "",
+   "NumItems": "2",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_TELECOMMUNICATIONS"
+  },
+  {
+   "TechnologyType": "TECH_SATELLITES",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MUST_STEAL"
+  },
+  {
+   "TechnologyType": "TECH_GUIDANCE_SYSTEMS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_KILL_SPECIFIC_UNIT",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_GUIDANCE_SYSTEMS"
+  },
+  {
+   "TechnologyType": "TECH_LASERS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MUST_STEAL"
+  },
+  {
+   "TechnologyType": "TECH_COMPOSITES",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE",
+   "Amount": "",
+   "NumItems": "3",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_COMPOSITES"
+  },
+  {
+   "TechnologyType": "TECH_STEALTH_TECHNOLOGY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MUST_STEAL"
+  },
+  {
+   "TechnologyType": "TECH_ROBOTICS",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_CULTURVATE_CIVIC",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_ROBOTICS"
+  },
+  {
+   "TechnologyType": "TECH_NUCLEAR_FUSION",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_MUST_STEAL"
+  },
+  {
+   "TechnologyType": "TECH_NANOTECHNOLOGY",
+   "CivicType": "",
+   "BoostClass": "BOOST_TRIGGER_IMPROVE_SPECIFIC_RESOURCE",
+   "Amount": "",
+   "NumItems": "0",
+   "TriggerDescription": "LOC_BOOST_TRIGGER_NANOTECHNOLOGY"
+  }
+ ]
+}

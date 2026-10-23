@@ -1,0 +1,90 @@
+{
+ "table": "HistoricalAgendas",
+ "desc": "领袖固定议程",
+ "columns": [
+  "LeaderType",
+  "AgendaType"
+ ],
+ "rows": [
+  {
+   "LeaderType": "LEADER_BARBAROSSA",
+   "AgendaType": "AGENDA_IRON_CROWN"
+  },
+  {
+   "LeaderType": "LEADER_CATHERINE_DE_MEDICI",
+   "AgendaType": "AGENDA_BLACK_QUEEN"
+  },
+  {
+   "LeaderType": "LEADER_CLEOPATRA",
+   "AgendaType": "AGENDA_QUEEN_OF_NILE"
+  },
+  {
+   "LeaderType": "LEADER_GANDHI",
+   "AgendaType": "AGENDA_PEACEKEEPER"
+  },
+  {
+   "LeaderType": "LEADER_GILGAMESH",
+   "AgendaType": "AGENDA_ALLY_OF_ENKIDU"
+  },
+  {
+   "LeaderType": "LEADER_GORGO",
+   "AgendaType": "AGENDA_WITH_YOUR_SHIELD_OR_ON_IT"
+  },
+  {
+   "LeaderType": "LEADER_HARDRADA",
+   "AgendaType": "AGENDA_LAST_VIKING_KING"
+  },
+  {
+   "LeaderType": "LEADER_HOJO",
+   "AgendaType": "AGENDA_BUSHIDO"
+  },
+  {
+   "LeaderType": "LEADER_MVEMBA",
+   "AgendaType": "AGENDA_ENTHUSIASTIC_DISCIPLE"
+  },
+  {
+   "LeaderType": "LEADER_PEDRO",
+   "AgendaType": "AGENDA_GREAT_PERSON_OBSESSED"
+  },
+  {
+   "LeaderType": "LEADER_PERICLES",
+   "AgendaType": "AGENDA_DELIAN_LEAGUE"
+  },
+  {
+   "LeaderType": "LEADER_PETER_GREAT",
+   "AgendaType": "AGENDA_WESTERNIZER"
+  },
+  {
+   "LeaderType": "LEADER_PHILIP_II",
+   "AgendaType": "AGENDA_COUNTER_REFORMER"
+  },
+  {
+   "LeaderType": "LEADER_QIN",
+   "AgendaType": "AGENDA_WONDER_OBSESSED"
+  },
+  {
+   "LeaderType": "LEADER_SALADIN",
+   "AgendaType": "AGENDA_AYYUBID_DYNASTY"
+  },
+  {
+   "LeaderType": "LEADER_TOMYRIS",
+   "AgendaType": "AGENDA_BACKSTAB_AVERSE"
+  },
+  {
+   "LeaderType": "LEADER_TRAJAN",
+   "AgendaType": "AGENDA_OPTIMUS_PRINCEPS"
+  },
+  {
+   "LeaderType": "LEADER_T_ROOSEVELT",
+   "AgendaType": "AGENDA_BIG_STICK_POLICY"
+  },
+  {
+   "LeaderType": "LEADER_VICTORIA",
+   "AgendaType": "AGENDA_SUN_NEVER_SETS"
+  },
+  {
+   "LeaderType": "LEADER_MONTEZUMA",
+   "AgendaType": "AGENDA_TLATOANI"
+  }
+ ]
+}

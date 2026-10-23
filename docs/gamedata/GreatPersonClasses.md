@@ -1,0 +1,17 @@
+# GreatPersonClasses
+
+> 伟人类别
+
+共 9 行。
+
+| GreatPersonClassType | Name |
+|---|---|
+| GREAT_PERSON_CLASS_GENERAL | 大将军 |
+| GREAT_PERSON_CLASS_ADMIRAL | 海军统帅 |
+| GREAT_PERSON_CLASS_ENGINEER | 大工程师 |
+| GREAT_PERSON_CLASS_MERCHANT | 大商人 |
+| GREAT_PERSON_CLASS_PROPHET | 大预言家 |
+| GREAT_PERSON_CLASS_SCIENTIST | 大科学家 |
+| GREAT_PERSON_CLASS_WRITER | 大作家 |
+| GREAT_PERSON_CLASS_ARTIST | 大艺术家 |
+| GREAT_PERSON_CLASS_MUSICIAN | 大音乐家 |
