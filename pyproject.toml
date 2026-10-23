@@ -70,6 +70,9 @@ publish = [
 ]
 
 [project.urls]
+Homepage = "https://github.com/2962348318-del/civ6-mcp-cn"
+Repository = "https://github.com/2962348318-del/civ6-mcp-cn"
+Issues = "https://github.com/2962348318-del/civ6-mcp-cn/issues"
 Upstream = "https://github.com/lmwilki/civ6-mcp"
 
 [project.scripts]

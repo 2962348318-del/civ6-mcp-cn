@@ -6,7 +6,7 @@
 
 本项目是 [Liam Wilkinson / civ6-mcp](https://github.com/lmwilki/civ6-mcp) 的独立维护衍生版本，保留原作者 MIT 许可证。这个版本重点整理中文叙事、Windows 连接稳定性、原版规则集兼容与长期决策辅助；MCP 接口、FireTuner 协议实现等基础能力来自上游。
 
-当前为 **0.1.0 开源准备版**。离线测试结果见 [验证记录](docs/validation.md)。本轮没有连接真实游戏验证，不能把单元测试通过解释成已实证通关或稳定支持全部规则集。
+当前为 **0.1.0 首个公开版本**。离线测试结果见 [验证记录](docs/validation.md)。本轮没有连接真实游戏验证，不能把单元测试通过解释成已实证通关或稳定支持全部规则集。
 
 ## 能做什么
 
@@ -31,7 +31,7 @@
 
 ## 1. 安装
 
-从本仓库页面下载 ZIP 并解压，或通过 Git 克隆本仓库。随后在项目根目录运行：
+公开仓库：[2962348318-del/civ6-mcp-cn](https://github.com/2962348318-del/civ6-mcp-cn)。从仓库页面下载 ZIP 并解压，或运行 `git clone https://github.com/2962348318-del/civ6-mcp-cn.git`。随后在项目根目录运行：
 
 ```powershell
 python -m venv .venv
